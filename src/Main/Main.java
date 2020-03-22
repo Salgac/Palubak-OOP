@@ -1,10 +1,10 @@
 package Main;
 
 public class Main {
-    Panel main;
+    //Panel mainWindow;
     Data data;
 
     public static void main(String[] Args) {
-
+       Panel mainWindow = new Panel();
     }
 }
