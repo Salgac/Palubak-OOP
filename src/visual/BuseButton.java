@@ -2,6 +2,7 @@ package visual;
 
 import javax.sound.sampled.*;
 import javax.swing.*;
+import java.awt.*;
 import java.io.File;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
@@ -9,17 +10,29 @@ import java.nio.file.Path;
 public class BuseButton extends JButton {
 
     Clip click;
+    JLabel label;
 
     public BuseButton(int x, int y, String text) {
         this.setBounds(x, y, 100, 100);
-        this.setText("");
+        this.setLayout(new BorderLayout());
         this.setIcon(new ImageIcon(getClass().getResource("/resources/button.png")));
         this.setOpaque(false);
         this.setBorderPainted(false);
         this.setFocusPainted(false);
         this.setContentAreaFilled(false);
 
+        drawText(text);
+
         this.addActionListener(actionEvent -> onclick());
+    }
+
+    private void drawText(String text) {
+        this.setMargin(new Insets(5, 5, 5, 5));
+        label = new JLabel("<html>" + text.replaceAll(" ", "<br>") + "</html>");
+        label.setFont(new Font("Arial Condensed", Font.PLAIN, 17));
+        label.setHorizontalTextPosition(SwingConstants.CENTER);
+        label.setVerticalAlignment(SwingConstants.TOP);
+        this.add(label, BorderLayout.NORTH);
     }
 
     void onclick() {

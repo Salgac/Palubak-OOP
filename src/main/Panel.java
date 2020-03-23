@@ -37,26 +37,26 @@ public class Panel {
     }
 
     private void generateButtons() {
-        buttons.add(new BuseButton(860, 40, "Porucha"));
-        buttons.add(new BuseButton(990, 40, "1"));
-        buttons.add(new BuseButton(1120, 40, "2"));
-        buttons.add(new BuseButton(1250, 40, "3"));
-        buttons.add(new BuseButton(860, 170, "Kod. sprava"));
-        buttons.add(new BuseButton(990, 170, "4"));
-        buttons.add(new BuseButton(1120, 170, "5"));
-        buttons.add(new BuseButton(1250, 170, "6"));
-        buttons.add(new BuseButton(860, 300, "Revizor"));
-        buttons.add(new BuseButton(990, 300, "7"));
-        buttons.add(new BuseButton(1120, 300, "8"));
-        buttons.add(new BuseButton(1250, 300, "9"));
-        buttons.add(new BuseButton(340, 430, "left"));
-        buttons.add(new BuseButton(470, 430, "up"));
-        buttons.add(new BuseButton(600, 430, "right"));
-        buttons.add(new BuseButton(730, 430, "downdown"));
-        buttons.add(new BuseButton(860, 430, "upup"));
-        buttons.add(new BuseButton(990, 430, "zrusit"));
-        buttons.add(new BuseButton(1120, 430, "0"));
-        buttons.add(new BuseButton(1250, 430, "Potvrdit"));
+        buttons.add(new BasicButton(860, 40, "NEHODA"));
+        buttons.add(new NumericButton(990, 40, "LINKA PORADIE", "1"));
+        buttons.add(new NumericButton(1120, 40, "CIEĽ", "2"));
+        buttons.add(new NumericButton(1250, 40, "SLUŽBA VODIČ", "3"));
+        buttons.add(new BasicButton(860, 170, "KÓDOVÁ SPRÁVA"));
+        buttons.add(new NumericButton(990, 170, "", "4"));
+        buttons.add(new NumericButton(1120, 170, "PÁSMO", "5"));
+        buttons.add(new NumericButton(1250, 170, "SPOJ SMER", "6"));
+        buttons.add(new BasicButton(860, 300, "REVÍZOR"));
+        buttons.add(new NumericButton(990, 300, "ODKLON", "7"));
+        buttons.add(new NumericButton(1120, 300, "RUČNE", "8"));
+        buttons.add(new NumericButton(1250, 300, "ZASTÁVKA", "9"));
+        buttons.add(new ArrowButton(340, 430, "left"));
+        buttons.add(new ArrowButton(470, 430, "up"));
+        buttons.add(new ArrowButton(600, 430, "right"));
+        buttons.add(new ArrowButton(730, 430, "downdown"));
+        buttons.add(new ArrowButton(860, 430, "upup"));
+        buttons.add(new BasicButton(990, 430, "ZRUŠIŤ"));
+        buttons.add(new NumericButton(1120, 430, "SERVIS", "0"));
+        buttons.add(new BasicButton(1250, 430, "POTVRDIŤ"));
 
         for (JButton button : buttons) frame.add(button);
     }
