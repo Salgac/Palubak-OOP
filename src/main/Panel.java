@@ -49,11 +49,11 @@ public class Panel {
         buttons.add(new NumericButton(990, 300, "ODKLON", "7"));
         buttons.add(new NumericButton(1120, 300, "RUČNE", "8"));
         buttons.add(new NumericButton(1250, 300, "ZASTÁVKA", "9"));
-        buttons.add(new ArrowButton(340, 430, "left"));
-        buttons.add(new ArrowButton(470, 430, "up"));
-        buttons.add(new ArrowButton(600, 430, "right"));
-        buttons.add(new ArrowButton(730, 430, "downdown"));
-        buttons.add(new ArrowButton(860, 430, "upup"));
+        buttons.add(new ArrowButton(340, 430, ArrowButton.ARROW.LEFT));
+        buttons.add(new ArrowButton(470, 430, ArrowButton.ARROW.UP));
+        buttons.add(new ArrowButton(600, 430, ArrowButton.ARROW.RIGHT));
+        buttons.add(new ArrowButton(730, 430, ArrowButton.ARROW.DOUBLE_DOWN));
+        buttons.add(new ArrowButton(860, 430, ArrowButton.ARROW.DOUBLE_UP));
         buttons.add(new BasicButton(990, 430, "ZRUŠIŤ"));
         buttons.add(new NumericButton(1120, 430, "SERVIS", "0"));
         buttons.add(new BasicButton(1250, 430, "POTVRDIŤ"));

@@ -12,7 +12,7 @@ public class BuseButton extends JButton {
     Clip click;
     JLabel label;
 
-    public BuseButton(int x, int y, String text) {
+    public BuseButton(int x, int y) {
         this.setBounds(x, y, 100, 100);
         this.setLayout(new BorderLayout());
         this.setIcon(new ImageIcon(getClass().getResource("/resources/button.png")));
@@ -21,9 +21,12 @@ public class BuseButton extends JButton {
         this.setFocusPainted(false);
         this.setContentAreaFilled(false);
 
-        drawText(text);
-
         this.addActionListener(actionEvent -> onclick());
+    }
+
+    public BuseButton(int x, int y, String text) {
+        this(x, y);
+        drawText(text);
     }
 
     private void drawText(String text) {
