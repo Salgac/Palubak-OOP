@@ -1,4 +1,4 @@
-package Lines;
+package lines;
 
 public class Stop {
     String name;

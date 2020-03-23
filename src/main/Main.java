@@ -1,7 +1,6 @@
-package Main;
+package main;
 
 public class Main {
-    //Panel mainWindow;
     Data data;
 
     public static void main(String[] Args) {
