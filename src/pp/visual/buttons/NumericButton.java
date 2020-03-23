@@ -1,4 +1,4 @@
-package visual;
+package pp.visual.buttons;
 
 import javax.swing.*;
 import java.awt.*;

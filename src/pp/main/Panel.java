@@ -1,17 +1,18 @@
-package main;
+package pp.main;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-import visual.*;
+import pp.visual.buttons.*;
+import pp.visual.panels.*;
 
-public class Panel {
+class Panel {
     private JFrame frame;
     private JPanel display;
     private ArrayList<BuseButton> buttons = new ArrayList<>();
 
-    public Panel() {
+    Panel() {
         generateFrame();
 
         generateDisplay();

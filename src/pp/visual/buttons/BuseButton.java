@@ -1,11 +1,10 @@
-package visual;
+package pp.visual.buttons;
 
 import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-import java.nio.file.FileSystems;
-import java.nio.file.Path;
+import java.nio.file.*;
 
 public class BuseButton extends JButton {
 
@@ -15,7 +14,7 @@ public class BuseButton extends JButton {
     public BuseButton(int x, int y) {
         this.setBounds(x, y, 100, 100);
         this.setLayout(new BorderLayout());
-        this.setIcon(new ImageIcon(getClass().getResource("/resources/button.png")));
+        this.setIcon(new ImageIcon(getClass().getResource("/pp/resources/button.png")));
         this.setOpaque(false);
         this.setBorderPainted(false);
         this.setFocusPainted(false);
@@ -45,7 +44,7 @@ public class BuseButton extends JButton {
     void playSound() {
         try {
             Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
-            AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(path + "/src/resources/click.wav"));
+            AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(path + "/src/pp/resources/sounds/click.wav"));
             click = AudioSystem.getClip();
             click.open(inputStream);
         } catch (Exception e) {

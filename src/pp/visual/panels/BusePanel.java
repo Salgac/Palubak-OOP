@@ -1,4 +1,4 @@
-package visual;
+package pp.visual.panels;
 
 import javax.swing.*;
 import java.awt.*;

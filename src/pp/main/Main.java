@@ -1,4 +1,4 @@
-package main;
+package pp.main;
 
 public class Main {
     Data data;

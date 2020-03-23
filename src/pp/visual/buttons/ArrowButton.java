@@ -1,4 +1,4 @@
-package visual;
+package pp.visual.buttons;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,19 +13,19 @@ public class ArrowButton extends BuseButton {
         String path;
         switch (this.type) {
             case LEFT:
-                path = "/resources/arrow_left.png";
+                path = "/pp/resources/arrows/arrow_left.png";
                 break;
             case UP:
-                path = "/resources/arrow_up.png";
+                path = "/pp/resources/arrows/arrow_up.png";
                 break;
             case RIGHT:
-                path = "/resources/arrow_right.png";
+                path = "/pp/resources/arrows/arrow_right.png";
                 break;
             case DOUBLE_UP:
-                path = "/resources/double_arrow_up.png";
+                path = "/pp/resources/arrows/double_arrow_up.png";
                 break;
             case DOUBLE_DOWN:
-                path = "/resources/double_arrow_down.png";
+                path = "/pp/resources/arrows/double_arrow_down.png";
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + arrow);
