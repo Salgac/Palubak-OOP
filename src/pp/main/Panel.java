@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 import pp.visual.auxiliary.*;
 import pp.visual.buttons.*;
-import pp.visual.panels.*;
+import pp.visual.screen.*;
 
 class Panel {
     private JFrame frame;
@@ -31,6 +31,7 @@ class Panel {
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1300, 625);
+        frame.setLocation(400, 200);
         frame.getContentPane().setBackground(Color.decode("#8B949D"));
     }
 
@@ -59,7 +60,7 @@ class Panel {
     }
 
     private void generateDisplay() {
-        display = new BusePanel(110, 110, 560, 200);
+        display = new BuseScreen(110, 110);
         frame.add(display);
         frame.add(new RoundedRectangle(110, 110, 560, 200, "#8AA230", "#000000", 1));
     }
