@@ -8,10 +8,17 @@ import java.nio.file.*;
 public class TextLine extends JLabel {
 
     private Font font;
+    private int i;
 
     public TextLine(int i) {
         loadFont();
+        this.i = i;
         this.setFont(font);
+    }
+
+    @Override
+    public void setText(String text) {
+        super.setText(text);
         Dimension size = this.getPreferredSize();
         this.setBounds(10, 5 + i * (size.height + 6), size.width, size.height);
     }

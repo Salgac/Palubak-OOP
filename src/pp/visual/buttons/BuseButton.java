@@ -1,5 +1,6 @@
 package pp.visual.buttons;
 
+import pp.main.Data;
 import pp.visual.buttons.scripts.*;
 
 import javax.sound.sampled.*;
@@ -12,10 +13,11 @@ abstract public class BuseButton extends JButton {
 
     private Clip click;
     private JLabel label;
+    private Data data;
     protected BuseScript script = null;
     private String text = "";
 
-    public BuseButton(int x, int y) {
+    public BuseButton(Data data, int x, int y) {
         this.setBounds(x, y, 100, 100);
         this.setLayout(new BorderLayout());
         this.setIcon(new ImageIcon(getClass().getResource("/pp/resources/buttons/button.png")));
@@ -23,12 +25,13 @@ abstract public class BuseButton extends JButton {
         this.setBorderPainted(false);
         this.setFocusPainted(false);
         this.setContentAreaFilled(false);
+        this.data = data;
 
         this.addActionListener(actionEvent -> onclick());
     }
 
-    public BuseButton(int x, int y, String text) {
-        this(x, y);
+    public BuseButton(Data data, int x, int y, String text) {
+        this(data, x, y);
         this.text = text;
         drawText(text);
     }
@@ -60,5 +63,9 @@ abstract public class BuseButton extends JButton {
             e.printStackTrace();
         }
         click.start();
+    }
+
+    public Data getData() {
+        return data;
     }
 }

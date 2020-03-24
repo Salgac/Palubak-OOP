@@ -21,6 +21,9 @@ public class BuseScreen extends JPanel {
             this.textLines.add(new TextLine(i));
         this.textLines.add(new TimeLine(3));
         for (JLabel textLine : textLines) this.add(textLine);
+    }
 
+    public ArrayList<JLabel> getTextLines() {
+        return textLines;
     }
 }
