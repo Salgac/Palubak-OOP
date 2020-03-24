@@ -12,8 +12,10 @@ class Panel {
     private JFrame frame;
     private JPanel display;
     private ArrayList<BuseButton> buttons = new ArrayList<>();
+    private Data data;
 
-    Panel() {
+    Panel(Data data) {
+        this.data = data;
         generateFrame();
 
         generateTextures();
