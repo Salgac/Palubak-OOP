@@ -1,6 +1,7 @@
 package pp.visual.buttons;
 
 import pp.main.Data;
+import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +11,7 @@ public class ArrowButton extends BuseButton {
     private JLabel image;
 
     public ArrowButton(Data data, int x, int y, ARROW arrow) {
-        super(data, x, y);
+        super(data, x, y, FUNCTION_TYPE.NULL);
         this.type = arrow;
         setImage();
     }

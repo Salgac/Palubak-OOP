@@ -2,6 +2,7 @@ package pp.visual.buttons;
 
 import pp.main.Data;
 import pp.visual.buttons.scripts.*;
+import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,12 +13,11 @@ public class NumericButton extends BuseButton {
     private int num;
     private NumberScript numberScript;
 
-    public NumericButton(Data data, int x, int y, String text, String num) {
-        super(data, x, y, text);
-        drawNumber(num);
+    public NumericButton(Data data, int x, int y, String text, String num, FUNCTION_TYPE type) {
+        super(data, x, y, text, type);
         this.num = Integer.parseInt(num);
-        this.script = new BuseScript(this, text);
         this.numberScript = new NumberScript(this, this.num);
+        drawNumber(num);
     }
 
     @Override
@@ -34,5 +34,9 @@ public class NumericButton extends BuseButton {
         number.setHorizontalAlignment(SwingConstants.RIGHT);
         number.setVerticalAlignment(SwingConstants.BOTTOM);
         this.add(number, BorderLayout.SOUTH);
+    }
+
+    public int getNum() {
+        return num;
     }
 }

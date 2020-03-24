@@ -2,6 +2,7 @@ package pp.visual.buttons;
 
 import pp.main.Data;
 import pp.visual.buttons.scripts.*;
+import pp.visual.buttons.scripts.helper.*;
 
 import javax.sound.sampled.*;
 import javax.swing.*;
@@ -14,10 +15,10 @@ abstract public class BuseButton extends JButton {
     private Clip click;
     private JLabel label;
     private Data data;
-    protected BuseScript script = null;
+    protected BuseScript script;
     private String text = "";
 
-    public BuseButton(Data data, int x, int y) {
+    public BuseButton(Data data, int x, int y, FUNCTION_TYPE type) {
         this.setBounds(x, y, 100, 100);
         this.setLayout(new BorderLayout());
         this.setIcon(new ImageIcon(getClass().getResource("/pp/resources/buttons/button.png")));
@@ -26,12 +27,13 @@ abstract public class BuseButton extends JButton {
         this.setFocusPainted(false);
         this.setContentAreaFilled(false);
         this.data = data;
+        this.script = ScriptAssign.assign(type, this);
 
         this.addActionListener(actionEvent -> onclick());
     }
 
-    public BuseButton(Data data, int x, int y, String text) {
-        this(data, x, y);
+    public BuseButton(Data data, int x, int y, String text, FUNCTION_TYPE type) {
+        this(data, x, y, type);
         this.text = text;
         drawText(text);
     }
@@ -67,5 +69,9 @@ abstract public class BuseButton extends JButton {
 
     public Data getData() {
         return data;
+    }
+
+    public String textGet() {
+        return text;
     }
 }

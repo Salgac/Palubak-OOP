@@ -6,17 +6,15 @@ import javax.swing.*;
 
 public class BuseScript {
 
-    String text;
-    private BuseButton button;
+    BuseButton button;
 
-    public BuseScript(BuseButton button, String text) {
+    public BuseScript(BuseButton button) {
         this.button = button;
-        this.text = text;
     }
 
     public void execute() {
-        System.out.println(this.text);
-        getTextLine(1).setText(this.text);
+        System.out.println(this.button.textGet());
+        getTextLine(1).setText(this.button.textGet());
     }
 
     JLabel getTextLine(int i) {

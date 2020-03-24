@@ -3,6 +3,7 @@ package pp.main;
 import javax.swing.*;
 import java.util.ArrayList;
 
+import static pp.visual.buttons.scripts.helper.FUNCTION_TYPE.*;
 import pp.visual.frame.*;
 import pp.visual.auxiliary.*;
 import pp.visual.buttons.*;
@@ -51,26 +52,26 @@ class Panel {
     }
 
     private void generateButtons() {
-        buttons.add(new BasicButton(data, 760, 40, "NEHODA"));
-        buttons.add(new NumericButton(data, 890, 40, "LINKA PORADIE", "1"));
-        buttons.add(new NumericButton(data, 1020, 40, "CIEĽ", "2"));
-        buttons.add(new NumericButton(data, 1150, 40, "SLUŽBA VODIČ", "3"));
-        buttons.add(new BasicButton(data, 760, 170, "KÓDOVÁ SPRÁVA"));
-        buttons.add(new NumericButton(data, 890, 170, "", "4"));
-        buttons.add(new NumericButton(data, 1020, 170, "PÁSMO", "5"));
-        buttons.add(new NumericButton(data, 1150, 170, "SPOJ SMER", "6"));
-        buttons.add(new BasicButton(data, 760, 300, "REVÍZOR"));
-        buttons.add(new NumericButton(data, 890, 300, "ODKLON", "7"));
-        buttons.add(new NumericButton(data, 1020, 300, "RUČNE", "8"));
-        buttons.add(new NumericButton(data, 1150, 300, "ZASTÁVKA", "9"));
+        buttons.add(new BasicButton(data, 760, 40, "NEHODA", ACCIDENT));
+        buttons.add(new NumericButton(data, 890, 40, "LINKA PORADIE", "1", LINE_SET));
+        buttons.add(new NumericButton(data, 1020, 40, "CIEĽ", "2", DESTINATION_SET));
+        buttons.add(new NumericButton(data, 1150, 40, "SLUŽBA VODIČ", "3", SERVICE_SET));
+        buttons.add(new BasicButton(data, 760, 170, "KÓDOVÁ SPRÁVA", CODE_MESSAGE));
+        buttons.add(new NumericButton(data, 890, 170, "", "4", NULL));
+        buttons.add(new NumericButton(data, 1020, 170, "PÁSMO", "5", ZONE_SET));
+        buttons.add(new NumericButton(data, 1150, 170, "SPOJ SMER", "6", DIRECTION_SET));
+        buttons.add(new BasicButton(data, 760, 300, "REVÍZOR", REVISION));
+        buttons.add(new NumericButton(data, 890, 300, "ODKLON", "7", DIVERSION));
+        buttons.add(new NumericButton(data, 1020, 300, "RUČNE", "8", MANUALLY));
+        buttons.add(new NumericButton(data, 1150, 300, "ZASTÁVKA", "9", STOP));
         buttons.add(new ArrowButton(data, 240, 430, ArrowButton.ARROW.LEFT));
         buttons.add(new ArrowButton(data, 370, 430, ArrowButton.ARROW.UP));
         buttons.add(new ArrowButton(data, 500, 430, ArrowButton.ARROW.RIGHT));
         buttons.add(new ArrowButton(data, 630, 430, ArrowButton.ARROW.DOUBLE_DOWN));
         buttons.add(new ArrowButton(data, 760, 430, ArrowButton.ARROW.DOUBLE_UP));
-        buttons.add(new BasicButton(data, 890, 430, "ZRUŠIŤ", true));
-        buttons.add(new NumericButton(data, 1020, 430, "SERVIS", "0"));
-        buttons.add(new BasicButton(data, 1150, 430, "POTVRDIŤ", true));
+        buttons.add(new BasicButton(data, 890, 430, "ZRUŠIŤ", CANCEL, true));
+        buttons.add(new NumericButton(data, 1020, 430, "SERVIS", "0", SERVICE));
+        buttons.add(new BasicButton(data, 1150, 430, "POTVRDIŤ", ACCEPT, true));
 
         for (JButton button : buttons) frame.add(button);
     }
