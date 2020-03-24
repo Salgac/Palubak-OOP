@@ -20,14 +20,14 @@ public class TextLine extends JLabel {
     public void setText(String text) {
         super.setText(text);
         Dimension size = this.getPreferredSize();
-        this.setBounds(10, 5 + i * (size.height + 6), size.width, size.height);
+        this.setBounds(10, 10 + i * (size.height + 10), size.width, size.height);
     }
 
     private void loadFont() {
         try {
             Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
-            InputStream stream = new BufferedInputStream(new FileInputStream(path + "/src/pp/resources/pixelmix.ttf"));
-            this.font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(40f);
+            InputStream stream = new BufferedInputStream(new FileInputStream(path + "/src/pp/resources/pixelmixMono.ttf"));
+            this.font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(36f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
             ge.registerFont(this.font);
         } catch (Exception e) {

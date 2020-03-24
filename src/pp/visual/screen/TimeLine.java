@@ -38,6 +38,6 @@ public class TimeLine extends TextLine {
     private void updateText() {
         this.setText(String.format("%s:%02d", sdf.format(calendar.getTime()), currentSecond));
         Dimension size = this.getPreferredSize();
-        this.setBounds(540 - size.width, 5 + pos * (size.height + 6), 540, size.height);
+        this.setBounds(550 - size.width, 10 + pos * (size.height + 10), size.width, size.height);
     }
 }
