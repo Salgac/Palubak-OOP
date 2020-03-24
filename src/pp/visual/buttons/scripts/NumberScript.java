@@ -1,17 +1,15 @@
 package pp.visual.buttons.scripts;
 
+import pp.visual.buttons.BuseButton;
+
 public class NumberScript extends BuseScript {
 
-    private int num;
-
-    public NumberScript(int num) {
-        super();
-        this.num = num;
+    public NumberScript(BuseButton button, int num) {
+        super(button, Integer.toString(num));
     }
 
     @Override
     public void execute() {
-        super.execute();
-
+        getTextLine(0).setText(text);
     }
 }

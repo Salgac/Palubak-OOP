@@ -17,7 +17,15 @@ public class NumericButton extends BuseButton {
         drawNumber(num);
         this.num = Integer.parseInt(num);
         this.script = new BuseScript(this, text);
-        this.numberScript = new NumberScript(this.num);
+        this.numberScript = new NumberScript(this, this.num);
+    }
+
+    @Override
+    void onclick() {
+        super.onclick();
+        if (numberScript != null) {
+            numberScript.execute();
+        }
     }
 
     private void drawNumber(String num) {

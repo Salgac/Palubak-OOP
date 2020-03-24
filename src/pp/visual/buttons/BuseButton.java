@@ -45,7 +45,7 @@ abstract public class BuseButton extends JButton {
         this.add(label, BorderLayout.NORTH);
     }
 
-    private void onclick() {
+    void onclick() {
         if (script != null) {
             playSound();
             script.execute();
