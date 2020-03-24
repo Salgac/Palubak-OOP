@@ -1,9 +1,9 @@
 package pp.main;
 
 import javax.swing.*;
-import java.awt.*;
 import java.util.ArrayList;
 
+import pp.visual.frame.*;
 import pp.visual.auxiliary.*;
 import pp.visual.buttons.*;
 import pp.visual.screen.*;
@@ -26,37 +26,17 @@ class Panel {
     }
 
     private void generateFrame() {
-        frame = new JFrame("Palubný počítač");
-        frame.setLayout(null);
-        frame.setResizable(false);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1300, 625);
-        frame.setLocation(400, 200);
-        frame.getContentPane().setBackground(Color.decode("#8B949D"));
+        frame = new BuseFrame("Palubný počítač");
     }
 
     private void generateTextures() {
         frame.add(new RoundedRectangle(50, 50, 680, 315, "#F1F1F1"));
         frame.add(new RoundedRectangle(750, 30, 120, 250, "#E16472", 8));
 
-        JLabel buse = new JLabel("BUSE");
-        buse.setFont(new Font("Arial", Font.ITALIC | Font.BOLD, 20));
-        buse.setForeground(Color.decode("#FFEC00"));
-        Dimension size = buse.getPreferredSize();
-        buse.setBounds(110, 85, size.width + 10, size.height);
-        frame.add(buse);
+        frame.add(new BuseLogo("BUSE", BuseLogo.TYPE.BUSE));
+        frame.add(new BuseLogo("BS 100", BuseLogo.TYPE.BS100));
 
-        JLabel bs = new JLabel("BS 100");
-        bs.setFont(new Font("Arial Condensed", Font.PLAIN, 20));
-        bs.setForeground(Color.BLACK);
-        size = bs.getPreferredSize();
-        bs.setBounds(670 - size.width, 85, size.width, size.height);
-        frame.add(bs);
-
-        JLabel key = new JLabel();
-        key.setIcon(new ImageIcon(getClass().getResource("/pp/resources/key.png")));
-        key.setBounds(50, 405, 150, 150);
-        frame.add(key);
+        frame.add(new BuseKey());
     }
 
     private void generateDisplay() {
@@ -83,9 +63,9 @@ class Panel {
         buttons.add(new ArrowButton(500, 430, ArrowButton.ARROW.RIGHT));
         buttons.add(new ArrowButton(630, 430, ArrowButton.ARROW.DOUBLE_DOWN));
         buttons.add(new ArrowButton(760, 430, ArrowButton.ARROW.DOUBLE_UP));
-        buttons.add(new BasicButton(890, 430, "ZRUŠIŤ"));
+        buttons.add(new BasicButton(890, 430, "ZRUŠIŤ", true));
         buttons.add(new NumericButton(1020, 430, "SERVIS", "0"));
-        buttons.add(new BasicButton(1150, 430, "POTVRDIŤ"));
+        buttons.add(new BasicButton(1150, 430, "POTVRDIŤ", true));
 
         for (JButton button : buttons) frame.add(button);
     }

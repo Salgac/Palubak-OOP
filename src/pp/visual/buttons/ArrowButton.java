@@ -4,12 +4,16 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ArrowButton extends BuseButton {
-    ARROW type;
-    JLabel image;
+    private ARROW type;
+    private JLabel image;
 
     public ArrowButton(int x, int y, ARROW arrow) {
         super(x, y);
         this.type = arrow;
+        setImage();
+    }
+
+    private void setImage() {
         String path;
         switch (this.type) {
             case LEFT:
@@ -28,7 +32,7 @@ public class ArrowButton extends BuseButton {
                 path = "/pp/resources/arrows/double_arrow_down.png";
                 break;
             default:
-                throw new IllegalStateException("Unexpected value: " + arrow);
+                throw new IllegalStateException("Unexpected value: " + this.type);
         }
 
         this.setMargin(new Insets(0, 0, 0, 0));

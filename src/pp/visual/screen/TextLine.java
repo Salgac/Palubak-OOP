@@ -7,9 +7,16 @@ import java.nio.file.*;
 
 public class TextLine extends JLabel {
 
-    Font font;
+    private Font font;
 
     public TextLine(int i) {
+        loadFont();
+        this.setFont(font);
+        Dimension size = this.getPreferredSize();
+        this.setBounds(10, 5 + i * (size.height + 6), size.width, size.height);
+    }
+
+    private void loadFont() {
         try {
             Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
             InputStream stream = new BufferedInputStream(new FileInputStream(path + "/src/pp/resources/pixelmix.ttf"));
@@ -20,8 +27,5 @@ public class TextLine extends JLabel {
             System.out.println("Error loading font for display");
             e.printStackTrace();
         }
-        this.setFont(font);
-        Dimension size = this.getPreferredSize();
-        this.setBounds(10, 5 + i * (size.height + 6), size.width, size.height);
     }
 }

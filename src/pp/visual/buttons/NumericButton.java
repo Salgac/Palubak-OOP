@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class NumericButton extends BuseButton {
 
-    JLabel number;
+    private JLabel number;
 
     public NumericButton(int x, int y, String text, String num) {
         super(x, y, text);

@@ -6,15 +6,15 @@ import java.awt.*;
 import java.io.File;
 import java.nio.file.*;
 
-public class BuseButton extends JButton {
+abstract public class BuseButton extends JButton {
 
-    Clip click;
-    JLabel label;
+    private Clip click;
+    private JLabel label;
 
     public BuseButton(int x, int y) {
         this.setBounds(x, y, 100, 100);
         this.setLayout(new BorderLayout());
-        this.setIcon(new ImageIcon(getClass().getResource("/pp/resources/button.png")));
+        this.setIcon(new ImageIcon(getClass().getResource("/pp/resources/buttons/button.png")));
         this.setOpaque(false);
         this.setBorderPainted(false);
         this.setFocusPainted(false);
@@ -37,11 +37,11 @@ public class BuseButton extends JButton {
         this.add(label, BorderLayout.NORTH);
     }
 
-    void onclick() {
+    private void onclick() {
         playSound();
     }
 
-    void playSound() {
+    private void playSound() {
         try {
             Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
             AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(path + "/src/pp/resources/sounds/click.wav"));
@@ -51,7 +51,6 @@ public class BuseButton extends JButton {
             System.out.println("Error loading click sound");
             e.printStackTrace();
         }
-
         click.start();
     }
 }
