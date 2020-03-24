@@ -21,10 +21,7 @@ public class TextLine extends JLabel {
             e.printStackTrace();
         }
         this.setFont(font);
-        this.setText(i + ". line_abcdefghijkl");
-
         Dimension size = this.getPreferredSize();
-        this.setBounds(10, 5 + i * (size.height + 6), 540, size.height);
-        //this.setOpaque(false);
+        this.setBounds(10, 5 + i * (size.height + 6), size.width, size.height);
     }
 }

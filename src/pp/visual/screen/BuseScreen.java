@@ -11,10 +11,16 @@ public class BuseScreen extends JPanel {
         this.setBounds(x, y, 560, 200);
         this.setLayout(null);
         this.setOpaque(false);
+
+        generateTextLines();
+    }
+
+    private void generateTextLines() {
         this.textLines = new ArrayList<>();
         for (int i = 0; i < 4; i++)
             this.textLines.add(new TextLine(i));
-
+        this.textLines.add(new TimeLine(3));
         for (JLabel textLine : textLines) this.add(textLine);
+
     }
 }
