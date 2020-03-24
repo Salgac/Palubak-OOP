@@ -1,5 +1,7 @@
 package pp.visual.buttons;
 
+import pp.visual.buttons.scripts.*;
+
 import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
@@ -10,6 +12,8 @@ abstract public class BuseButton extends JButton {
 
     private Clip click;
     private JLabel label;
+    protected BuseScript script = null;
+    private String text = "";
 
     public BuseButton(int x, int y) {
         this.setBounds(x, y, 100, 100);
@@ -25,6 +29,7 @@ abstract public class BuseButton extends JButton {
 
     public BuseButton(int x, int y, String text) {
         this(x, y);
+        this.text = text;
         drawText(text);
     }
 
@@ -38,7 +43,10 @@ abstract public class BuseButton extends JButton {
     }
 
     private void onclick() {
-        playSound();
+        if (script != null) {
+            playSound();
+            script.execute();
+        }
     }
 
     private void playSound() {

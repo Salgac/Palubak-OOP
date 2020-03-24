@@ -13,6 +13,7 @@ class Panel {
     private JPanel display;
     private ArrayList<BuseButton> buttons = new ArrayList<>();
     private Data data;
+    private boolean inputMode = false;
 
     Panel(Data data) {
         this.data = data;

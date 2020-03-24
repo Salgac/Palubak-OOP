@@ -1,10 +1,13 @@
 package pp.visual.buttons;
 
+import pp.visual.buttons.scripts.*;
+
 import javax.swing.*;
 
 public class BasicButton extends BuseButton {
     public BasicButton(int x, int y, String text) {
         super(x, y, text);
+        this.script = new BuseScript(text);
     }
 
     public BasicButton(int x, int y, String text, boolean special) {
