@@ -1,4 +1,4 @@
-package pp.visual.buttons.scripts;
+package pp.visual.buttons.scripts.functions;
 
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
@@ -7,9 +7,9 @@ import javax.swing.*;
 
 public abstract class BuseScript {
 
-    public BuseButton button;
-    public String text;
-    private FUNCTION_TYPE type;
+    BuseButton button;
+    String text;
+    FUNCTION_TYPE type;
 
     public BuseScript(BuseButton button, FUNCTION_TYPE type) {
         this.button = button;
@@ -18,21 +18,21 @@ public abstract class BuseScript {
 
     public abstract void execute();
 
-    public abstract void refreshText();
+    abstract void refreshText();
 
-    public abstract void accept();
+    abstract void accept();
 
-    public abstract void cancel();
+    abstract void cancel();
 
-    public JLabel getTextLine(int i) {
+    JLabel getTextLine(int i) {
         return button.getData().getScreen().getTextLines().get(i);
     }
 
-    public String getText() {
+    String getText() {
         return text;
     }
 
-    public void setText(String text) {
+    void setText(String text) {
         this.text = text;
         refreshText();
     }

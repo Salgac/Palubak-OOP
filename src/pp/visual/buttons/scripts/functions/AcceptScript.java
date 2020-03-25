@@ -1,7 +1,6 @@
 package pp.visual.buttons.scripts.functions;
 
 import pp.visual.buttons.BuseButton;
-import pp.visual.buttons.scripts.BuseScript;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
 public class AcceptScript extends BuseScript {

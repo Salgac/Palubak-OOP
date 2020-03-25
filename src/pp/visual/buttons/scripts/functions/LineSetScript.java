@@ -1,14 +1,13 @@
 package pp.visual.buttons.scripts.functions;
 
 import pp.visual.buttons.BuseButton;
-import pp.visual.buttons.scripts.*;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 import pp.visual.screen.InfoLine;
 
-public class LineSetScript extends BuseScript {
+public class LineSetScript extends BuseScript implements StagedScript {
 
     private STAGE stage;
-    private String waiting;
+    private String textPrev;
 
     public LineSetScript(BuseButton button) {
         super(button, FUNCTION_TYPE.LINE_SET);
@@ -48,24 +47,19 @@ public class LineSetScript extends BuseScript {
     }
 
     @Override
-    public void accept() {
+    void accept() {
         if (stage == STAGE.FIRST) {
-            waiting = text;
+            textPrev = text;
             secondStage();
         } else {
-            button.getData().getCurrent().setLine(waiting);
+            button.getData().getCurrent().setLine(textPrev);
             button.getData().getCurrent().setCourse(text);
             endStage();
         }
     }
 
     @Override
-    public void cancel() {
+    void cancel() {
         endStage();
-    }
-
-    private enum STAGE {
-        FIRST,
-        SECOND
     }
 }

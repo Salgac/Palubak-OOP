@@ -1,4 +1,4 @@
-package pp.visual.buttons.scripts;
+package pp.visual.buttons.scripts.functions;
 
 import pp.visual.buttons.NumericButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
@@ -31,12 +31,12 @@ public class NumberScript extends BuseScript {
     }
 
     @Override
-    public void accept() {
+    void accept() {
 
     }
 
     @Override
-    public void cancel() {
+    void cancel() {
 
     }
 }

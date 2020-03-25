@@ -1,7 +1,7 @@
 package pp.visual.buttons;
 
 import pp.main.Data;
-import pp.visual.buttons.scripts.*;
+import pp.visual.buttons.scripts.functions.BuseScript;
 import pp.visual.buttons.scripts.helper.*;
 
 import javax.sound.sampled.*;

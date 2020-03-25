@@ -1,7 +1,7 @@
 package pp.visual.buttons.scripts.helper;
 
 import pp.visual.buttons.BuseButton;
-import pp.visual.buttons.scripts.BuseScript;
+import pp.visual.buttons.scripts.functions.BuseScript;
 import pp.visual.buttons.scripts.functions.*;
 
 public class ScriptAssign {

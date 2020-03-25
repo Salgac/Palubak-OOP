@@ -1,7 +1,7 @@
 package pp.visual.buttons;
 
 import pp.main.Data;
-import pp.visual.buttons.scripts.*;
+import pp.visual.buttons.scripts.functions.NumberScript;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
 import javax.swing.*;

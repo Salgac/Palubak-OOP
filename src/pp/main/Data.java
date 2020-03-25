@@ -1,7 +1,7 @@
 package pp.main;
 
 import pp.data.*;
-import pp.visual.buttons.scripts.BuseScript;
+import pp.visual.buttons.scripts.functions.BuseScript;
 import pp.visual.screen.*;
 
 public class Data {
