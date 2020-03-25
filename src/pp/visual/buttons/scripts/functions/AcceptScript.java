@@ -11,7 +11,8 @@ public class AcceptScript extends BuseScript {
     @Override
     public void execute() {
         BuseScript activeScript = button.getData().getActiveScript();
-        activeScript.accept();
+        if (activeScript != null)
+            activeScript.accept();
     }
 
     @Override
