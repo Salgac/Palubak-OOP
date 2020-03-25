@@ -14,7 +14,6 @@ class Panel {
     private JPanel display;
     private ArrayList<BuseButton> buttons = new ArrayList<>();
     private Data data;
-    private boolean inputMode = false;
 
     Panel(Data data) {
         this.data = data;
@@ -46,7 +45,7 @@ class Panel {
     }
 
     private void generateDisplay() {
-        display = new BuseScreen(110, 110);
+        display = new BuseScreen(110, 110, data);
         frame.add(display);
         frame.add(new RoundedRectangle(110, 110, 560, 200, "#8AA230", "#000000", 1));
     }

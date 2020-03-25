@@ -1,40 +1,77 @@
 package pp.data;
 
 public class CurrentData {
-    private int Driver;
-    private int Line;
-    private int Course;
-    private int Diretion;
+    private String driver;
+    private String service;
+    private String destination;
+    private String line;
+    private String course;
+    private String direction;
+    private String zone;
 
-    public int getDriver() {
-        return Driver;
+    public CurrentData() {
+        this.driver = "00000";
+        this.service = "0000000";
+        this.destination = "000";
+        this.line = "000";
+        this.course = "000";
+        this.direction = "00";
+        this.zone = "101";
     }
 
-    public void setDriver(int driver) {
-        Driver = driver;
+    public String getDriver() {
+        return driver;
     }
 
-    public int getLine() {
-        return Line;
+    public void setDriver(String driver) {
+        this.driver = driver;
     }
 
-    public void setLine(int line) {
-        Line = line;
+    public String getService() {
+        return service;
     }
 
-    public int getCourse() {
-        return Course;
+    public void setService(String service) {
+        this.service = service;
     }
 
-    public void setCourse(int course) {
-        Course = course;
+    public String getDestination() {
+        return destination;
     }
 
-    public int getDiretion() {
-        return Diretion;
+    public void setDestination(String destination) {
+        this.destination = destination;
     }
 
-    public void setDiretion(int diretion) {
-        Diretion = diretion;
+    public String getLine() {
+        return line;
+    }
+
+    public void setLine(String line) {
+        this.line = line;
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
+
+    public String getDirection() {
+        return direction;
+    }
+
+    public void setDirection(String direction) {
+        this.direction = direction;
+    }
+
+    public String getZone() {
+        return zone;
+    }
+
+    public void setZone(String zone) {
+        this.zone = zone;
     }
 }

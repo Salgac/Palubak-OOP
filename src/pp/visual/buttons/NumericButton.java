@@ -12,11 +12,13 @@ public class NumericButton extends BuseButton {
     private JLabel number;
     private int num;
     private NumberScript numberScript;
+    private Data data;
 
     public NumericButton(Data data, int x, int y, String text, String num, FUNCTION_TYPE type) {
         super(data, x, y, text, type);
         this.num = Integer.parseInt(num);
-        this.numberScript = new NumberScript(this, this.num);
+        this.data = data;
+        this.numberScript = new NumberScript(this);
         drawNumber(num);
     }
 

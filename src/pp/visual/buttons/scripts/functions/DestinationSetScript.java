@@ -6,10 +6,27 @@ import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
 public class DestinationSetScript extends BuseScript {
 
-    FUNCTION_TYPE type;
-
     public DestinationSetScript(BuseButton button) {
-        super(button);
-        this.type = FUNCTION_TYPE.LINE_SET;
+        super(button, FUNCTION_TYPE.LINE_SET);
+    }
+
+    @Override
+    public void execute() {
+
+    }
+
+    @Override
+    public void refreshText() {
+
+    }
+
+    @Override
+    public void accept() {
+
+    }
+
+    @Override
+    public void cancel() {
+
     }
 }

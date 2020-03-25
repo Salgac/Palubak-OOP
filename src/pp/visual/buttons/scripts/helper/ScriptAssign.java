@@ -34,10 +34,12 @@ public class ScriptAssign {
             case STOP:
                 break;
             case CANCEL:
+                script = new CancelScript(button);
                 break;
             case SERVICE:
                 break;
             case ACCEPT:
+                script = new AcceptScript(button);
                 break;
             default:
                 break;

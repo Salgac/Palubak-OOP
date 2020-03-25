@@ -48,8 +48,8 @@ abstract public class BuseButton extends JButton {
     }
 
     void onclick() {
-        if (script != null) {
-            playSound();
+        playSound();
+        if (script != null && !data.isInputModeActive()) {
             script.execute();
         }
     }
@@ -69,9 +69,5 @@ abstract public class BuseButton extends JButton {
 
     public Data getData() {
         return data;
-    }
-
-    public String textGet() {
-        return text;
     }
 }
