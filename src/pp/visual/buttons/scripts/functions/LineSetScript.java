@@ -1,5 +1,6 @@
 package pp.visual.buttons.scripts.functions;
 
+import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 import pp.visual.screen.InfoLine;
@@ -35,7 +36,7 @@ public class LineSetScript extends BuseScript implements StagedScript {
         getTextLine(0).setText("");
         ((InfoLine) getTextLine(3)).reset();
         button.getData().setActiveScript(null);
-        button.getData().setInputModeActive(false);
+        button.getData().setInputMode(Data.INPUT_MODE.OFF);
     }
 
     @Override

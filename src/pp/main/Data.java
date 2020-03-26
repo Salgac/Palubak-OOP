@@ -6,10 +6,15 @@ import pp.visual.screen.*;
 
 public class Data {
 
+    private INPUT_MODE inputMode = INPUT_MODE.OFF;
+
     private CurrentData current;
     private BuseScreen screen;
 
-    private boolean inputModeActive = false;
+    public INPUT_MODE getInputMode() {
+        return inputMode;
+    }
+
     private BuseScript activeScript;
 
     public Data() {
@@ -29,12 +34,14 @@ public class Data {
         return current;
     }
 
-    public boolean isInputModeActive() {
-        return inputModeActive;
+    public void setInputMode(INPUT_MODE inputMode) {
+        this.inputMode = inputMode;
     }
 
-    public void setInputModeActive(boolean inputModeActive) {
-        this.inputModeActive = inputModeActive;
+    public enum INPUT_MODE {
+        OFF,
+        SHOW,
+        ON
     }
 
     public BuseScript getActiveScript() {

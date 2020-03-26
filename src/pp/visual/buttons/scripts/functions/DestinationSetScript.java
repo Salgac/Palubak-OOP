@@ -1,5 +1,6 @@
 package pp.visual.buttons.scripts.functions;
 
+import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
@@ -23,7 +24,7 @@ public class DestinationSetScript extends BuseScript implements StagedScript {
     private void endStage() {
         getTextLine(0).setText("");
         button.getData().setActiveScript(null);
-        button.getData().setInputModeActive(false);
+        button.getData().setInputMode(Data.INPUT_MODE.OFF);
     }
 
     @Override

@@ -27,7 +27,14 @@ public class BuseScreen extends JPanel {
         this.textLines.add(new InfoLine(3, data));
         //Time
         this.textLines.add(new TimeLine(3));
+        //flashing carriage
+        this.textLines.add(new Carriage(0, this));
+
         for (JLabel textLine : textLines) this.add(textLine);
+    }
+
+    public Data getData() {
+        return data;
     }
 
     public ArrayList<JLabel> getTextLines() {

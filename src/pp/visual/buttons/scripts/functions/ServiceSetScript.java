@@ -1,5 +1,6 @@
 package pp.visual.buttons.scripts.functions;
 
+import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
@@ -10,7 +11,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     }
 
     private STAGE stage;
-    private String textPrev;
+    private String textService, textDriver;
 
     @Override
     public void execute() {
@@ -38,7 +39,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     private void endStage() {
         getTextLine(0).setText("");
         button.getData().setActiveScript(null);
-        button.getData().setInputModeActive(false);
+        button.getData().setInputMode(Data.INPUT_MODE.OFF);
     }
 
     @Override
@@ -51,7 +52,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
                 getTextLine(0).setText("Vodič: >" + this.text + "<");
                 break;
             case THIRD:
-                getTextLine(0).setText("Služba " + this.textPrev + " OK?");
+                getTextLine(0).setText("Služba " + this.textService + " OK?");
                 break;
         }
     }
@@ -60,16 +61,16 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     void accept() {
         switch (stage) {
             case FIRST:
-                textPrev = text;
+                textService = text;
                 secondStage();
                 break;
             case SECOND:
-                button.getData().setInputModeActive(false);
+                textDriver = text;
                 thirdStage();
                 break;
             case THIRD:
-                button.getData().getCurrent().setService(textPrev);
-                button.getData().getCurrent().setDriver(text);
+                button.getData().getCurrent().setService(textService);
+                button.getData().getCurrent().setDriver(textDriver);
                 endStage();
                 break;
         }

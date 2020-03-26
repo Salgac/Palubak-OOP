@@ -49,7 +49,7 @@ abstract public class BuseButton extends JButton {
 
     void onclick() {
         playSound();
-        if (script != null && !data.isInputModeActive()) {
+        if (script != null && data.getInputMode() == Data.INPUT_MODE.OFF) {
             script.execute();
         }
     }

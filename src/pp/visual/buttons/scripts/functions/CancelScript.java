@@ -11,7 +11,8 @@ public class CancelScript extends BuseScript {
     @Override
     public void execute() {
         BuseScript activeScript = button.getData().getActiveScript();
-        activeScript.cancel();
+        if (activeScript != null)
+            activeScript.cancel();
     }
 
     @Override
