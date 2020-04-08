@@ -1,22 +1,29 @@
 package pp.data;
 
+import pp.main.Data;
+import pp.visual.screen.InfoLine;
+import pp.visual.screen.TextLine;
+
 public class CurrentData {
+    private Data data;
+
     private String driver;
-    private String service;
     private String destination;
     private String line;
     private String course;
     private String direction;
     private String zone;
+    private String graph;
 
-    public CurrentData() {
+    public CurrentData(Data data) {
+        this.data = data;
         this.driver = "00000";
-        this.service = "0000000";
         this.destination = "000";
         this.line = "000";
-        this.course = "000";
+        this.course = "00";
         this.direction = "00";
         this.zone = "101";
+        this.graph = "0";
     }
 
     public String getDriver() {
@@ -28,11 +35,13 @@ public class CurrentData {
     }
 
     public String getService() {
-        return service;
+        return (this.line + this.course + this.graph);
     }
 
     public void setService(String service) {
-        this.service = service;
+        setLine(service.substring(0, 3));
+        setCourse(service.substring(3, 5));
+        setGraph(service.substring(5));
     }
 
     public String getDestination() {
@@ -49,6 +58,7 @@ public class CurrentData {
 
     public void setLine(String line) {
         this.line = line;
+        ((InfoLine) this.data.getScreen().getTextLines().get(3)).reset();
     }
 
     public String getCourse() {
@@ -73,5 +83,13 @@ public class CurrentData {
 
     public void setZone(String zone) {
         this.zone = zone;
+    }
+
+    public String getGraph() {
+        return graph;
+    }
+
+    public void setGraph(String graph) {
+        this.graph = graph;
     }
 }

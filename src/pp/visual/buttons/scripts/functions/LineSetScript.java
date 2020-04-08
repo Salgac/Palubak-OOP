@@ -35,7 +35,6 @@ public class LineSetScript extends BuseScript implements StagedScript {
 
     private void endStage() {
         getTextLine(0).setText("");
-        ((InfoLine) getTextLine(3)).reset();
         button.getData().setActiveScript(null);
         button.getData().setInputMode(Data.INPUT_MODE.OFF);
     }

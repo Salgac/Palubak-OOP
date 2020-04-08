@@ -18,7 +18,7 @@ public class Data {
     private BuseScript activeScript;
 
     public Data() {
-        current = new CurrentData();
+        current = new CurrentData(this);
         //TODO: make data initialisation
     }
 
