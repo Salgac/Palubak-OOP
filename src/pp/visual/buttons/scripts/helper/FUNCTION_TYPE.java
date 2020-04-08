@@ -15,5 +15,7 @@ public enum FUNCTION_TYPE {
     CANCEL,
     SERVICE,
     ACCEPT,
+    ARROW_UP,
+    ARROW_DOWN,
     NULL
 }

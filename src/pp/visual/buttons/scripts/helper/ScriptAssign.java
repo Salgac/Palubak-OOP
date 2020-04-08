@@ -1,5 +1,6 @@
 package pp.visual.buttons.scripts.helper;
 
+import pp.visual.buttons.ArrowButton;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.functions.BuseScript;
 import pp.visual.buttons.scripts.functions.*;
@@ -40,6 +41,21 @@ public class ScriptAssign {
                 break;
             case ACCEPT:
                 script = new AcceptScript(button);
+                break;
+            default:
+                break;
+        }
+        return script;
+    }
+
+    public static BuseScript assign(ArrowButton.ARROW type, BuseButton button) {
+        BuseScript script = null;
+        switch (type) {
+            case DOUBLE_UP:
+                script = new ArrowScript(button, FUNCTION_TYPE.ARROW_UP);
+                break;
+            case DOUBLE_DOWN:
+                script = new ArrowScript(button, FUNCTION_TYPE.ARROW_DOWN);
                 break;
             default:
                 break;

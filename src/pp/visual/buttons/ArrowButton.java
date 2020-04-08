@@ -2,6 +2,7 @@ package pp.visual.buttons;
 
 import pp.main.Data;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
+import pp.visual.buttons.scripts.helper.ScriptAssign;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,6 +14,7 @@ public class ArrowButton extends BuseButton {
     public ArrowButton(Data data, int x, int y, ARROW arrow) {
         super(data, x, y, FUNCTION_TYPE.NULL);
         this.type = arrow;
+        this.script = ScriptAssign.assign(this.type, this);
         setImage();
     }
 
@@ -42,6 +44,13 @@ public class ArrowButton extends BuseButton {
         image = new JLabel();
         image.setIcon(new ImageIcon(getClass().getResource(path)));
         this.add(image);
+    }
+
+    @Override
+    void onclick() {
+        super.onclick();
+        if (script != null)
+            script.execute();
     }
 
     public enum ARROW {
