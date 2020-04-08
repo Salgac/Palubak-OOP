@@ -36,4 +36,16 @@ public abstract class BuseScript {
         this.text = text;
         refreshText();
     }
+
+    String fillText(String text) {
+        int length = text.length();
+        char[] string = text.toCharArray();
+        for (int i = 0; i < length; i++) {
+            if (string[i] == ' ')
+                string[i] = '0';
+            else
+                break;
+        }
+        return String.valueOf(string);
+    }
 }

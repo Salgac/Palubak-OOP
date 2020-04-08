@@ -27,6 +27,7 @@ public class LineSetScript extends BuseScript implements StagedScript {
     }
 
     private void secondStage() {
+        this.button.getData().setInputMode(Data.INPUT_MODE.SHOW);
         this.stage = STAGE.SECOND;
         this.text = button.getData().getCurrent().getCourse();
         refreshText();
@@ -53,8 +54,8 @@ public class LineSetScript extends BuseScript implements StagedScript {
             textPrev = text;
             secondStage();
         } else {
-            button.getData().getCurrent().setLine(textPrev);
-            button.getData().getCurrent().setCourse(text);
+            button.getData().getCurrent().setLine(fillText(textPrev));
+            button.getData().getCurrent().setCourse(fillText(text));
             endStage();
         }
     }

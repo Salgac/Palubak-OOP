@@ -26,12 +26,14 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     }
 
     private void secondStage() {
+        this.button.getData().setInputMode(Data.INPUT_MODE.SHOW);
         this.stage = STAGE.SECOND;
         this.text = button.getData().getCurrent().getDriver();
         refreshText();
     }
 
     private void thirdStage() {
+        this.button.getData().setInputMode(Data.INPUT_MODE.SHOW);
         this.stage = STAGE.THIRD;
         refreshText();
     }
@@ -61,11 +63,11 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     void accept() {
         switch (stage) {
             case FIRST:
-                textService = text;
+                textService = fillText(text);
                 secondStage();
                 break;
             case SECOND:
-                textDriver = text;
+                textDriver = fillText(text);
                 thirdStage();
                 break;
             case THIRD:

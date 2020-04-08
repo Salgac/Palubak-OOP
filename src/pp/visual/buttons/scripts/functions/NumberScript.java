@@ -18,6 +18,12 @@ public class NumberScript extends BuseScript {
             if (input == Data.INPUT_MODE.ON || input == Data.INPUT_MODE.SHOW) {
                 if (input == Data.INPUT_MODE.SHOW) {
                     button.getData().setInputMode(Data.INPUT_MODE.ON);
+                    //clear string and make it ready for input
+                    String text = "";
+                    int length = activeScript.getText().length();
+                    for (int i = 0; i < length; i++)
+                        text = text.concat(" ");
+                    activeScript.setText(text);
                 }
                 String text = activeScript.getText();
                 //remove first number, add new on back

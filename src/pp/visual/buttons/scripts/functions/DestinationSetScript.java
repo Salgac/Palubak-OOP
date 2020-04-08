@@ -34,7 +34,7 @@ public class DestinationSetScript extends BuseScript implements StagedScript {
 
     @Override
     void accept() {
-        button.getData().getCurrent().setDestination(text);
+        button.getData().getCurrent().setDestination(fillText(text));
         endStage();
     }
 
