@@ -29,6 +29,8 @@ abstract public class BuseButton extends JButton {
         this.data = data;
         this.script = ScriptAssign.assign(type, this);
 
+        loadResources();
+
         this.addActionListener(actionEvent -> onclick());
     }
 
@@ -54,7 +56,7 @@ abstract public class BuseButton extends JButton {
         }
     }
 
-    private void playSound() {
+    private void loadResources() {
         try {
             Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
             AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(path + "/src/pp/resources/sounds/click.wav"));
@@ -64,6 +66,10 @@ abstract public class BuseButton extends JButton {
             System.out.println("Error loading click sound");
             e.printStackTrace();
         }
+    }
+
+    private void playSound() {
+        click.setFramePosition(0);
         click.start();
     }
 
