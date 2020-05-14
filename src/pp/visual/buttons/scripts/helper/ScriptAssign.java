@@ -25,6 +25,7 @@ public class ScriptAssign {
             case ZONE_SET:
                 break;
             case DIRECTION_SET:
+                script = new DirectionSetScript(button);
                 break;
             case REVISION:
                 break;
