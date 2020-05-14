@@ -1,25 +1,26 @@
 package pp.data;
 
+import pp.lines.Line;
 import pp.main.Data;
 import pp.visual.screen.InfoLine;
-import pp.visual.screen.TextLine;
 
 public class CurrentData {
-    private Data data;
+    private final Data data;
 
     private String driver;
     private String destination;
-    private String line;
+    private Line line;
     private String course;
     private String direction;
     private String zone;
     private String graph;
 
+
     public CurrentData(Data data) {
         this.data = data;
         this.driver = "00000";
         this.destination = "000";
-        this.line = "000";
+        this.line = null;
         this.course = "00";
         this.direction = "00";
         this.zone = "101";
@@ -35,7 +36,7 @@ public class CurrentData {
     }
 
     public String getService() {
-        return (this.line + this.course + this.graph);
+        return (getLine() + getCourse() + getGraph());
     }
 
     public void setService(String service) {
@@ -53,11 +54,34 @@ public class CurrentData {
     }
 
     public String getLine() {
-        return line;
+        if (this.line != null)
+            return line.code;
+        else return "000";
     }
 
     public void setLine(String line) {
-        this.line = line;
+        switch (line) {
+            case "001":
+                this.line = this.data.getLines().get(0);
+                break;
+            case "003":
+                this.line = this.data.getLines().get(1);
+                break;
+            case "004":
+                this.line = this.data.getLines().get(2);
+                break;
+            case "007":
+                this.line = this.data.getLines().get(3);
+                break;
+            case "009":
+                this.line = this.data.getLines().get(4);
+                break;
+            default:
+                //TODO: error handling
+                this.data.getScreen().getTextLines().get(0).setText("Neznáma linka");
+                this.line = null;
+                break;
+        }
         ((InfoLine) this.data.getScreen().getTextLines().get(3)).reset();
     }
 

@@ -1,8 +1,11 @@
 package pp.main;
 
 import pp.data.*;
+import pp.lines.*;
 import pp.visual.buttons.scripts.functions.BuseScript;
 import pp.visual.screen.*;
+
+import java.util.ArrayList;
 
 public class Data {
 
@@ -10,6 +13,7 @@ public class Data {
 
     private CurrentData current;
     private BuseScreen screen;
+    private ArrayList<Line> lines;
 
     public INPUT_MODE getInputMode() {
         return inputMode;
@@ -18,8 +22,16 @@ public class Data {
     private BuseScript activeScript;
 
     public Data() {
+        //generate new current data database
         current = new CurrentData(this);
-        //TODO: make data initialisation
+
+        //load all available lines
+        lines = new ArrayList<>();
+        lines.add(new Line1());
+        lines.add(new Line3());
+        lines.add(new Line4());
+        lines.add(new Line7());
+        lines.add(new Line9());
     }
 
     public BuseScreen getScreen() {
@@ -50,5 +62,9 @@ public class Data {
 
     public void setActiveScript(BuseScript activeScript) {
         this.activeScript = activeScript;
+    }
+
+    public ArrayList<Line> getLines() {
+        return lines;
     }
 }
