@@ -23,6 +23,10 @@ public class BuseScreen extends JPanel {
         for (int i = 0; i < 3; i++)
             //generates 3 functional lines
             this.textLines.add(new TextLine(i));
+        //Current stop line
+        this.textLines.add(new StopLine(1, data));
+        //Destination line
+        this.textLines.add(new DestinationLine(2, data));
         //L and Z line
         this.textLines.add(new InfoLine(3, data));
         //Time

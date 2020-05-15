@@ -3,6 +3,7 @@ package pp.visual.buttons.scripts.functions;
 import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
+import pp.visual.screen.DestinationLine;
 
 public class DestinationSetScript extends BuseScript implements StagedScript {
 
@@ -25,6 +26,9 @@ public class DestinationSetScript extends BuseScript implements StagedScript {
         getTextLine(0).setText("");
         button.getData().setActiveScript(null);
         button.getData().setInputMode(Data.INPUT_MODE.OFF);
+        //update textlines
+        getTextLine(2).setText(button.getData().getCurrent().getDestinationName());
+        ((DestinationLine) getTextLine(4)).reset();
     }
 
     @Override

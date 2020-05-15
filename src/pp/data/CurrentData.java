@@ -1,5 +1,7 @@
 package pp.data;
 
+import pp.data.destinations.DestinationList;
+import pp.data.stoplist.Stop;
 import pp.lines.Line;
 import pp.main.Data;
 import pp.visual.screen.InfoLine;
@@ -15,6 +17,8 @@ public class CurrentData {
     private String zone;
     private String graph;
 
+    private Stop stop;
+
 
     public CurrentData(Data data) {
         this.data = data;
@@ -25,6 +29,8 @@ public class CurrentData {
         this.direction = "00";
         this.zone = "101";
         this.graph = "0";
+
+        this.stop = null;
     }
 
     public String getDriver() {
@@ -47,6 +53,10 @@ public class CurrentData {
 
     public String getDestination() {
         return destination;
+    }
+
+    public String getDestinationName() {
+        return DestinationList.getName(getDestination());
     }
 
     public void setDestination(String destination) {
@@ -82,7 +92,7 @@ public class CurrentData {
                 this.line = null;
                 break;
         }
-        ((InfoLine) this.data.getScreen().getTextLines().get(3)).reset();
+        ((InfoLine) this.data.getScreen().getTextLines().get(5)).reset();
     }
 
     public String getCourse() {
@@ -115,5 +125,16 @@ public class CurrentData {
 
     public void setGraph(String graph) {
         this.graph = graph;
+    }
+
+    public String getStopId() {
+        if (this.stop != null)
+            return stop.getId();
+        else
+            return "0000";
+    }
+
+    public void setStop(Stop stop) {
+        this.stop = stop;
     }
 }
