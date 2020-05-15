@@ -13,6 +13,6 @@ public class InfoLine extends TextLine {
     }
 
     public void reset() {
-        this.setText("L" + this.data.getCurrent().getLine() + "   Z" + this.data.getCurrent().getZone());
+        this.setText("L" + this.data.getCurrent().getLineCode() + "   Z" + this.data.getCurrent().getZone());
     }
 }

@@ -3,7 +3,6 @@ package pp.visual.buttons.scripts.functions;
 import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
-import pp.visual.screen.InfoLine;
 
 public class LineSetScript extends BuseScript implements StagedScript {
 
@@ -22,7 +21,7 @@ public class LineSetScript extends BuseScript implements StagedScript {
 
     private void firstStage() {
         this.stage = STAGE.FIRST;
-        this.text = button.getData().getCurrent().getLine();
+        this.text = button.getData().getCurrent().getLineCode();
         refreshText();
     }
 
@@ -53,8 +52,8 @@ public class LineSetScript extends BuseScript implements StagedScript {
             textPrev = text;
             secondStage();
         } else {
-            button.getData().getCurrent().setLine(fillText(textPrev));
             button.getData().getCurrent().setCourse(fillText(text));
+            button.getData().getCurrent().setLine(fillText(textPrev));
             endStage();
         }
     }

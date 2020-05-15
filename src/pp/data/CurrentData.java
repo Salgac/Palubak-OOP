@@ -42,7 +42,7 @@ public class CurrentData {
     }
 
     public String getService() {
-        return (getLine() + getCourse() + getGraph());
+        return (getLineCode() + getCourse() + getGraph());
     }
 
     public void setService(String service) {
@@ -67,10 +67,8 @@ public class CurrentData {
         ((DestinationLine) data.getScreen().getTextLines().get(4)).reset();
     }
 
-    public String getLine() {
-        if (this.line != null)
-            return line.getCode();
-        else return "000";
+    public Line getLine() {
+        return this.line;
     }
 
     public void setLine(String line) {
@@ -100,13 +98,19 @@ public class CurrentData {
 
         //get first stop and set it as our current stop
         if (this.line != null)
-            setStop(this.line.getStops().get(0));
+            setStop(this.line.getStops(course).get(0));
         //set destination acroding to line
         if (this.line != null)
-            setDestination(this.line.getDestination());
+            setDestination(this.line.getDestination(course));
 
         //update screen
         ((InfoLine) this.data.getScreen().getTextLines().get(5)).reset();
+    }
+
+    public String getLineCode() {
+        if (this.line != null)
+            return line.getCode();
+        else return "000";
     }
 
     public String getCourse() {
@@ -142,7 +146,7 @@ public class CurrentData {
     public String getStopId() {
         if (this.stop != null)
             return stop.getId();
-        return "0000";
+        return "";
     }
 
     public String getStopName() {
@@ -157,5 +161,6 @@ public class CurrentData {
         //TODO: error handling
         data.getScreen().getTextLines().get(1).setText(getStopName());
         ((StopLine) data.getScreen().getTextLines().get(3)).reset();
+        ((InfoLine) this.data.getScreen().getTextLines().get(5)).reset();
     }
 }

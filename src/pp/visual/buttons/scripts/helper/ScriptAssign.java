@@ -34,6 +34,7 @@ public class ScriptAssign {
             case MANUALLY:
                 break;
             case STOP:
+                script = new StopScript(button);
                 break;
             case CANCEL:
                 script = new CancelScript(button);

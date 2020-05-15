@@ -6,8 +6,8 @@ import java.awt.*;
 
 public class StopLine extends TextLine {
 
-    private int pos;
-    private Data data;
+    private final int pos;
+    private final Data data;
 
     public StopLine(int i, Data data) {
         super(i);
@@ -17,7 +17,11 @@ public class StopLine extends TextLine {
     }
 
     public void reset() {
-        this.setText("Z:" + this.data.getCurrent().getStopId());
+        String id = this.data.getCurrent().getStopId();
+        if (!id.equals(""))
+            this.setText("Z:" + id);
+        else
+            this.setText("");
         Dimension size = this.getPreferredSize();
         this.setBounds(550 - size.width, 10 + pos * (size.height + 10), size.width, size.height);
     }
