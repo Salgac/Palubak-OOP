@@ -1,14 +1,14 @@
-package pp.data.stoplist;
+package pp.data.stops;
 
 public class Stop {
     private String name;
     private String id;
     private String zone;
 
-    public Stop(int id) {
-        this.name = StopList.getStopName(id);
-        this.id = "0000";//TODO: redo this
-        this.zone = "100";
+    public Stop(String id) {
+        this.id = id;
+        this.name = StopList.getName(id);
+        this.zone = StopList.getZone(id);
     }
 
     public String getName() {

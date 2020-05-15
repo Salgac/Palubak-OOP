@@ -1,10 +1,12 @@
 package pp.data;
 
 import pp.data.destinations.DestinationList;
-import pp.data.stoplist.Stop;
+import pp.data.stops.Stop;
 import pp.lines.Line;
 import pp.main.Data;
+import pp.visual.screen.DestinationLine;
 import pp.visual.screen.InfoLine;
+import pp.visual.screen.StopLine;
 
 public class CurrentData {
     private final Data data;
@@ -14,7 +16,6 @@ public class CurrentData {
     private Line line;
     private String course;
     private String direction;
-    private String zone;
     private String graph;
 
     private Stop stop;
@@ -27,7 +28,6 @@ public class CurrentData {
         this.line = null;
         this.course = "00";
         this.direction = "00";
-        this.zone = "101";
         this.graph = "0";
 
         this.stop = null;
@@ -61,15 +61,20 @@ public class CurrentData {
 
     public void setDestination(String destination) {
         this.destination = destination;
+        //update textlines
+        //TODO: error handling
+        data.getScreen().getTextLines().get(2).setText(getDestinationName());
+        ((DestinationLine) data.getScreen().getTextLines().get(4)).reset();
     }
 
     public String getLine() {
         if (this.line != null)
-            return line.code;
+            return line.getCode();
         else return "000";
     }
 
     public void setLine(String line) {
+        //set line according to entry
         switch (line) {
             case "001":
                 this.line = this.data.getLines().get(0);
@@ -92,6 +97,15 @@ public class CurrentData {
                 this.line = null;
                 break;
         }
+
+        //get first stop and set it as our current stop
+        if (this.line != null)
+            setStop(this.line.getStops().get(0));
+        //set destination acroding to line
+        if (this.line != null)
+            setDestination(this.line.getDestination());
+
+        //update screen
         ((InfoLine) this.data.getScreen().getTextLines().get(5)).reset();
     }
 
@@ -112,11 +126,9 @@ public class CurrentData {
     }
 
     public String getZone() {
-        return zone;
-    }
-
-    public void setZone(String zone) {
-        this.zone = zone;
+        if (this.stop != null)
+            return this.stop.getZone();
+        return "000";
     }
 
     public String getGraph() {
@@ -130,11 +142,20 @@ public class CurrentData {
     public String getStopId() {
         if (this.stop != null)
             return stop.getId();
-        else
-            return "0000";
+        return "0000";
+    }
+
+    public String getStopName() {
+        if (this.stop != null)
+            return stop.getName();
+        return "";
     }
 
     public void setStop(Stop stop) {
         this.stop = stop;
+        //update textlines
+        //TODO: error handling
+        data.getScreen().getTextLines().get(1).setText(getStopName());
+        ((StopLine) data.getScreen().getTextLines().get(3)).reset();
     }
 }
