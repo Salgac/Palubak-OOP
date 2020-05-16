@@ -91,8 +91,10 @@ public class CurrentData {
                 break;
             default:
                 //TODO: error handling
-                this.data.getScreen().getTextLines().get(0).setText("Neznáma linka");
                 this.line = null;
+                this.setDestination("000");
+                this.setCourse("00");
+                this.setStop(null);
                 break;
         }
 

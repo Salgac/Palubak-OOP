@@ -5,6 +5,7 @@ import pp.lines.Line;
 import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
+import pp.visual.screen.DestinationLine;
 
 public class StopScript extends BuseScript implements StagedScript {
 
@@ -25,7 +26,10 @@ public class StopScript extends BuseScript implements StagedScript {
         this.stage = STAGE.FIRST;
         this.course = button.getData().getCurrent().getCourse();
         this.text = button.getData().getCurrent().getStopId();
-        refreshText();
+        if (text.equals(""))
+            endStage();
+        else
+            refreshText();
     }
 
     private void secondStage() {
@@ -83,8 +87,11 @@ public class StopScript extends BuseScript implements StagedScript {
                 }
                 break;
             case THIRD:
-                getTextLine(1).setText("");
                 button.getData().getCurrent().setStop(null);
+                button.getData().getCurrent().setDestination("000");
+                getTextLine(1).setText("");
+                getTextLine(2).setText("");
+                ((DestinationLine) getTextLine(4)).reset();
                 endStage();
         }
     }
