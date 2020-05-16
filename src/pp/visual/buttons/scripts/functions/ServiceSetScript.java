@@ -4,8 +4,18 @@ import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
+/**
+ * Class for service setting script
+ *
+ * @author Dominik Šalgovič
+ */
 public class ServiceSetScript extends BuseScript implements StagedScript {
 
+    /**
+     * Default constructor
+     *
+     * @param button button that the script operates with
+     */
     public ServiceSetScript(BuseButton button) {
         super(button, FUNCTION_TYPE.LINE_SET);
     }

@@ -1,5 +1,10 @@
 package pp.visual.buttons.scripts.helper;
 
+/**
+ * Enum holding information about function types
+ *
+ * @author Dominik Šalgovič
+ */
 public enum FUNCTION_TYPE {
     ACCIDENT,
     LINE_SET,

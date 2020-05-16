@@ -3,12 +3,26 @@ package pp.visual.auxiliary;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Class generating JPanel rectangle with rounded corners
+ *
+ * @author Dominik Šalgovič
+ */
 public class RoundedRectangle extends JPanel {
 
     Color lncolor, bgcolor;
     int stroke;
     boolean transparentbg;
 
+    /**
+     * Default constructor constructing the rectangle
+     *
+     * @param x       x coordinate
+     * @param y       y coordinate
+     * @param width   width of rectangle
+     * @param height  height of rectangle
+     * @param lncolor color of rectangles line stroke
+     */
     public RoundedRectangle(int x, int y, int width, int height, String lncolor) {
         this.setBounds(x, y, width, height);
         this.setOpaque(false);
@@ -17,17 +31,43 @@ public class RoundedRectangle extends JPanel {
         this.transparentbg = true;
     }
 
+    /**
+     * Constructor setting the rectangles stroke
+     *
+     * @param x       x coordinate
+     * @param y       y coordinate
+     * @param width   width of rectangle
+     * @param height  height of rectangle
+     * @param lncolor color of rectangles line stroke
+     * @param stroke  stroke weight
+     */
     public RoundedRectangle(int x, int y, int width, int height, String lncolor, int stroke) {
         this(x, y, width, height, lncolor);
         this.stroke = stroke;
     }
 
+    /**
+     * Constructor taking in account color of background as well
+     *
+     * @param x       x coordinate
+     * @param y       y coordinate
+     * @param width   width of rectangle
+     * @param height  height of rectangle
+     * @param bgcolor color of rectangles background
+     * @param lncolor color of rectangles line stroke
+     * @param stroke  stroke weight
+     */
     public RoundedRectangle(int x, int y, int width, int height, String bgcolor, String lncolor, int stroke) {
         this(x, y, width, height, lncolor, stroke);
         this.transparentbg = false;
         this.bgcolor = Color.decode(bgcolor);
     }
 
+    /**
+     * Method overriding the default paintComponent method, generating rounded edges
+     *
+     * @param g graphics
+     */
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);

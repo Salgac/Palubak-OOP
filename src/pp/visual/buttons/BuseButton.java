@@ -10,14 +10,26 @@ import java.awt.*;
 import java.io.File;
 import java.nio.file.*;
 
+/**
+ * Class styling the basic JButton to fit buse window
+ *
+ * @author Dominik Šalgovič
+ */
 abstract public class BuseButton extends JButton {
 
     private Clip click;
     private JLabel label;
-    private Data data;
+    private final Data data;
     protected BuseScript script;
-    private String text = "";
 
+    /**
+     * Default button constructor that loads and setups the button
+     *
+     * @param data data object
+     * @param x    x coordinate
+     * @param y    y coordinate
+     * @param type type of button function
+     */
     public BuseButton(Data data, int x, int y, FUNCTION_TYPE type) {
         this.setBounds(x, y, 100, 100);
         this.setLayout(new BorderLayout());
@@ -34,12 +46,25 @@ abstract public class BuseButton extends JButton {
         this.addActionListener(actionEvent -> onclick());
     }
 
+    /**
+     * Constructor that sets the text of button
+     *
+     * @param data data object
+     * @param x    x coordinate
+     * @param y    y coordinate
+     * @param text text of button
+     * @param type type of button function
+     */
     public BuseButton(Data data, int x, int y, String text, FUNCTION_TYPE type) {
         this(data, x, y, type);
-        this.text = text;
         drawText(text);
     }
 
+    /**
+     * Method to draw text on button
+     *
+     * @param text text to be drawn
+     */
     private void drawText(String text) {
         this.setMargin(new Insets(5, 5, 5, 5));
         label = new JLabel("<html>" + text.replaceAll(" ", "<br>") + "</html>");
@@ -49,6 +74,9 @@ abstract public class BuseButton extends JButton {
         this.add(label, BorderLayout.NORTH);
     }
 
+    /**
+     * function to be executed on action event
+     */
     void onclick() {
         playSound();
         if (script != null && data.getInputMode() == Data.INPUT_MODE.OFF) {
@@ -56,6 +84,9 @@ abstract public class BuseButton extends JButton {
         }
     }
 
+    /**
+     * Auxiliary method for loading sound resources
+     */
     private void loadResources() {
         try {
             Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
@@ -68,11 +99,19 @@ abstract public class BuseButton extends JButton {
         }
     }
 
+    /**
+     * Method that plays sound effect
+     */
     private void playSound() {
         click.setFramePosition(0);
         click.start();
     }
 
+    /**
+     * Getter for data
+     *
+     * @return data object
+     */
     public Data getData() {
         return data;
     }

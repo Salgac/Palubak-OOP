@@ -7,11 +7,20 @@ import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 import pp.visual.screen.DestinationLine;
 
+/**
+ * Class for stop script, that handles stop confirmations
+ *
+ * @author Dominik Šalgovič
+ */
 public class StopScript extends BuseScript implements StagedScript {
 
     private STAGE stage;
-    private String course;
 
+    /**
+     * Default constructor
+     *
+     * @param button button that the script operates with
+     */
     public StopScript(BuseButton button) {
         super(button, FUNCTION_TYPE.LINE_SET);
     }
@@ -24,7 +33,6 @@ public class StopScript extends BuseScript implements StagedScript {
 
     private void firstStage() {
         this.stage = STAGE.FIRST;
-        this.course = button.getData().getCurrent().getCourse();
         this.text = button.getData().getCurrent().getStopId();
         if (text.equals(""))
             endStage();

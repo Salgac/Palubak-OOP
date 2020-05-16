@@ -3,7 +3,17 @@ package pp.visual.frame;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Class for default application window
+ *
+ * @author Dominik Šalgovič
+ */
 public class BuseFrame extends JFrame {
+    /**
+     * Default constructor initialising default settings
+     *
+     * @param text window title
+     */
     public BuseFrame(String text) {
         super(text);
         this.setLayout(null);

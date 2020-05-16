@@ -3,10 +3,19 @@ package pp.visual.buttons.scripts.functions;
 import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
-import pp.visual.screen.DestinationLine;
 
+/**
+ * Class for destination setting script
+ *
+ * @author Dominik Šalgovič
+ */
 public class DestinationSetScript extends BuseScript implements StagedScript {
 
+    /**
+     * Defaul constructor
+     *
+     * @param button button that the script operates with
+     */
     public DestinationSetScript(BuseButton button) {
         super(button, FUNCTION_TYPE.DESTINATION_SET);
     }

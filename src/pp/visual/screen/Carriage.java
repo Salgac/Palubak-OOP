@@ -6,12 +6,23 @@ import java.util.Timer;
 import java.awt.*;
 import java.util.TimerTask;
 
+/**
+ * Class containing the logic behind carriage
+ *
+ * @author Dominik Šalgovič
+ */
 public class Carriage extends TextLine {
 
-    private BuseScreen screen;
-    private Timer timer;
+    private final BuseScreen screen;
+    private final Timer timer;
     private boolean blick;
 
+    /**
+     * Default constructor
+     *
+     * @param i      line position of carriage
+     * @param screen screen that the object is part of
+     */
     public Carriage(int i, BuseScreen screen) {
         super(i);
         this.screen = screen;
@@ -25,6 +36,9 @@ public class Carriage extends TextLine {
         }, 0, 750);
     }
 
+    /**
+     * Checking method for blicking
+     */
     private void check() {
         if (screen.getData().getInputMode() == Data.INPUT_MODE.ON) {
             if (this.blick) {
@@ -41,6 +55,11 @@ public class Carriage extends TextLine {
 
     }
 
+    /**
+     * Method to set stylized text
+     *
+     * @param text String of new text
+     */
     @Override
     public void setText(String text) {
         super.setText(text);

@@ -4,11 +4,21 @@ import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
+/**
+ * Class for line setting script
+ *
+ * @author Dominik Šalgovič
+ */
 public class LineSetScript extends BuseScript implements StagedScript {
 
     private STAGE stage;
     private String textPrev;
 
+    /**
+     * default constructor
+     *
+     * @param button button that the script operates with
+     */
     public LineSetScript(BuseButton button) {
         super(button, FUNCTION_TYPE.LINE_SET);
     }

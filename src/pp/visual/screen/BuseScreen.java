@@ -5,11 +5,23 @@ import pp.main.Data;
 import javax.swing.*;
 import java.util.ArrayList;
 
+/**
+ * Class representing main display screen
+ *
+ * @author Dominik Šalgovič
+ */
 public class BuseScreen extends JPanel {
 
     private ArrayList<JLabel> textLines;
     private Data data;
 
+    /**
+     * Default constructor
+     *
+     * @param x    x coordinate
+     * @param y    y coordinate
+     * @param data database object
+     */
     public BuseScreen(int x, int y, Data data) {
         this.setBounds(x, y, 560, 200);
         this.setLayout(null);
@@ -18,6 +30,9 @@ public class BuseScreen extends JPanel {
         generateTextLines();
     }
 
+    /**
+     * Method generating the text lines in display
+     */
     private void generateTextLines() {
         this.textLines = new ArrayList<>();
         for (int i = 0; i < 3; i++)
@@ -37,10 +52,20 @@ public class BuseScreen extends JPanel {
         for (JLabel textLine : textLines) this.add(textLine);
     }
 
+    /**
+     * Getter method for data
+     *
+     * @return data object
+     */
     public Data getData() {
         return data;
     }
 
+    /**
+     * Getter method for text lines
+     *
+     * @return Array list of text lines
+     */
     public ArrayList<JLabel> getTextLines() {
         return textLines;
     }

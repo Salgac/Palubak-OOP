@@ -2,7 +2,15 @@ package pp.lines;
 
 import pp.data.stops.Stop;
 
+/**
+ * Class representing line 1 of Bratislava tram lines
+ *
+ * @author Dominik Šalgovič
+ */
 public class Line1 extends Line {
+    /**
+     * Default constructor initialising stops and destinations for tram line 1
+     */
     public Line1() {
         super();
         this.code = "001";

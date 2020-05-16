@@ -4,8 +4,18 @@ import pp.main.Data;
 import pp.visual.buttons.NumericButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
+/**
+ * Class for number entering script
+ *
+ * @author Dominik Šalgovič
+ */
 public class NumberScript extends BuseScript {
 
+    /**
+     * Deault constructor
+     *
+     * @param button button that the script operates with
+     */
     public NumberScript(NumericButton button) {
         super(button, FUNCTION_TYPE.NULL);
     }

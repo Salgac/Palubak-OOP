@@ -4,11 +4,25 @@ import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
+/**
+ * Class for arrow script
+ *
+ * @author Dominik Šalgovič
+ */
 public class ArrowScript extends BuseScript {
+    /**
+     * Default constructor
+     *
+     * @param button button that the script belongs to
+     * @param type   type of arrow script
+     */
     public ArrowScript(BuseButton button, FUNCTION_TYPE type) {
         super(button, type);
     }
 
+    /**
+     * Execution override
+     */
     @Override
     public void execute() {
         BuseScript activeScript = button.getData().getActiveScript();
@@ -28,6 +42,11 @@ public class ArrowScript extends BuseScript {
         }
     }
 
+    /**
+     * Method to manipulate the number on textline input
+     *
+     * @param n number from text line
+     */
     private void change(int n) {
         //manipulation number
         StringBuilder string = new StringBuilder(button.getData().getActiveScript().getText());
@@ -48,7 +67,6 @@ public class ArrowScript extends BuseScript {
 
     @Override
     public void refreshText() {
-
     }
 
     @Override

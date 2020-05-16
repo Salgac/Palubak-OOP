@@ -3,18 +3,32 @@ package pp.visual.auxiliary;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Class containing logos and other text represented on main app window
+ *
+ * @author Dominik Šalgovič
+ */
 public class BuseLogo extends JLabel {
 
     private TYPE type;
     private Dimension size;
     private int x, y;
 
+    /**
+     * Default constructor
+     *
+     * @param text String to write out in logo
+     * @param type type of logo stylising
+     */
     public BuseLogo(String text, TYPE type) {
         super(text);
         this.type = type;
         generateText();
     }
 
+    /**
+     * Auxiliary method that sets style of text
+     */
     private void generateText() {
         switch (this.type) {
             case BUSE:
@@ -35,6 +49,9 @@ public class BuseLogo extends JLabel {
         this.setBounds(x, y, size.width + 10, size.height);
     }
 
+    /**
+     * Enum holding the info of logo type
+     */
     public enum TYPE {
         BUSE,
         BS100

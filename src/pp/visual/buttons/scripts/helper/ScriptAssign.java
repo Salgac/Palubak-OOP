@@ -5,7 +5,19 @@ import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.functions.BuseScript;
 import pp.visual.buttons.scripts.functions.*;
 
+/**
+ * helper script that assigns scripts to buttons baed on their function type
+ *
+ * @author Dominik Šalgovič
+ */
 public class ScriptAssign {
+    /**
+     * Method that assigns scripts
+     *
+     * @param type   function type of button
+     * @param button button object
+     * @return script object
+     */
     public static BuseScript assign(FUNCTION_TYPE type, BuseButton button) {
         BuseScript script = null;
         switch (type) {
@@ -50,6 +62,13 @@ public class ScriptAssign {
         return script;
     }
 
+    /**
+     * Method that assigns scripts for arrow buttons
+     *
+     * @param type   type of arrow
+     * @param button button object
+     * @return script object for arrows
+     */
     public static BuseScript assign(ArrowButton.ARROW type, BuseButton button) {
         BuseScript script = null;
         switch (type) {

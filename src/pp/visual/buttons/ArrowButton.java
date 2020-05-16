@@ -7,10 +7,23 @@ import pp.visual.buttons.scripts.helper.ScriptAssign;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Button class for arrow buttons
+ *
+ * @author Dominik Šalgovič
+ */
 public class ArrowButton extends BuseButton {
-    private ARROW type;
+    private final ARROW type;
     private JLabel image;
 
+    /**
+     * Default constructor
+     *
+     * @param data  data object
+     * @param x     x coordinate
+     * @param y     y coordinate
+     * @param arrow arrow type
+     */
     public ArrowButton(Data data, int x, int y, ARROW arrow) {
         super(data, x, y, FUNCTION_TYPE.NULL);
         this.type = arrow;
@@ -18,6 +31,9 @@ public class ArrowButton extends BuseButton {
         setImage();
     }
 
+    /**
+     * Method for setting the image of arrows
+     */
     private void setImage() {
         String path;
         switch (this.type) {
@@ -46,6 +62,9 @@ public class ArrowButton extends BuseButton {
         this.add(image);
     }
 
+    /**
+     * onclick override for arrow buttons
+     */
     @Override
     void onclick() {
         super.onclick();
@@ -53,6 +72,9 @@ public class ArrowButton extends BuseButton {
             script.execute();
     }
 
+    /**
+     * Enum to hold arrow types
+     */
     public enum ARROW {
         LEFT,
         UP,

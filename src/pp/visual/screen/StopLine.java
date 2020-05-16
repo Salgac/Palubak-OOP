@@ -4,11 +4,22 @@ import pp.main.Data;
 
 import java.awt.*;
 
+/**
+ * Class representing line displaying current stop code
+ *
+ * @author Dominik Šalgovič
+ */
 public class StopLine extends TextLine {
 
     private final int pos;
     private final Data data;
 
+    /**
+     * Default constructor
+     *
+     * @param i    position of line
+     * @param data data object
+     */
     public StopLine(int i, Data data) {
         super(i);
         this.pos = i;
@@ -16,6 +27,9 @@ public class StopLine extends TextLine {
         reset();
     }
 
+    /**
+     * reset method to get new data from database
+     */
     public void reset() {
         String id = this.data.getCurrent().getStopId();
         if (!id.equals(""))

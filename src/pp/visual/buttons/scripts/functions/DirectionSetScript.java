@@ -4,11 +4,21 @@ import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
+/**
+ * Class for direction setting script
+ *
+ * @author Dominik Šalgovič
+ */
 public class DirectionSetScript extends BuseScript implements StagedScript {
 
     private STAGE stage;
     private String textDirection;
 
+    /**
+     * Default constructor
+     *
+     * @param button button that the script operates with
+     */
     public DirectionSetScript(BuseButton button) {
         super(button, FUNCTION_TYPE.DESTINATION_SET);
     }
