@@ -17,8 +17,8 @@ import pp.visual.screen.*;
 class Panel {
     private JFrame frame;
     private JPanel display;
-    private ArrayList<BuseButton> buttons = new ArrayList<>();
-    private Data data;
+    private final ArrayList<BuseButton> buttons = new ArrayList<>();
+    private final Data data;
 
     /**
      * Default constructor generating all the required resources for proper generation of main screen
@@ -51,12 +51,15 @@ class Panel {
      * Method generating additional textures into main frame
      */
     private void generateTextures() {
+        //texture outlines
         frame.add(new RoundedRectangle(50, 50, 680, 315, "#F1F1F1"));
         frame.add(new RoundedRectangle(750, 30, 120, 250, "#E16472", 8));
 
+        //logos
         frame.add(new BuseLogo("BUSE", BuseLogo.TYPE.BUSE));
         frame.add(new BuseLogo("BS 100", BuseLogo.TYPE.BS100));
 
+        //key image
         frame.add(new BuseKey());
     }
 
@@ -73,6 +76,7 @@ class Panel {
      * Method generating all buttons with their appropriate scripts
      */
     private void generateButtons() {
+        //buttons from upper left
         buttons.add(new BasicButton(data, 760, 40, "NEHODA", ACCIDENT));
         buttons.add(new NumericButton(data, 890, 40, "LINKA PORADIE", "1", LINE_SET));
         buttons.add(new NumericButton(data, 1020, 40, "CIEĽ", "2", DESTINATION_SET));

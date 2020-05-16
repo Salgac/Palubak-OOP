@@ -23,6 +23,7 @@ public class AcceptScript extends BuseScript {
      */
     @Override
     public void execute() {
+        //get active script and run its accept() method
         BuseScript activeScript = button.getData().getActiveScript();
         if (activeScript != null)
             activeScript.accept();

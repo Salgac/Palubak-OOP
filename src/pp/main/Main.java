@@ -6,8 +6,8 @@ package pp.main;
  * @author Dominik Šalgovič
  */
 public class Main {
-    private Data data;
-    private Panel mainWindow;
+    private final Data data;
+    private final Panel mainWindow;
 
     /**
      * Default constructor generating database and new aplication window.

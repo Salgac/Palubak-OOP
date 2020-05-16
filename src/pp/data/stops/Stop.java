@@ -6,9 +6,9 @@ package pp.data.stops;
  * @author Dominik Šalgovič
  */
 public class Stop {
-    private String name;
-    private String id;
-    private String zone;
+    private final String name;
+    private final String id;
+    private final String zone;
 
     /**
      * Basic constructor generating stop based on its id code.

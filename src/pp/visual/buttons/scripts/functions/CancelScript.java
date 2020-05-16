@@ -23,6 +23,7 @@ public class CancelScript extends BuseScript {
      */
     @Override
     public void execute() {
+        //launch cancel() methor of the active script
         BuseScript activeScript = button.getData().getActiveScript();
         if (activeScript != null)
             activeScript.cancel();

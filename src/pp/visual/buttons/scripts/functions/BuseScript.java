@@ -86,6 +86,7 @@ public abstract class BuseScript {
         int length = text.length();
         char[] string = text.toCharArray();
         for (int i = 0; i < length; i++) {
+            //change every blank into 0
             if (string[i] == ' ')
                 string[i] = '0';
             else

@@ -42,9 +42,11 @@ public class Carriage extends TextLine {
     private void check() {
         if (screen.getData().getInputMode() == Data.INPUT_MODE.ON) {
             if (this.blick) {
+                //full character
                 this.setText("ô");
                 this.blick = false;
             } else {
+                //blank
                 this.setText("");
                 this.blick = true;
             }
