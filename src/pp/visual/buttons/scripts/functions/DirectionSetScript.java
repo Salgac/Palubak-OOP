@@ -95,11 +95,13 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
         switch (stage) {
             case FIRST:
                 endStage();
+                break;
             case SECOND:
                 //set previous line
                 button.getData().getCurrent().setLine(prevLine.getCode(), prevDirection);
                 button.getData().getCurrent().setStop(prevStop);
                 endStage();
+                break;
         }
     }
 }

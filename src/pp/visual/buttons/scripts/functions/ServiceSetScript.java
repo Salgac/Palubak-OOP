@@ -23,6 +23,8 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     private STAGE stage;
     private String textService, textDriver;
 
+    private String prevService;
+
     @Override
     public void execute() {
         button.getData().setActiveScript(this);
@@ -31,7 +33,8 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
 
     private void firstStage() {
         this.stage = STAGE.FIRST;
-        this.text = button.getData().getCurrent().getService();
+        prevService = button.getData().getCurrent().getService();
+        this.text = prevService;
         refreshText();
     }
 
@@ -45,6 +48,8 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     private void thirdStage() {
         this.button.getData().setInputMode(Data.INPUT_MODE.SHOW);
         this.stage = STAGE.THIRD;
+        //set the line for check
+        button.getData().getCurrent().setService(textService);
         refreshText();
     }
 
@@ -81,7 +86,6 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
                 thirdStage();
                 break;
             case THIRD:
-                button.getData().getCurrent().setService(textService);
                 button.getData().getCurrent().setDriver(textDriver);
                 endStage();
                 break;
@@ -90,6 +94,14 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
 
     @Override
     void cancel() {
-        endStage();
+        switch (stage) {
+            case FIRST:
+            case SECOND:
+                endStage();
+                break;
+            case THIRD:
+                button.getData().getCurrent().setService(prevService);
+                endStage();
+        }
     }
 }
