@@ -7,6 +7,10 @@ import pp.main.Data;
 import pp.visual.screen.DestinationLine;
 import pp.visual.screen.InfoLine;
 import pp.visual.screen.StopLine;
+import pp.visual.screen.TextLine;
+
+import javax.swing.*;
+import java.util.ArrayList;
 
 /**
  * Main database class holding all of the working data
@@ -280,9 +284,16 @@ public class CurrentData {
     public void setStop(Stop stop) {
         this.stop = stop;
         //update textlines
-        //TODO: error handling
         data.getScreen().getTextLines().get(1).setText(getStopName());
-        ((StopLine) data.getScreen().getTextLines().get(3)).reset();
-        ((InfoLine) this.data.getScreen().getTextLines().get(5)).reset();
+        //update display
+        ArrayList<JLabel> tmp = data.getScreen().getTextLines();
+        for (JLabel jLabel : tmp) {
+            if (jLabel instanceof StopLine) {
+                ((StopLine) jLabel).reset();
+            }
+            if (jLabel instanceof InfoLine) {
+                ((InfoLine) jLabel).reset();
+            }
+        }
     }
 }
