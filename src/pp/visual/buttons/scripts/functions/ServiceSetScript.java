@@ -24,6 +24,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
     private String textService, textDriver;
 
     private String prevService;
+    private boolean saved = false;
 
     @Override
     public void execute() {
@@ -57,6 +58,10 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
         getTextLine(0).setText("");
         button.getData().setActiveScript(null);
         button.getData().setInputMode(Data.INPUT_MODE.OFF);
+        //test for line
+        if (saved && button.getData().getCurrent().getLine() == null) {
+            button.getData().getScreen().getTextLines().get(0).setText("Neznáma linka");
+        }
     }
 
     @Override
@@ -76,6 +81,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
 
     @Override
     void accept() {
+        saved = true;
         switch (stage) {
             case FIRST:
                 textService = fillText(text);
@@ -94,6 +100,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
 
     @Override
     void cancel() {
+        saved = false;
         switch (stage) {
             case FIRST:
             case SECOND:

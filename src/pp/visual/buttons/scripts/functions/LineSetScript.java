@@ -4,6 +4,8 @@ import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
 
+import javax.swing.*;
+
 /**
  * Class for line setting script
  *
@@ -13,6 +15,8 @@ public class LineSetScript extends BuseScript implements StagedScript {
 
     private STAGE stage;
     private String textPrev;
+
+    private boolean saved = false;
 
     /**
      * default constructor
@@ -46,6 +50,10 @@ public class LineSetScript extends BuseScript implements StagedScript {
         getTextLine(0).setText("");
         button.getData().setActiveScript(null);
         button.getData().setInputMode(Data.INPUT_MODE.OFF);
+        //test for line
+        if (saved && button.getData().getCurrent().getLine() == null) {
+            button.getData().getScreen().getTextLines().get(0).setText("Neznáma linka");
+        }
     }
 
     @Override
@@ -62,6 +70,7 @@ public class LineSetScript extends BuseScript implements StagedScript {
             textPrev = text;
             secondStage();
         } else {
+            saved = true;
             button.getData().getCurrent().setCourse(fillText(text));
             button.getData().getCurrent().setLine(fillText(textPrev), "00");
             endStage();
@@ -70,6 +79,7 @@ public class LineSetScript extends BuseScript implements StagedScript {
 
     @Override
     void cancel() {
+        saved = false;
         endStage();
     }
 }
