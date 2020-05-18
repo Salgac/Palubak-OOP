@@ -1,5 +1,7 @@
 package pp.visual.buttons.scripts.functions;
 
+import pp.data.stops.Stop;
+import pp.lines.Line;
 import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
@@ -13,6 +15,10 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
 
     private STAGE stage;
     private String textDirection;
+
+    private Line prevLine;
+    private String prevDirection;
+    private Stop prevStop;
 
     /**
      * Default constructor
@@ -31,8 +37,15 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
 
     private void firstStage() {
         this.stage = STAGE.FIRST;
-        this.text = button.getData().getCurrent().getDirection();
-        refreshText();
+        prevLine = button.getData().getCurrent().getLine();
+        if (prevLine == null)
+            endStage();
+        else {
+            this.prevStop = button.getData().getCurrent().getStop();
+            this.prevDirection = button.getData().getCurrent().getDirection();
+            this.text = prevDirection;
+            refreshText();
+        }
     }
 
     private void secondStage() {
@@ -43,7 +56,6 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
 
     private void endStage() {
         getTextLine(0).setText("");
-        getTextLine(1).setText("");
         button.getData().setActiveScript(null);
         button.getData().setInputMode(Data.INPUT_MODE.OFF);
     }
@@ -56,8 +68,8 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
                 break;
             case SECOND:
                 getTextLine(0).setText("Smer OK?");
-                //TODO: print the destination stop on line 2
-                getTextLine(1).setText("placeholder");
+                //set direction in line
+                button.getData().getCurrent().setLine(prevLine.getCode(), this.textDirection);
                 break;
         }
 
@@ -80,6 +92,14 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
 
     @Override
     void cancel() {
-        endStage();
+        switch (stage) {
+            case FIRST:
+                endStage();
+            case SECOND:
+                //set previous line
+                button.getData().getCurrent().setLine(prevLine.getCode(), prevDirection);
+                button.getData().getCurrent().setStop(prevStop);
+                endStage();
+        }
     }
 }

@@ -75,7 +75,7 @@ public class CurrentData {
      * @param service new service id code
      */
     public void setService(String service) {
-        setLine(service.substring(0, 3));
+        setLine(service.substring(0, 3), "00");
         setCourse(service.substring(3, 5));
         setGraph(service.substring(5));
     }
@@ -125,7 +125,7 @@ public class CurrentData {
      *
      * @param line new line id code
      */
-    public void setLine(String line) {
+    public void setLine(String line, String direction) {
         //set line according to entry
         switch (line) {
             case "001":
@@ -152,12 +152,14 @@ public class CurrentData {
                 break;
         }
 
+        //set direction
+        setDirection(direction);
         //get first stop and set it as our current stop
         if (this.line != null)
-            setStop(this.line.getStops(course).get(0));
-        //set destination acroding to line
+            setStop(this.line.getStops(direction).get(0));
+        //set destination according to line
         if (this.line != null)
-            setDestination(this.line.getDestination(course));
+            setDestination(this.line.getDestination(direction));
 
         //update screen
         ((InfoLine) this.data.getScreen().getTextLines().get(5)).reset();
@@ -237,6 +239,15 @@ public class CurrentData {
      */
     public void setGraph(String graph) {
         this.graph = graph;
+    }
+
+    /**
+     * Getter method for stop
+     *
+     * @return instance of stop
+     */
+    public Stop getStop() {
+        return stop;
     }
 
     /**

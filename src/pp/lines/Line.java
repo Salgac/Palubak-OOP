@@ -67,10 +67,10 @@ public class Line {
      */
     public Stop getNext(String id, Data data) {
         ArrayList<Stop> list;
-        String course = data.getCurrent().getCourse();
+        String direction = data.getCurrent().getDirection();
 
         //decide on list
-        if (bound(course))
+        if (bound(direction))
             list = stops1;
         else
             list = stops2;
@@ -81,9 +81,9 @@ public class Line {
                 if (i != list.size() - 1)
                     return list.get(i + 1);
                 else {
-                    if (bound(course)) {
-                        //change course
-                        int num = Integer.parseInt(course);
+                    if (bound(direction)) {
+                        //change direction
+                        int num = Integer.parseInt(direction);
                         String tmp;
                         num++;
                         if (num < 10)
@@ -91,7 +91,7 @@ public class Line {
                         else
                             tmp = String.valueOf(num);
                         //write new data
-                        data.getCurrent().setCourse(tmp);
+                        data.getCurrent().setDirection(tmp);
                         data.getCurrent().setDestination(destination2);
                         return stops2.get(0);
                     } else

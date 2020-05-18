@@ -63,7 +63,7 @@ public class LineSetScript extends BuseScript implements StagedScript {
             secondStage();
         } else {
             button.getData().getCurrent().setCourse(fillText(text));
-            button.getData().getCurrent().setLine(fillText(textPrev));
+            button.getData().getCurrent().setLine(fillText(textPrev), "00");
             endStage();
         }
     }
