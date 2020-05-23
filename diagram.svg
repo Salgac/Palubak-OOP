@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+     contentScriptType="application/ecmascript" contentStyleType="text/css" height="1433px" preserveAspectRatio="none"
+     style="width:4632px;height:1433px;" version="1.1" viewBox="0 0 4632 1433" width="4632px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1a58u4bahdjam" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs"
+              text-decoration="underline" textLength="226" x="2197" y="16.708">PALUBAK's Class Diagram
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="0"
+              x="2313" y="37.6611"/><!--MD5=[7986124b9abaf9951e4d8ec65e3caf17]
+cluster pp.data-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="697,760.9063,762,760.9063,769,783.2031,1109,783.2031,1109,897.9063,697,897.9063,697,760.9063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="697" x2="769" y1="783.2031" y2="783.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="59" x="701" y="775.9014">pp.data
+        </text><!--MD5=[d36fa5aa06fc7b586a253eac2c3b8ead]
+cluster pp.data.destinations-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="959,787.9063,1062,787.9063,1069,810.2031,1101,810.2031,1101,889.9063,959,889.9063,959,787.9063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="959" x2="1069" y1="810.2031" y2="810.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="97" x="963" y="802.9014">destinations
+        </text><!--MD5=[0da6db796ea0fb3c39cf869aa080792c]
+cluster pp.data.stops-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="842,787.9063,892,787.9063,899,810.2031,940,810.2031,940,889.9063,842,889.9063,842,787.9063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="842" x2="899" y1="810.2031" y2="810.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="44" x="846" y="802.9014">stops
+        </text><!--MD5=[dec76bf227c40ddab449a724e79fa265]
+cluster pp.lines-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="14,787.9063,82,787.9063,89,810.2031,496,810.2031,496,1357.9063,14,1357.9063,14,787.9063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="89" y1="810.2031" y2="810.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="62" x="18" y="802.9014">pp.lines
+        </text><!--MD5=[f8be81db842d168544a0c95b92a8a5d1]
+cluster pp.main-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="504,58.4063,572,58.4063,579,80.7031,689,80.7031,689,1014.9063,504,1014.9063,504,58.4063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="504" x2="579" y1="80.7031" y2="80.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="62" x="508" y="73.4014">pp.main
+        </text><!--MD5=[6499bb3320f5fea158a4a00858aa964d]
+cluster pp.visual.auxiliary-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="1748,191.4063,1894,191.4063,1901,213.7031,2163,213.7031,2163,562.4063,1748,562.4063,1748,191.4063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="1748" x2="1901" y1="213.7031" y2="213.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="140" x="1752" y="206.4014">pp.visual.auxiliary
+        </text><!--MD5=[d63871f6e42dbad7089c41bb2e5e02d6]
+cluster pp.visual.buttons-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="2171,433.4063,2313,433.4063,2320,455.7031,2879,455.7031,2879,1139.9063,2171,1139.9063,2171,433.4063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="2171" x2="2320" y1="455.7031" y2="455.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="136" x="2175" y="448.4014">pp.visual.buttons
+        </text><!--MD5=[37de9e95bee6632e3189f0113e738598]
+cluster scripts.helper-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="2725,460.4063,2841,460.4063,2848,482.7031,2871,482.7031,2871,562.4063,2725,562.4063,2725,460.4063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="2725" x2="2848" y1="482.7031" y2="482.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="110" x="2729" y="475.4014">scripts.helper
+        </text><!--MD5=[cff8aeeb376539323d16135a35aefecd]
+cluster pp.visual.buttons.scripts.functions-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="3185,611.9063,3465,611.9063,3472,634.2031,4576,634.2031,4576,1248.9063,3185,1248.9063,3185,611.9063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="3185" x2="3472" y1="634.2031" y2="634.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="274" x="3189" y="626.9014">pp.visual.buttons.scripts.functions
+        </text><!--MD5=[45c574d6083c95aea45cfedd0d36d260]
+cluster pp.visual.buttons.scripts.helper-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="2887,787.9063,3144,787.9063,3151,810.2031,3177,810.2031,3177,889.9063,2887,889.9063,2887,787.9063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="2887" x2="3151" y1="810.2031" y2="810.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="251" x="2891" y="802.9014">pp.visual.buttons.scripts.helper
+        </text><!--MD5=[b1693ab77e7f6fc5d9a60450f43fc12e]
+cluster pp.visual.frame-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="2176,191.4063,2303,191.4063,2310,213.7031,2313,213.7031,2313,293.4063,2176,293.4063,2176,191.4063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="2176" x2="2310" y1="213.7031" y2="213.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="121" x="2180" y="206.4014">pp.visual.frame
+        </text><!--MD5=[f9f8af815c4d4eb111c54610640fd33f]
+cluster pp.visual.screen-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="1117,191.4063,1253,191.4063,1260,213.7031,1740,213.7031,1740,889.9063,1117,889.9063,1117,191.4063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="1117" x2="1260" y1="213.7031" y2="213.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="130" x="1121" y="206.4014">pp.visual.screen
+        </text><!--MD5=[535aab4de90d4dfa371a9b40d5438fc3]
+cluster javax.swing-->
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="1884,58.4063,1982,58.4063,1989,80.7031,2295,80.7031,2295,160.4063,1884,160.4063,1884,58.4063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="1884" x2="1989" y1="80.7031" y2="80.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="92" x="1888" y="73.4014">javax.swing
+        </text><!--MD5=[197c786ab1c8cd239d7bbecda3781aae]
+class pp.data.CurrentData-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.data.CurrentData"
+              style="stroke: #A80036; stroke-width: 1.5;" width="109" x="705.5" y="833.9063"/>
+        <ellipse cx="720.5" cy="849.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M723.4688,855.5469 Q722.8906,855.8438 722.25,855.9922 Q721.6094,856.1406 720.9063,856.1406 Q718.4063,856.1406 717.0859,854.4922 Q715.7656,852.8438 715.7656,849.7188 Q715.7656,846.5938 717.0859,844.9375 Q718.4063,843.2813 720.9063,843.2813 Q721.6094,843.2813 722.2578,843.4375 Q722.9063,843.5938 723.4688,843.8906 L723.4688,846.6094 Q722.8438,846.0313 722.25,845.7578 Q721.6563,845.4844 721.0313,845.4844 Q719.6875,845.4844 719,846.5547 Q718.3125,847.625 718.3125,849.7188 Q718.3125,851.8125 719,852.8828 Q719.6875,853.9531 721.0313,853.9531 Q721.6563,853.9531 722.25,853.6797 Q722.8438,853.4063 723.4688,852.8281 L723.4688,855.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77"
+              x="734.5" y="854.0605">CurrentData
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="706.5" x2="813.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="706.5" x2="813.5" y1="873.9063" y2="873.9063"/><!--MD5=[f4ec0e081500ad23721e7c1414b2df94]
+class pp.data.destinations.DestinationList-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.data.destinations.DestinationList"
+              style="stroke: #A80036; stroke-width: 1.5;" width="125" x="967.5" y="833.9063"/>
+        <ellipse cx="982.5" cy="849.9063" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M982.6094,845.25 L981.4531,850.3281 L983.7813,850.3281 L982.6094,845.25 Z M981.125,843.0156 L984.1094,843.0156 L987.4688,855.4063 L985.0156,855.4063 L984.25,852.3438 L980.9688,852.3438 L980.2188,855.4063 L977.7813,855.4063 L981.125,843.0156 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs"
+              textLength="93" x="996.5" y="854.0605">DestinationList
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="968.5" x2="1091.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="968.5" x2="1091.5" y1="873.9063" y2="873.9063"/><!--MD5=[c56a5ff12526e956c9389b48fe1f4de0]
+class pp.data.stops.StopList-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.data.stops.StopList"
+              style="stroke: #A80036; stroke-width: 1.5;" width="82" x="850" y="833.9063"/>
+        <ellipse cx="865" cy="849.9063" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M865.1094,845.25 L863.9531,850.3281 L866.2813,850.3281 L865.1094,845.25 Z M863.625,843.0156 L866.6094,843.0156 L869.9688,855.4063 L867.5156,855.4063 L866.75,852.3438 L863.4688,852.3438 L862.7188,855.4063 L860.2813,855.4063 L863.625,843.0156 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs"
+              textLength="50" x="879" y="854.0605">StopList
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="851" x2="931" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="851" x2="931" y1="873.9063" y2="873.9063"/><!--MD5=[78442bac0e2180b84a5496bd6c9f7c17]
+class pp.lines.Line-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.lines.Line"
+              style="stroke: #A80036; stroke-width: 1.5;" width="57" x="326.5" y="833.9063"/>
+        <ellipse cx="341.5" cy="849.9063" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M337.4219,845.6719 L337.4219,843.5156 L344.8125,843.5156 L344.8125,845.6719 L342.3438,845.6719 L342.3438,853.75 L344.8125,853.75 L344.8125,855.9063 L337.4219,855.9063 L337.4219,853.75 L339.8906,853.75 L339.8906,845.6719 L337.4219,845.6719 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs"
+              textLength="25" x="355.5" y="854.0605">Line
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="327.5" x2="382.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="327.5" x2="382.5" y1="873.9063" y2="873.9063"/><!--MD5=[d1af05ede7f89821e5dc5c140426abe3]
+class pp.lines.Line1-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.lines.Line1"
+              style="stroke: #A80036; stroke-width: 1.5;" width="65" x="222.5" y="1301.9063"/>
+        <ellipse cx="237.5" cy="1317.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M240.4688,1323.5469 Q239.8906,1323.8438 239.25,1323.9922 Q238.6094,1324.1406 237.9063,1324.1406 Q235.4063,1324.1406 234.0859,1322.4922 Q232.7656,1320.8438 232.7656,1317.7188 Q232.7656,1314.5938 234.0859,1312.9375 Q235.4063,1311.2813 237.9063,1311.2813 Q238.6094,1311.2813 239.2578,1311.4375 Q239.9063,1311.5938 240.4688,1311.8906 L240.4688,1314.6094 Q239.8438,1314.0313 239.25,1313.7578 Q238.6563,1313.4844 238.0313,1313.4844 Q236.6875,1313.4844 236,1314.5547 Q235.3125,1315.625 235.3125,1317.7188 Q235.3125,1319.8125 236,1320.8828 Q236.6875,1321.9531 238.0313,1321.9531 Q238.6563,1321.9531 239.25,1321.6797 Q239.8438,1321.4063 240.4688,1320.8281 L240.4688,1323.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33"
+              x="251.5" y="1322.0605">Line1
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="223.5" x2="286.5" y1="1333.9063" y2="1333.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="223.5" x2="286.5" y1="1341.9063" y2="1341.9063"/><!--MD5=[b70ef4447631261c869cabeab13a10fe]
+class pp.lines.Line3-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.lines.Line3"
+              style="stroke: #A80036; stroke-width: 1.5;" width="65" x="322.5" y="1301.9063"/>
+        <ellipse cx="337.5" cy="1317.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M340.4688,1323.5469 Q339.8906,1323.8438 339.25,1323.9922 Q338.6094,1324.1406 337.9063,1324.1406 Q335.4063,1324.1406 334.0859,1322.4922 Q332.7656,1320.8438 332.7656,1317.7188 Q332.7656,1314.5938 334.0859,1312.9375 Q335.4063,1311.2813 337.9063,1311.2813 Q338.6094,1311.2813 339.2578,1311.4375 Q339.9063,1311.5938 340.4688,1311.8906 L340.4688,1314.6094 Q339.8438,1314.0313 339.25,1313.7578 Q338.6563,1313.4844 338.0313,1313.4844 Q336.6875,1313.4844 336,1314.5547 Q335.3125,1315.625 335.3125,1317.7188 Q335.3125,1319.8125 336,1320.8828 Q336.6875,1321.9531 338.0313,1321.9531 Q338.6563,1321.9531 339.25,1321.6797 Q339.8438,1321.4063 340.4688,1320.8281 L340.4688,1323.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33"
+              x="351.5" y="1322.0605">Line3
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="323.5" x2="386.5" y1="1333.9063" y2="1333.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="323.5" x2="386.5" y1="1341.9063" y2="1341.9063"/><!--MD5=[2dd23a6b3da0a425d1586b5e9eaceb84]
+class pp.lines.Line4-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.lines.Line4"
+              style="stroke: #A80036; stroke-width: 1.5;" width="65" x="422.5" y="1301.9063"/>
+        <ellipse cx="437.5" cy="1317.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M440.4688,1323.5469 Q439.8906,1323.8438 439.25,1323.9922 Q438.6094,1324.1406 437.9063,1324.1406 Q435.4063,1324.1406 434.0859,1322.4922 Q432.7656,1320.8438 432.7656,1317.7188 Q432.7656,1314.5938 434.0859,1312.9375 Q435.4063,1311.2813 437.9063,1311.2813 Q438.6094,1311.2813 439.2578,1311.4375 Q439.9063,1311.5938 440.4688,1311.8906 L440.4688,1314.6094 Q439.8438,1314.0313 439.25,1313.7578 Q438.6563,1313.4844 438.0313,1313.4844 Q436.6875,1313.4844 436,1314.5547 Q435.3125,1315.625 435.3125,1317.7188 Q435.3125,1319.8125 436,1320.8828 Q436.6875,1321.9531 438.0313,1321.9531 Q438.6563,1321.9531 439.25,1321.6797 Q439.8438,1321.4063 440.4688,1320.8281 L440.4688,1323.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33"
+              x="451.5" y="1322.0605">Line4
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="423.5" x2="486.5" y1="1333.9063" y2="1333.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="423.5" x2="486.5" y1="1341.9063" y2="1341.9063"/><!--MD5=[2dfa300ff37887570a08f507513a9e6b]
+class pp.lines.Line7-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.lines.Line7"
+              style="stroke: #A80036; stroke-width: 1.5;" width="65" x="22.5" y="1301.9063"/>
+        <ellipse cx="37.5" cy="1317.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M40.4688,1323.5469 Q39.8906,1323.8438 39.25,1323.9922 Q38.6094,1324.1406 37.9063,1324.1406 Q35.4063,1324.1406 34.0859,1322.4922 Q32.7656,1320.8438 32.7656,1317.7188 Q32.7656,1314.5938 34.0859,1312.9375 Q35.4063,1311.2813 37.9063,1311.2813 Q38.6094,1311.2813 39.2578,1311.4375 Q39.9063,1311.5938 40.4688,1311.8906 L40.4688,1314.6094 Q39.8438,1314.0313 39.25,1313.7578 Q38.6563,1313.4844 38.0313,1313.4844 Q36.6875,1313.4844 36,1314.5547 Q35.3125,1315.625 35.3125,1317.7188 Q35.3125,1319.8125 36,1320.8828 Q36.6875,1321.9531 38.0313,1321.9531 Q38.6563,1321.9531 39.25,1321.6797 Q39.8438,1321.4063 40.4688,1320.8281 L40.4688,1323.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33"
+              x="51.5" y="1322.0605">Line7
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="23.5" x2="86.5" y1="1333.9063" y2="1333.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="23.5" x2="86.5" y1="1341.9063" y2="1341.9063"/><!--MD5=[c6df32015055180e67a3430516442e1e]
+class pp.lines.Line9-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.lines.Line9"
+              style="stroke: #A80036; stroke-width: 1.5;" width="65" x="122.5" y="1301.9063"/>
+        <ellipse cx="137.5" cy="1317.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M140.4688,1323.5469 Q139.8906,1323.8438 139.25,1323.9922 Q138.6094,1324.1406 137.9063,1324.1406 Q135.4063,1324.1406 134.0859,1322.4922 Q132.7656,1320.8438 132.7656,1317.7188 Q132.7656,1314.5938 134.0859,1312.9375 Q135.4063,1311.2813 137.9063,1311.2813 Q138.6094,1311.2813 139.2578,1311.4375 Q139.9063,1311.5938 140.4688,1311.8906 L140.4688,1314.6094 Q139.8438,1314.0313 139.25,1313.7578 Q138.6563,1313.4844 138.0313,1313.4844 Q136.6875,1313.4844 136,1314.5547 Q135.3125,1315.625 135.3125,1317.7188 Q135.3125,1319.8125 136,1320.8828 Q136.6875,1321.9531 138.0313,1321.9531 Q138.6563,1321.9531 139.25,1321.6797 Q139.8438,1321.4063 140.4688,1320.8281 L140.4688,1323.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33"
+              x="151.5" y="1322.0605">Line9
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="123.5" x2="186.5" y1="1333.9063" y2="1333.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="123.5" x2="186.5" y1="1341.9063" y2="1341.9063"/><!--MD5=[010b4f0a0fd7af926d1d6fb065a53a34]
+class pp.lines.TramLine-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.lines.TramLine"
+              style="stroke: #A80036; stroke-width: 1.5;" width="88" x="311" y="1083.9063"/>
+        <ellipse cx="326" cy="1099.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M328.9688,1105.5469 Q328.3906,1105.8438 327.75,1105.9922 Q327.1094,1106.1406 326.4063,1106.1406 Q323.9063,1106.1406 322.5859,1104.4922 Q321.2656,1102.8438 321.2656,1099.7188 Q321.2656,1096.5938 322.5859,1094.9375 Q323.9063,1093.2813 326.4063,1093.2813 Q327.1094,1093.2813 327.7578,1093.4375 Q328.4063,1093.5938 328.9688,1093.8906 L328.9688,1096.6094 Q328.3438,1096.0313 327.75,1095.7578 Q327.1563,1095.4844 326.5313,1095.4844 Q325.1875,1095.4844 324.5,1096.5547 Q323.8125,1097.625 323.8125,1099.7188 Q323.8125,1101.8125 324.5,1102.8828 Q325.1875,1103.9531 326.5313,1103.9531 Q327.1563,1103.9531 327.75,1103.6797 Q328.3438,1103.4063 328.9688,1102.8281 L328.9688,1105.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56"
+              x="340" y="1104.0605">TramLine
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="312" x2="398" y1="1115.9063" y2="1115.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="312" x2="398" y1="1123.9063" y2="1123.9063"/><!--MD5=[4c21cafb43fa90c7532324a8b7742960]
+class pp.main.Data-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.main.Data"
+              style="stroke: #A80036; stroke-width: 1.5;" width="62" x="619" y="657.9063"/>
+        <ellipse cx="634" cy="673.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M636.9688,679.5469 Q636.3906,679.8438 635.75,679.9922 Q635.1094,680.1406 634.4063,680.1406 Q631.9063,680.1406 630.5859,678.4922 Q629.2656,676.8438 629.2656,673.7188 Q629.2656,670.5938 630.5859,668.9375 Q631.9063,667.2813 634.4063,667.2813 Q635.1094,667.2813 635.7578,667.4375 Q636.4063,667.5938 636.9688,667.8906 L636.9688,670.6094 Q636.3438,670.0313 635.75,669.7578 Q635.1563,669.4844 634.5313,669.4844 Q633.1875,669.4844 632.5,670.5547 Q631.8125,671.625 631.8125,673.7188 Q631.8125,675.8125 632.5,676.8828 Q633.1875,677.9531 634.5313,677.9531 Q635.1563,677.9531 635.75,677.6797 Q636.3438,677.4063 636.9688,676.8281 L636.9688,679.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="30"
+              x="648" y="678.0605">Data
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="620" x2="680" y1="689.9063" y2="689.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="620" x2="680" y1="697.9063" y2="697.9063"/><!--MD5=[0a0dcb12403df7fddbb038413c400420]
+class pp.main.Main-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.main.Main"
+              style="stroke: #A80036; stroke-width: 1.5;" width="61" x="541.5" y="104.4063"/>
+        <ellipse cx="556.5" cy="120.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M559.4688,126.0469 Q558.8906,126.3438 558.25,126.4922 Q557.6094,126.6406 556.9063,126.6406 Q554.4063,126.6406 553.0859,124.9922 Q551.7656,123.3438 551.7656,120.2188 Q551.7656,117.0938 553.0859,115.4375 Q554.4063,113.7813 556.9063,113.7813 Q557.6094,113.7813 558.2578,113.9375 Q558.9063,114.0938 559.4688,114.3906 L559.4688,117.1094 Q558.8438,116.5313 558.25,116.2578 Q557.6563,115.9844 557.0313,115.9844 Q555.6875,115.9844 555,117.0547 Q554.3125,118.125 554.3125,120.2188 Q554.3125,122.3125 555,123.3828 Q555.6875,124.4531 557.0313,124.4531 Q557.6563,124.4531 558.25,124.1797 Q558.8438,123.9063 559.4688,123.3281 L559.4688,126.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="570.5" y="124.5605">Main
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="542.5" x2="601.5" y1="136.4063" y2="136.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="542.5" x2="601.5" y1="144.4063" y2="144.4063"/><!--MD5=[7f4e0fb7aa4ab31df003901349da9100]
+class pp.main.Panel-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.main.Panel"
+              style="stroke: #A80036; stroke-width: 1.5;" width="67" x="613.5" y="346.4063"/>
+        <ellipse cx="628.5" cy="362.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M631.4688,368.0469 Q630.8906,368.3438 630.25,368.4922 Q629.6094,368.6406 628.9063,368.6406 Q626.4063,368.6406 625.0859,366.9922 Q623.7656,365.3438 623.7656,362.2188 Q623.7656,359.0938 625.0859,357.4375 Q626.4063,355.7813 628.9063,355.7813 Q629.6094,355.7813 630.2578,355.9375 Q630.9063,356.0938 631.4688,356.3906 L631.4688,359.1094 Q630.8438,358.5313 630.25,358.2578 Q629.6563,357.9844 629.0313,357.9844 Q627.6875,357.9844 627,359.0547 Q626.3125,360.125 626.3125,362.2188 Q626.3125,364.3125 627,365.3828 Q627.6875,366.4531 629.0313,366.4531 Q629.6563,366.4531 630.25,366.1797 Q630.8438,365.9063 631.4688,365.3281 L631.4688,368.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35"
+              x="642.5" y="366.5605">Panel
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="614.5" x2="679.5" y1="378.4063" y2="378.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="614.5" x2="679.5" y1="386.4063" y2="386.4063"/><!--MD5=[b38416fbe413fe3ac58f7eec26dd990c]
+class pp.main.Data.INPUT_MODE-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.main.Data.INPUT_MODE"
+              style="stroke: #A80036; stroke-width: 1.5;" width="144" x="529" y="958.9063"/>
+        <ellipse cx="544" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M546.9688,980.5469 Q546.3906,980.8438 545.75,980.9922 Q545.1094,981.1406 544.4063,981.1406 Q541.9063,981.1406 540.5859,979.4922 Q539.2656,977.8438 539.2656,974.7188 Q539.2656,971.5938 540.5859,969.9375 Q541.9063,968.2813 544.4063,968.2813 Q545.1094,968.2813 545.7578,968.4375 Q546.4063,968.5938 546.9688,968.8906 L546.9688,971.6094 Q546.3438,971.0313 545.75,970.7578 Q545.1563,970.4844 544.5313,970.4844 Q543.1875,970.4844 542.5,971.5547 Q541.8125,972.625 541.8125,974.7188 Q541.8125,976.8125 542.5,977.8828 Q543.1875,978.9531 544.5313,978.9531 Q545.1563,978.9531 545.75,978.6797 Q546.3438,978.4063 546.9688,977.8281 L546.9688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112"
+              x="558" y="979.0605">Data.INPUT_MODE
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="530" x2="672" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="530" x2="672" y1="998.9063" y2="998.9063"/><!--MD5=[3b00bad58ea9b4df028eded287658d0b]
+class pp.visual.auxiliary.BuseKey-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.auxiliary.BuseKey"
+              style="stroke: #A80036; stroke-width: 1.5;" width="84" x="1884" y="237.4063"/>
+        <ellipse cx="1899" cy="253.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1901.9688,259.0469 Q1901.3906,259.3438 1900.75,259.4922 Q1900.1094,259.6406 1899.4063,259.6406 Q1896.9063,259.6406 1895.5859,257.9922 Q1894.2656,256.3438 1894.2656,253.2188 Q1894.2656,250.0938 1895.5859,248.4375 Q1896.9063,246.7813 1899.4063,246.7813 Q1900.1094,246.7813 1900.7578,246.9375 Q1901.4063,247.0938 1901.9688,247.3906 L1901.9688,250.1094 Q1901.3438,249.5313 1900.75,249.2578 Q1900.1563,248.9844 1899.5313,248.9844 Q1898.1875,248.9844 1897.5,250.0547 Q1896.8125,251.125 1896.8125,253.2188 Q1896.8125,255.3125 1897.5,256.3828 Q1898.1875,257.4531 1899.5313,257.4531 Q1900.1563,257.4531 1900.75,257.1797 Q1901.3438,256.9063 1901.9688,256.3281 L1901.9688,259.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52"
+              x="1913" y="257.5605">BuseKey
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1885" x2="1967" y1="269.4063" y2="269.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1885" x2="1967" y1="277.4063" y2="277.4063"/><!--MD5=[228fa4c5da51a33b4d054f8e120a7fef]
+class pp.visual.auxiliary.BuseLogo-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.auxiliary.BuseLogo"
+              style="stroke: #A80036; stroke-width: 1.5;" width="93" x="1755.5" y="237.4063"/>
+        <ellipse cx="1770.5" cy="253.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1773.4688,259.0469 Q1772.8906,259.3438 1772.25,259.4922 Q1771.6094,259.6406 1770.9063,259.6406 Q1768.4063,259.6406 1767.0859,257.9922 Q1765.7656,256.3438 1765.7656,253.2188 Q1765.7656,250.0938 1767.0859,248.4375 Q1768.4063,246.7813 1770.9063,246.7813 Q1771.6094,246.7813 1772.2578,246.9375 Q1772.9063,247.0938 1773.4688,247.3906 L1773.4688,250.1094 Q1772.8438,249.5313 1772.25,249.2578 Q1771.6563,248.9844 1771.0313,248.9844 Q1769.6875,248.9844 1769,250.0547 Q1768.3125,251.125 1768.3125,253.2188 Q1768.3125,255.3125 1769,256.3828 Q1769.6875,257.4531 1771.0313,257.4531 Q1771.6563,257.4531 1772.25,257.1797 Q1772.8438,256.9063 1773.4688,256.3281 L1773.4688,259.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="61"
+              x="1784.5" y="257.5605">BuseLogo
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1756.5" x2="1847.5" y1="269.4063" y2="269.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1756.5" x2="1847.5" y1="277.4063" y2="277.4063"/><!--MD5=[0708129c546363c25dfde9190c6deac7]
+class pp.visual.auxiliary.RoundedRectangle-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.auxiliary.RoundedRectangle"
+              style="stroke: #A80036; stroke-width: 1.5;" width="151" x="2003.5" y="237.4063"/>
+        <ellipse cx="2018.5" cy="253.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2021.4688,259.0469 Q2020.8906,259.3438 2020.25,259.4922 Q2019.6094,259.6406 2018.9063,259.6406 Q2016.4063,259.6406 2015.0859,257.9922 Q2013.7656,256.3438 2013.7656,253.2188 Q2013.7656,250.0938 2015.0859,248.4375 Q2016.4063,246.7813 2018.9063,246.7813 Q2019.6094,246.7813 2020.2578,246.9375 Q2020.9063,247.0938 2021.4688,247.3906 L2021.4688,250.1094 Q2020.8438,249.5313 2020.25,249.2578 Q2019.6563,248.9844 2019.0313,248.9844 Q2017.6875,248.9844 2017,250.0547 Q2016.3125,251.125 2016.3125,253.2188 Q2016.3125,255.3125 2017,256.3828 Q2017.6875,257.4531 2019.0313,257.4531 Q2019.6563,257.4531 2020.25,257.1797 Q2020.8438,256.9063 2021.4688,256.3281 L2021.4688,259.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="119"
+              x="2032.5" y="257.5605">RoundedRectangle
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2004.5" x2="2153.5" y1="269.4063" y2="269.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2004.5" x2="2153.5" y1="277.4063" y2="277.4063"/><!--MD5=[2aae416c2703a0e6e2e4d5c29719030b]
+class pp.visual.auxiliary.BuseLogo.TYPE-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.auxiliary.BuseLogo.TYPE"
+              style="stroke: #A80036; stroke-width: 1.5;" width="127" x="1767.5" y="506.4063"/>
+        <ellipse cx="1782.5" cy="522.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1785.4688,528.0469 Q1784.8906,528.3438 1784.25,528.4922 Q1783.6094,528.6406 1782.9063,528.6406 Q1780.4063,528.6406 1779.0859,526.9922 Q1777.7656,525.3438 1777.7656,522.2188 Q1777.7656,519.0938 1779.0859,517.4375 Q1780.4063,515.7813 1782.9063,515.7813 Q1783.6094,515.7813 1784.2578,515.9375 Q1784.9063,516.0938 1785.4688,516.3906 L1785.4688,519.1094 Q1784.8438,518.5313 1784.25,518.2578 Q1783.6563,517.9844 1783.0313,517.9844 Q1781.6875,517.9844 1781,519.0547 Q1780.3125,520.125 1780.3125,522.2188 Q1780.3125,524.3125 1781,525.3828 Q1781.6875,526.4531 1783.0313,526.4531 Q1783.6563,526.4531 1784.25,526.1797 Q1784.8438,525.9063 1785.4688,525.3281 L1785.4688,528.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95"
+              x="1796.5" y="526.5605">BuseLogo.TYPE
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1768.5" x2="1893.5" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1768.5" x2="1893.5" y1="546.4063" y2="546.4063"/><!--MD5=[483b3546d207c7aa0950893a607e2523]
+class pp.visual.buttons.ArrowButton-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.buttons.ArrowButton"
+              style="stroke: #A80036; stroke-width: 1.5;" width="109" x="2444.5" y="833.9063"/>
+        <ellipse cx="2459.5" cy="849.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2462.4688,855.5469 Q2461.8906,855.8438 2461.25,855.9922 Q2460.6094,856.1406 2459.9063,856.1406 Q2457.4063,856.1406 2456.0859,854.4922 Q2454.7656,852.8438 2454.7656,849.7188 Q2454.7656,846.5938 2456.0859,844.9375 Q2457.4063,843.2813 2459.9063,843.2813 Q2460.6094,843.2813 2461.2578,843.4375 Q2461.9063,843.5938 2462.4688,843.8906 L2462.4688,846.6094 Q2461.8438,846.0313 2461.25,845.7578 Q2460.6563,845.4844 2460.0313,845.4844 Q2458.6875,845.4844 2458,846.5547 Q2457.3125,847.625 2457.3125,849.7188 Q2457.3125,851.8125 2458,852.8828 Q2458.6875,853.9531 2460.0313,853.9531 Q2460.6563,853.9531 2461.25,853.6797 Q2461.8438,853.4063 2462.4688,852.8281 L2462.4688,855.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77"
+              x="2473.5" y="854.0605">ArrowButton
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2445.5" x2="2552.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2445.5" x2="2552.5" y1="873.9063" y2="873.9063"/><!--MD5=[f9d778065c102338dc76b4207318551a]
+class pp.visual.buttons.BasicButton-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.buttons.BasicButton"
+              style="stroke: #A80036; stroke-width: 1.5;" width="107" x="2748.5" y="833.9063"/>
+        <ellipse cx="2763.5" cy="849.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2766.4688,855.5469 Q2765.8906,855.8438 2765.25,855.9922 Q2764.6094,856.1406 2763.9063,856.1406 Q2761.4063,856.1406 2760.0859,854.4922 Q2758.7656,852.8438 2758.7656,849.7188 Q2758.7656,846.5938 2760.0859,844.9375 Q2761.4063,843.2813 2763.9063,843.2813 Q2764.6094,843.2813 2765.2578,843.4375 Q2765.9063,843.5938 2766.4688,843.8906 L2766.4688,846.6094 Q2765.8438,846.0313 2765.25,845.7578 Q2764.6563,845.4844 2764.0313,845.4844 Q2762.6875,845.4844 2762,846.5547 Q2761.3125,847.625 2761.3125,849.7188 Q2761.3125,851.8125 2762,852.8828 Q2762.6875,853.9531 2764.0313,853.9531 Q2764.6563,853.9531 2765.25,853.6797 Q2765.8438,853.4063 2766.4688,852.8281 L2766.4688,855.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75"
+              x="2777.5" y="854.0605">BasicButton
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2749.5" x2="2854.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2749.5" x2="2854.5" y1="873.9063" y2="873.9063"/><!--MD5=[9000bf6b9e354d64d30df2132042d75e]
+class pp.visual.buttons.BuseButton-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.buttons.BuseButton"
+              style="stroke: #A80036; stroke-width: 1.5;" width="105" x="2593.5" y="506.4063"/>
+        <ellipse cx="2608.5" cy="522.4063" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2608.6094,517.75 L2607.4531,522.8281 L2609.7813,522.8281 L2608.6094,517.75 Z M2607.125,515.5156 L2610.1094,515.5156 L2613.4688,527.9063 L2611.0156,527.9063 L2610.25,524.8438 L2606.9688,524.8438 L2606.2188,527.9063 L2603.7813,527.9063 L2607.125,515.5156 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs"
+              textLength="73" x="2622.5" y="526.5605">BuseButton
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2594.5" x2="2697.5" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2594.5" x2="2697.5" y1="546.4063" y2="546.4063"/><!--MD5=[59e1081db6fbc814df323f8dc4ce9f08]
+class pp.visual.buttons.NoAudioLoadedException-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.buttons.NoAudioLoadedException"
+              style="stroke: #A80036; stroke-width: 1.5;" width="191" x="2367.5" y="506.4063"/>
+        <ellipse cx="2382.5" cy="522.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2385.4688,528.0469 Q2384.8906,528.3438 2384.25,528.4922 Q2383.6094,528.6406 2382.9063,528.6406 Q2380.4063,528.6406 2379.0859,526.9922 Q2377.7656,525.3438 2377.7656,522.2188 Q2377.7656,519.0938 2379.0859,517.4375 Q2380.4063,515.7813 2382.9063,515.7813 Q2383.6094,515.7813 2384.2578,515.9375 Q2384.9063,516.0938 2385.4688,516.3906 L2385.4688,519.1094 Q2384.8438,518.5313 2384.25,518.2578 Q2383.6563,517.9844 2383.0313,517.9844 Q2381.6875,517.9844 2381,519.0547 Q2380.3125,520.125 2380.3125,522.2188 Q2380.3125,524.3125 2381,525.3828 Q2381.6875,526.4531 2383.0313,526.4531 Q2383.6563,526.4531 2384.25,526.1797 Q2384.8438,525.9063 2385.4688,525.3281 L2385.4688,528.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="159"
+              x="2396.5" y="526.5605">NoAudioLoadedException
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2368.5" x2="2557.5" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2368.5" x2="2557.5" y1="546.4063" y2="546.4063"/><!--MD5=[77f6c4d67d66da49be504b47585cc611]
+class pp.visual.buttons.NumericButton-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.buttons.NumericButton"
+              style="stroke: #A80036; stroke-width: 1.5;" width="125" x="2588.5" y="833.9063"/>
+        <ellipse cx="2603.5" cy="849.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2606.4688,855.5469 Q2605.8906,855.8438 2605.25,855.9922 Q2604.6094,856.1406 2603.9063,856.1406 Q2601.4063,856.1406 2600.0859,854.4922 Q2598.7656,852.8438 2598.7656,849.7188 Q2598.7656,846.5938 2600.0859,844.9375 Q2601.4063,843.2813 2603.9063,843.2813 Q2604.6094,843.2813 2605.2578,843.4375 Q2605.9063,843.5938 2606.4688,843.8906 L2606.4688,846.6094 Q2605.8438,846.0313 2605.25,845.7578 Q2604.6563,845.4844 2604.0313,845.4844 Q2602.6875,845.4844 2602,846.5547 Q2601.3125,847.625 2601.3125,849.7188 Q2601.3125,851.8125 2602,852.8828 Q2602.6875,853.9531 2604.0313,853.9531 Q2604.6563,853.9531 2605.25,853.6797 Q2605.8438,853.4063 2606.4688,852.8281 L2606.4688,855.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="93"
+              x="2617.5" y="854.0605">NumericButton
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2589.5" x2="2712.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2589.5" x2="2712.5" y1="873.9063" y2="873.9063"/><!--MD5=[d21be6832c19569c1b172009c6eef9fa]
+class pp.visual.buttons.ArrowButton.ARROW-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.buttons.ArrowButton.ARROW"
+              style="stroke: #A80036; stroke-width: 1.5;" width="157" x="2420.5" y="1083.9063"/>
+        <ellipse cx="2435.5" cy="1099.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2438.4688,1105.5469 Q2437.8906,1105.8438 2437.25,1105.9922 Q2436.6094,1106.1406 2435.9063,1106.1406 Q2433.4063,1106.1406 2432.0859,1104.4922 Q2430.7656,1102.8438 2430.7656,1099.7188 Q2430.7656,1096.5938 2432.0859,1094.9375 Q2433.4063,1093.2813 2435.9063,1093.2813 Q2436.6094,1093.2813 2437.2578,1093.4375 Q2437.9063,1093.5938 2438.4688,1093.8906 L2438.4688,1096.6094 Q2437.8438,1096.0313 2437.25,1095.7578 Q2436.6563,1095.4844 2436.0313,1095.4844 Q2434.6875,1095.4844 2434,1096.5547 Q2433.3125,1097.625 2433.3125,1099.7188 Q2433.3125,1101.8125 2434,1102.8828 Q2434.6875,1103.9531 2436.0313,1103.9531 Q2436.6563,1103.9531 2437.25,1103.6797 Q2437.8438,1103.4063 2438.4688,1102.8281 L2438.4688,1105.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="125"
+              x="2449.5" y="1104.0605">ArrowButton.ARROW
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2421.5" x2="2576.5" y1="1115.9063" y2="1115.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2421.5" x2="2576.5" y1="1123.9063" y2="1123.9063"/>
+        <polygon fill="#FFFFFF" filter="url(#f1a58u4bahdjam)"
+                 points="2179.5,503.9063,2318.5,503.9063,2325.5,526.2031,2332.5,526.2031,2332.5,556.5,2179.5,556.5,2179.5,503.9063"
+                 style="stroke: #000000; stroke-width: 1.5;"/>
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="2179.5" x2="2325.5" y1="526.2031" y2="526.2031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs"
+              textLength="133" x="2183.5" y="518.9014">scripts.functions
+        </text><!--MD5=[450ce76dc6688a435e479c1a51fbc5a4]
+class scripts.helper.FUNCTION_TYPE-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="scripts.helper.FUNCTION_TYPE"
+              style="stroke: #A80036; stroke-width: 1.5;" width="129" x="2733.5" y="506.4063"/>
+        <ellipse cx="2748.5" cy="522.4063" fill="#EB937F" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2752.6094,528.4063 L2744.8906,528.4063 L2744.8906,516.0156 L2752.6094,516.0156 L2752.6094,518.1719 L2747.3438,518.1719 L2747.3438,520.8438 L2752.1094,520.8438 L2752.1094,523 L2747.3438,523 L2747.3438,526.25 L2752.6094,526.25 L2752.6094,528.4063 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="97"
+              x="2762.5" y="526.5605">FUNCTION_TYPE
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2734.5" x2="2861.5" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2734.5" x2="2861.5" y1="546.4063" y2="546.4063"/><!--MD5=[3691f2867149164cda9edd0c093fedf1]
+class pp.visual.buttons.scripts.functions.AcceptScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.AcceptScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="111" x="4173.5" y="958.9063"/>
+        <ellipse cx="4188.5" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M4191.4688,980.5469 Q4190.8906,980.8438 4190.25,980.9922 Q4189.6094,981.1406 4188.9063,981.1406 Q4186.4063,981.1406 4185.0859,979.4922 Q4183.7656,977.8438 4183.7656,974.7188 Q4183.7656,971.5938 4185.0859,969.9375 Q4186.4063,968.2813 4188.9063,968.2813 Q4189.6094,968.2813 4190.2578,968.4375 Q4190.9063,968.5938 4191.4688,968.8906 L4191.4688,971.6094 Q4190.8438,971.0313 4190.25,970.7578 Q4189.6563,970.4844 4189.0313,970.4844 Q4187.6875,970.4844 4187,971.5547 Q4186.3125,972.625 4186.3125,974.7188 Q4186.3125,976.8125 4187,977.8828 Q4187.6875,978.9531 4189.0313,978.9531 Q4189.6563,978.9531 4190.25,978.6797 Q4190.8438,978.4063 4191.4688,977.8281 L4191.4688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="79"
+              x="4202.5" y="979.0605">AcceptScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4174.5" x2="4283.5" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4174.5" x2="4283.5" y1="998.9063" y2="998.9063"/><!--MD5=[d937c1f14ab1f49023f0c5c2c1afd907]
+class pp.visual.buttons.scripts.functions.ArrowScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.ArrowScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="103" x="4319.5" y="958.9063"/>
+        <ellipse cx="4334.5" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M4337.4688,980.5469 Q4336.8906,980.8438 4336.25,980.9922 Q4335.6094,981.1406 4334.9063,981.1406 Q4332.4063,981.1406 4331.0859,979.4922 Q4329.7656,977.8438 4329.7656,974.7188 Q4329.7656,971.5938 4331.0859,969.9375 Q4332.4063,968.2813 4334.9063,968.2813 Q4335.6094,968.2813 4336.2578,968.4375 Q4336.9063,968.5938 4337.4688,968.8906 L4337.4688,971.6094 Q4336.8438,971.0313 4336.25,970.7578 Q4335.6563,970.4844 4335.0313,970.4844 Q4333.6875,970.4844 4333,971.5547 Q4332.3125,972.625 4332.3125,974.7188 Q4332.3125,976.8125 4333,977.8828 Q4333.6875,978.9531 4335.0313,978.9531 Q4335.6563,978.9531 4336.25,978.6797 Q4336.8438,978.4063 4337.4688,977.8281 L4337.4688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="71"
+              x="4348.5" y="979.0605">ArrowScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4320.5" x2="4421.5" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4320.5" x2="4421.5" y1="998.9063" y2="998.9063"/><!--MD5=[804c5a4f2ff754decbe56eaf7e6e2a58]
+class pp.visual.buttons.scripts.functions.BuseScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.BuseScript" style="stroke: #A80036; stroke-width: 1.5;" width="99"
+              x="3658.5" y="657.9063"/>
+        <ellipse cx="3673.5" cy="673.9063" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3673.6094,669.25 L3672.4531,674.3281 L3674.7813,674.3281 L3673.6094,669.25 Z M3672.125,667.0156 L3675.1094,667.0156 L3678.4688,679.4063 L3676.0156,679.4063 L3675.25,676.3438 L3671.9688,676.3438 L3671.2188,679.4063 L3668.7813,679.4063 L3672.125,667.0156 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs"
+              textLength="67" x="3687.5" y="678.0605">BuseScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3659.5" x2="3756.5" y1="689.9063" y2="689.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3659.5" x2="3756.5" y1="697.9063" y2="697.9063"/><!--MD5=[2a13b785d0ae75bb6092fe488ebbf28b]
+class pp.visual.buttons.scripts.functions.CancelScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.CancelScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="110" x="4458" y="958.9063"/>
+        <ellipse cx="4473" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M4475.9688,980.5469 Q4475.3906,980.8438 4474.75,980.9922 Q4474.1094,981.1406 4473.4063,981.1406 Q4470.9063,981.1406 4469.5859,979.4922 Q4468.2656,977.8438 4468.2656,974.7188 Q4468.2656,971.5938 4469.5859,969.9375 Q4470.9063,968.2813 4473.4063,968.2813 Q4474.1094,968.2813 4474.7578,968.4375 Q4475.4063,968.5938 4475.9688,968.8906 L4475.9688,971.6094 Q4475.3438,971.0313 4474.75,970.7578 Q4474.1563,970.4844 4473.5313,970.4844 Q4472.1875,970.4844 4471.5,971.5547 Q4470.8125,972.625 4470.8125,974.7188 Q4470.8125,976.8125 4471.5,977.8828 Q4472.1875,978.9531 4473.5313,978.9531 Q4474.1563,978.9531 4474.75,978.6797 Q4475.3438,978.4063 4475.9688,977.8281 L4475.9688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="78"
+              x="4487" y="979.0605">CancelScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4459" x2="4567" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4459" x2="4567" y1="998.9063" y2="998.9063"/><!--MD5=[a2964baec0e2b437c8a983830766bcad]
+class pp.visual.buttons.scripts.functions.DestinationSetScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.DestinationSetScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="161" x="3807.5" y="958.9063"/>
+        <ellipse cx="3822.5" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3825.4688,980.5469 Q3824.8906,980.8438 3824.25,980.9922 Q3823.6094,981.1406 3822.9063,981.1406 Q3820.4063,981.1406 3819.0859,979.4922 Q3817.7656,977.8438 3817.7656,974.7188 Q3817.7656,971.5938 3819.0859,969.9375 Q3820.4063,968.2813 3822.9063,968.2813 Q3823.6094,968.2813 3824.2578,968.4375 Q3824.9063,968.5938 3825.4688,968.8906 L3825.4688,971.6094 Q3824.8438,971.0313 3824.25,970.7578 Q3823.6563,970.4844 3823.0313,970.4844 Q3821.6875,970.4844 3821,971.5547 Q3820.3125,972.625 3820.3125,974.7188 Q3820.3125,976.8125 3821,977.8828 Q3821.6875,978.9531 3823.0313,978.9531 Q3823.6563,978.9531 3824.25,978.6797 Q3824.8438,978.4063 3825.4688,977.8281 L3825.4688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="129"
+              x="3836.5" y="979.0605">DestinationSetScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3808.5" x2="3967.5" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3808.5" x2="3967.5" y1="998.9063" y2="998.9063"/><!--MD5=[11b4a20db77970e9240a2bc29f4ff167]
+class pp.visual.buttons.scripts.functions.DirectionSetScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.DirectionSetScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="145" x="3345.5" y="958.9063"/>
+        <ellipse cx="3360.5" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3363.4688,980.5469 Q3362.8906,980.8438 3362.25,980.9922 Q3361.6094,981.1406 3360.9063,981.1406 Q3358.4063,981.1406 3357.0859,979.4922 Q3355.7656,977.8438 3355.7656,974.7188 Q3355.7656,971.5938 3357.0859,969.9375 Q3358.4063,968.2813 3360.9063,968.2813 Q3361.6094,968.2813 3362.2578,968.4375 Q3362.9063,968.5938 3363.4688,968.8906 L3363.4688,971.6094 Q3362.8438,971.0313 3362.25,970.7578 Q3361.6563,970.4844 3361.0313,970.4844 Q3359.6875,970.4844 3359,971.5547 Q3358.3125,972.625 3358.3125,974.7188 Q3358.3125,976.8125 3359,977.8828 Q3359.6875,978.9531 3361.0313,978.9531 Q3361.6563,978.9531 3362.25,978.6797 Q3362.8438,978.4063 3363.4688,977.8281 L3363.4688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="113"
+              x="3374.5" y="979.0605">DirectionSetScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3346.5" x2="3489.5" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3346.5" x2="3489.5" y1="998.9063" y2="998.9063"/><!--MD5=[a612a462aa2abfb172965ed3800a0de4]
+class pp.visual.buttons.scripts.functions.LineSetScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.LineSetScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="114" x="3658" y="958.9063"/>
+        <ellipse cx="3673" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3675.9688,980.5469 Q3675.3906,980.8438 3674.75,980.9922 Q3674.1094,981.1406 3673.4063,981.1406 Q3670.9063,981.1406 3669.5859,979.4922 Q3668.2656,977.8438 3668.2656,974.7188 Q3668.2656,971.5938 3669.5859,969.9375 Q3670.9063,968.2813 3673.4063,968.2813 Q3674.1094,968.2813 3674.7578,968.4375 Q3675.4063,968.5938 3675.9688,968.8906 L3675.9688,971.6094 Q3675.3438,971.0313 3674.75,970.7578 Q3674.1563,970.4844 3673.5313,970.4844 Q3672.1875,970.4844 3671.5,971.5547 Q3670.8125,972.625 3670.8125,974.7188 Q3670.8125,976.8125 3671.5,977.8828 Q3672.1875,978.9531 3673.5313,978.9531 Q3674.1563,978.9531 3674.75,978.6797 Q3675.3438,978.4063 3675.9688,977.8281 L3675.9688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82"
+              x="3687" y="979.0605">LineSetScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3659" x2="3771" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3659" x2="3771" y1="998.9063" y2="998.9063"/><!--MD5=[9f3130c82aa3ab5324e8c9122e26f0a2]
+class pp.visual.buttons.scripts.functions.NumberScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.NumberScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="117" x="3193.5" y="958.9063"/>
+        <ellipse cx="3208.5" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3211.4688,980.5469 Q3210.8906,980.8438 3210.25,980.9922 Q3209.6094,981.1406 3208.9063,981.1406 Q3206.4063,981.1406 3205.0859,979.4922 Q3203.7656,977.8438 3203.7656,974.7188 Q3203.7656,971.5938 3205.0859,969.9375 Q3206.4063,968.2813 3208.9063,968.2813 Q3209.6094,968.2813 3210.2578,968.4375 Q3210.9063,968.5938 3211.4688,968.8906 L3211.4688,971.6094 Q3210.8438,971.0313 3210.25,970.7578 Q3209.6563,970.4844 3209.0313,970.4844 Q3207.6875,970.4844 3207,971.5547 Q3206.3125,972.625 3206.3125,974.7188 Q3206.3125,976.8125 3207,977.8828 Q3207.6875,978.9531 3209.0313,978.9531 Q3209.6563,978.9531 3210.25,978.6797 Q3210.8438,978.4063 3211.4688,977.8281 L3211.4688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85"
+              x="3222.5" y="979.0605">NumberScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3194.5" x2="3309.5" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3194.5" x2="3309.5" y1="998.9063" y2="998.9063"/><!--MD5=[e387caaea4d21d0e52177376bda6655f]
+class pp.visual.buttons.scripts.functions.ServiceSetScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.ServiceSetScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="134" x="4004" y="958.9063"/>
+        <ellipse cx="4019" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M4021.9688,980.5469 Q4021.3906,980.8438 4020.75,980.9922 Q4020.1094,981.1406 4019.4063,981.1406 Q4016.9063,981.1406 4015.5859,979.4922 Q4014.2656,977.8438 4014.2656,974.7188 Q4014.2656,971.5938 4015.5859,969.9375 Q4016.9063,968.2813 4019.4063,968.2813 Q4020.1094,968.2813 4020.7578,968.4375 Q4021.4063,968.5938 4021.9688,968.8906 L4021.9688,971.6094 Q4021.3438,971.0313 4020.75,970.7578 Q4020.1563,970.4844 4019.5313,970.4844 Q4018.1875,970.4844 4017.5,971.5547 Q4016.8125,972.625 4016.8125,974.7188 Q4016.8125,976.8125 4017.5,977.8828 Q4018.1875,978.9531 4019.5313,978.9531 Q4020.1563,978.9531 4020.75,978.6797 Q4021.3438,978.4063 4021.9688,977.8281 L4021.9688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="102"
+              x="4033" y="979.0605">ServiceSetScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4005" x2="4137" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="4005" x2="4137" y1="998.9063" y2="998.9063"/><!--MD5=[767e884d45b773dba74f5f6294a17a00]
+class pp.visual.buttons.scripts.functions.StagedScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.StagedScript" style="stroke: #A80036; stroke-width: 1.5;"
+              width="113" x="3510.5" y="657.9063"/>
+        <ellipse cx="3525.5" cy="673.9063" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3521.4219,669.6719 L3521.4219,667.5156 L3528.8125,667.5156 L3528.8125,669.6719 L3526.3438,669.6719 L3526.3438,677.75 L3528.8125,677.75 L3528.8125,679.9063 L3521.4219,679.9063 L3521.4219,677.75 L3523.8906,677.75 L3523.8906,669.6719 L3521.4219,669.6719 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs"
+              textLength="81" x="3539.5" y="678.0605">StagedScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3511.5" x2="3622.5" y1="689.9063" y2="689.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3511.5" x2="3622.5" y1="697.9063" y2="697.9063"/><!--MD5=[db925e86ad591a124eeadead64c43a65]
+class pp.visual.buttons.scripts.functions.StopScript-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.StopScript" style="stroke: #A80036; stroke-width: 1.5;" width="97"
+              x="3525.5" y="958.9063"/>
+        <ellipse cx="3540.5" cy="974.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3543.4688,980.5469 Q3542.8906,980.8438 3542.25,980.9922 Q3541.6094,981.1406 3540.9063,981.1406 Q3538.4063,981.1406 3537.0859,979.4922 Q3535.7656,977.8438 3535.7656,974.7188 Q3535.7656,971.5938 3537.0859,969.9375 Q3538.4063,968.2813 3540.9063,968.2813 Q3541.6094,968.2813 3542.2578,968.4375 Q3542.9063,968.5938 3543.4688,968.8906 L3543.4688,971.6094 Q3542.8438,971.0313 3542.25,970.7578 Q3541.6563,970.4844 3541.0313,970.4844 Q3539.6875,970.4844 3539,971.5547 Q3538.3125,972.625 3538.3125,974.7188 Q3538.3125,976.8125 3539,977.8828 Q3539.6875,978.9531 3541.0313,978.9531 Q3541.6563,978.9531 3542.25,978.6797 Q3542.8438,978.4063 3543.4688,977.8281 L3543.4688,980.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65"
+              x="3554.5" y="979.0605">StopScript
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3526.5" x2="3621.5" y1="990.9063" y2="990.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3526.5" x2="3621.5" y1="998.9063" y2="998.9063"/><!--MD5=[a8b8039db0fb8c8518afeaefae1cc8af]
+class pp.visual.buttons.scripts.functions.StagedScript.STAGE-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.functions.StagedScript.STAGE" style="stroke: #A80036; stroke-width: 1.5;"
+              width="157" x="3565.5" y="1192.9063"/>
+        <ellipse cx="3580.5" cy="1208.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3583.4688,1214.5469 Q3582.8906,1214.8438 3582.25,1214.9922 Q3581.6094,1215.1406 3580.9063,1215.1406 Q3578.4063,1215.1406 3577.0859,1213.4922 Q3575.7656,1211.8438 3575.7656,1208.7188 Q3575.7656,1205.5938 3577.0859,1203.9375 Q3578.4063,1202.2813 3580.9063,1202.2813 Q3581.6094,1202.2813 3582.2578,1202.4375 Q3582.9063,1202.5938 3583.4688,1202.8906 L3583.4688,1205.6094 Q3582.8438,1205.0313 3582.25,1204.7578 Q3581.6563,1204.4844 3581.0313,1204.4844 Q3579.6875,1204.4844 3579,1205.5547 Q3578.3125,1206.625 3578.3125,1208.7188 Q3578.3125,1210.8125 3579,1211.8828 Q3579.6875,1212.9531 3581.0313,1212.9531 Q3581.6563,1212.9531 3582.25,1212.6797 Q3582.8438,1212.4063 3583.4688,1211.8281 L3583.4688,1214.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="125"
+              x="3594.5" y="1213.0605">StagedScript.STAGE
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3566.5" x2="3721.5" y1="1224.9063" y2="1224.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3566.5" x2="3721.5" y1="1232.9063" y2="1232.9063"/><!--MD5=[b9bddd2000745ff16741f2d2e484eba0]
+class pp.visual.buttons.scripts.helper.ScriptAssign-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.helper.ScriptAssign" style="stroke: #A80036; stroke-width: 1.5;" width="109"
+              x="3059.5" y="833.9063"/>
+        <ellipse cx="3074.5" cy="849.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3077.4688,855.5469 Q3076.8906,855.8438 3076.25,855.9922 Q3075.6094,856.1406 3074.9063,856.1406 Q3072.4063,856.1406 3071.0859,854.4922 Q3069.7656,852.8438 3069.7656,849.7188 Q3069.7656,846.5938 3071.0859,844.9375 Q3072.4063,843.2813 3074.9063,843.2813 Q3075.6094,843.2813 3076.2578,843.4375 Q3076.9063,843.5938 3077.4688,843.8906 L3077.4688,846.6094 Q3076.8438,846.0313 3076.25,845.7578 Q3075.6563,845.4844 3075.0313,845.4844 Q3073.6875,845.4844 3073,846.5547 Q3072.3125,847.625 3072.3125,849.7188 Q3072.3125,851.8125 3073,852.8828 Q3073.6875,853.9531 3075.0313,853.9531 Q3075.6563,853.9531 3076.25,853.6797 Q3076.8438,853.4063 3077.4688,852.8281 L3077.4688,855.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77"
+              x="3088.5" y="854.0605">ScriptAssign
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3060.5" x2="3167.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3060.5" x2="3167.5" y1="873.9063" y2="873.9063"/><!--MD5=[2b7de0b3b47ab305f36b823304eee677]
+class pp.visual.buttons.scripts.helper.FUNCTION_TYPE-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48"
+              id="pp.visual.buttons.scripts.helper.FUNCTION_TYPE" style="stroke: #A80036; stroke-width: 1.5;"
+              width="129" x="2895.5" y="833.9063"/>
+        <ellipse cx="2910.5" cy="849.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2913.4688,855.5469 Q2912.8906,855.8438 2912.25,855.9922 Q2911.6094,856.1406 2910.9063,856.1406 Q2908.4063,856.1406 2907.0859,854.4922 Q2905.7656,852.8438 2905.7656,849.7188 Q2905.7656,846.5938 2907.0859,844.9375 Q2908.4063,843.2813 2910.9063,843.2813 Q2911.6094,843.2813 2912.2578,843.4375 Q2912.9063,843.5938 2913.4688,843.8906 L2913.4688,846.6094 Q2912.8438,846.0313 2912.25,845.7578 Q2911.6563,845.4844 2911.0313,845.4844 Q2909.6875,845.4844 2909,846.5547 Q2908.3125,847.625 2908.3125,849.7188 Q2908.3125,851.8125 2909,852.8828 Q2909.6875,853.9531 2911.0313,853.9531 Q2911.6563,853.9531 2912.25,853.6797 Q2912.8438,853.4063 2913.4688,852.8281 L2913.4688,855.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="97"
+              x="2924.5" y="854.0605">FUNCTION_TYPE
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2896.5" x2="3023.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2896.5" x2="3023.5" y1="873.9063" y2="873.9063"/><!--MD5=[00cd3ac94b799587b6f56df2b82654d0]
+class pp.visual.frame.BuseFrame-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.frame.BuseFrame"
+              style="stroke: #A80036; stroke-width: 1.5;" width="102" x="2190" y="237.4063"/>
+        <ellipse cx="2205" cy="253.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2207.9688,259.0469 Q2207.3906,259.3438 2206.75,259.4922 Q2206.1094,259.6406 2205.4063,259.6406 Q2202.9063,259.6406 2201.5859,257.9922 Q2200.2656,256.3438 2200.2656,253.2188 Q2200.2656,250.0938 2201.5859,248.4375 Q2202.9063,246.7813 2205.4063,246.7813 Q2206.1094,246.7813 2206.7578,246.9375 Q2207.4063,247.0938 2207.9688,247.3906 L2207.9688,250.1094 Q2207.3438,249.5313 2206.75,249.2578 Q2206.1563,248.9844 2205.5313,248.9844 Q2204.1875,248.9844 2203.5,250.0547 Q2202.8125,251.125 2202.8125,253.2188 Q2202.8125,255.3125 2203.5,256.3828 Q2204.1875,257.4531 2205.5313,257.4531 Q2206.1563,257.4531 2206.75,257.1797 Q2207.3438,256.9063 2207.9688,256.3281 L2207.9688,259.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70"
+              x="2219" y="257.5605">BuseFrame
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2191" x2="2291" y1="269.4063" y2="269.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2191" x2="2291" y1="277.4063" y2="277.4063"/><!--MD5=[7b9ce8b451f7153afe09fec56c89d1b4]
+class pp.visual.screen.BuseScreen-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.screen.BuseScreen"
+              style="stroke: #A80036; stroke-width: 1.5;" width="107" x="1320.5" y="833.9063"/>
+        <ellipse cx="1335.5" cy="849.9063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1338.4688,855.5469 Q1337.8906,855.8438 1337.25,855.9922 Q1336.6094,856.1406 1335.9063,856.1406 Q1333.4063,856.1406 1332.0859,854.4922 Q1330.7656,852.8438 1330.7656,849.7188 Q1330.7656,846.5938 1332.0859,844.9375 Q1333.4063,843.2813 1335.9063,843.2813 Q1336.6094,843.2813 1337.2578,843.4375 Q1337.9063,843.5938 1338.4688,843.8906 L1338.4688,846.6094 Q1337.8438,846.0313 1337.25,845.7578 Q1336.6563,845.4844 1336.0313,845.4844 Q1334.6875,845.4844 1334,846.5547 Q1333.3125,847.625 1333.3125,849.7188 Q1333.3125,851.8125 1334,852.8828 Q1334.6875,853.9531 1336.0313,853.9531 Q1336.6563,853.9531 1337.25,853.6797 Q1337.8438,853.4063 1338.4688,852.8281 L1338.4688,855.5469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75"
+              x="1349.5" y="854.0605">BuseScreen
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1321.5" x2="1426.5" y1="865.9063" y2="865.9063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1321.5" x2="1426.5" y1="873.9063" y2="873.9063"/><!--MD5=[88ba8fc21af62b74991939fdfb5ab584]
+class pp.visual.screen.Carriage-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.screen.Carriage"
+              style="stroke: #A80036; stroke-width: 1.5;" width="85" x="1525.5" y="506.4063"/>
+        <ellipse cx="1540.5" cy="522.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1543.4688,528.0469 Q1542.8906,528.3438 1542.25,528.4922 Q1541.6094,528.6406 1540.9063,528.6406 Q1538.4063,528.6406 1537.0859,526.9922 Q1535.7656,525.3438 1535.7656,522.2188 Q1535.7656,519.0938 1537.0859,517.4375 Q1538.4063,515.7813 1540.9063,515.7813 Q1541.6094,515.7813 1542.2578,515.9375 Q1542.9063,516.0938 1543.4688,516.3906 L1543.4688,519.1094 Q1542.8438,518.5313 1542.25,518.2578 Q1541.6563,517.9844 1541.0313,517.9844 Q1539.6875,517.9844 1539,519.0547 Q1538.3125,520.125 1538.3125,522.2188 Q1538.3125,524.3125 1539,525.3828 Q1539.6875,526.4531 1541.0313,526.4531 Q1541.6563,526.4531 1542.25,526.1797 Q1542.8438,525.9063 1543.4688,525.3281 L1543.4688,528.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53"
+              x="1554.5" y="526.5605">Carriage
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1526.5" x2="1609.5" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1526.5" x2="1609.5" y1="546.4063" y2="546.4063"/><!--MD5=[37a12666a6b106b82692ca7cff139ebf]
+class pp.visual.screen.DestinationLine-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.screen.DestinationLine"
+              style="stroke: #A80036; stroke-width: 1.5;" width="129" x="1361.5" y="506.4063"/>
+        <ellipse cx="1376.5" cy="522.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1379.4688,528.0469 Q1378.8906,528.3438 1378.25,528.4922 Q1377.6094,528.6406 1376.9063,528.6406 Q1374.4063,528.6406 1373.0859,526.9922 Q1371.7656,525.3438 1371.7656,522.2188 Q1371.7656,519.0938 1373.0859,517.4375 Q1374.4063,515.7813 1376.9063,515.7813 Q1377.6094,515.7813 1378.2578,515.9375 Q1378.9063,516.0938 1379.4688,516.3906 L1379.4688,519.1094 Q1378.8438,518.5313 1378.25,518.2578 Q1377.6563,517.9844 1377.0313,517.9844 Q1375.6875,517.9844 1375,519.0547 Q1374.3125,520.125 1374.3125,522.2188 Q1374.3125,524.3125 1375,525.3828 Q1375.6875,526.4531 1377.0313,526.4531 Q1377.6563,526.4531 1378.25,526.1797 Q1378.8438,525.9063 1379.4688,525.3281 L1379.4688,528.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="97"
+              x="1390.5" y="526.5605">DestinationLine
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1362.5" x2="1489.5" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1362.5" x2="1489.5" y1="546.4063" y2="546.4063"/><!--MD5=[5e9bd80d994479cc533fb4a6110a14fb]
+class pp.visual.screen.InfoLine-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.screen.InfoLine"
+              style="stroke: #A80036; stroke-width: 1.5;" width="80" x="1125" y="506.4063"/>
+        <ellipse cx="1140" cy="522.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1142.9688,528.0469 Q1142.3906,528.3438 1141.75,528.4922 Q1141.1094,528.6406 1140.4063,528.6406 Q1137.9063,528.6406 1136.5859,526.9922 Q1135.2656,525.3438 1135.2656,522.2188 Q1135.2656,519.0938 1136.5859,517.4375 Q1137.9063,515.7813 1140.4063,515.7813 Q1141.1094,515.7813 1141.7578,515.9375 Q1142.4063,516.0938 1142.9688,516.3906 L1142.9688,519.1094 Q1142.3438,518.5313 1141.75,518.2578 Q1141.1563,517.9844 1140.5313,517.9844 Q1139.1875,517.9844 1138.5,519.0547 Q1137.8125,520.125 1137.8125,522.2188 Q1137.8125,524.3125 1138.5,525.3828 Q1139.1875,526.4531 1140.5313,526.4531 Q1141.1563,526.4531 1141.75,526.1797 Q1142.3438,525.9063 1142.9688,525.3281 L1142.9688,528.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48"
+              x="1154" y="526.5605">InfoLine
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1126" x2="1204" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1126" x2="1204" y1="546.4063" y2="546.4063"/><!--MD5=[e3d4a709637100f2c6eceaa296739a4a]
+class pp.visual.screen.StopLine-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.screen.StopLine"
+              style="stroke: #A80036; stroke-width: 1.5;" width="86" x="1240" y="506.4063"/>
+        <ellipse cx="1255" cy="522.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1257.9688,528.0469 Q1257.3906,528.3438 1256.75,528.4922 Q1256.1094,528.6406 1255.4063,528.6406 Q1252.9063,528.6406 1251.5859,526.9922 Q1250.2656,525.3438 1250.2656,522.2188 Q1250.2656,519.0938 1251.5859,517.4375 Q1252.9063,515.7813 1255.4063,515.7813 Q1256.1094,515.7813 1256.7578,515.9375 Q1257.4063,516.0938 1257.9688,516.3906 L1257.9688,519.1094 Q1257.3438,518.5313 1256.75,518.2578 Q1256.1563,517.9844 1255.5313,517.9844 Q1254.1875,517.9844 1253.5,519.0547 Q1252.8125,520.125 1252.8125,522.2188 Q1252.8125,524.3125 1253.5,525.3828 Q1254.1875,526.4531 1255.5313,526.4531 Q1256.1563,526.4531 1256.75,526.1797 Q1257.3438,525.9063 1257.9688,525.3281 L1257.9688,528.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54"
+              x="1269" y="526.5605">StopLine
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1241" x2="1325" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1241" x2="1325" y1="546.4063" y2="546.4063"/><!--MD5=[0add66d41a11ca974547b45ec3ab0835]
+class pp.visual.screen.TextLine-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.screen.TextLine"
+              style="stroke: #A80036; stroke-width: 1.5;" width="83" x="1454.5" y="237.4063"/>
+        <ellipse cx="1469.5" cy="253.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1472.4688,259.0469 Q1471.8906,259.3438 1471.25,259.4922 Q1470.6094,259.6406 1469.9063,259.6406 Q1467.4063,259.6406 1466.0859,257.9922 Q1464.7656,256.3438 1464.7656,253.2188 Q1464.7656,250.0938 1466.0859,248.4375 Q1467.4063,246.7813 1469.9063,246.7813 Q1470.6094,246.7813 1471.2578,246.9375 Q1471.9063,247.0938 1472.4688,247.3906 L1472.4688,250.1094 Q1471.8438,249.5313 1471.25,249.2578 Q1470.6563,248.9844 1470.0313,248.9844 Q1468.6875,248.9844 1468,250.0547 Q1467.3125,251.125 1467.3125,253.2188 Q1467.3125,255.3125 1468,256.3828 Q1468.6875,257.4531 1470.0313,257.4531 Q1470.6563,257.4531 1471.25,257.1797 Q1471.8438,256.9063 1472.4688,256.3281 L1472.4688,259.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="51"
+              x="1483.5" y="257.5605">TextLine
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1455.5" x2="1536.5" y1="269.4063" y2="269.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1455.5" x2="1536.5" y1="277.4063" y2="277.4063"/><!--MD5=[5a1082e8aff5c610af186978c0603d08]
+class pp.visual.screen.TimeLine-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="pp.visual.screen.TimeLine"
+              style="stroke: #A80036; stroke-width: 1.5;" width="86" x="1646" y="506.4063"/>
+        <ellipse cx="1661" cy="522.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1663.9688,528.0469 Q1663.3906,528.3438 1662.75,528.4922 Q1662.1094,528.6406 1661.4063,528.6406 Q1658.9063,528.6406 1657.5859,526.9922 Q1656.2656,525.3438 1656.2656,522.2188 Q1656.2656,519.0938 1657.5859,517.4375 Q1658.9063,515.7813 1661.4063,515.7813 Q1662.1094,515.7813 1662.7578,515.9375 Q1663.4063,516.0938 1663.9688,516.3906 L1663.9688,519.1094 Q1663.3438,518.5313 1662.75,518.2578 Q1662.1563,517.9844 1661.5313,517.9844 Q1660.1875,517.9844 1659.5,519.0547 Q1658.8125,520.125 1658.8125,522.2188 Q1658.8125,524.3125 1659.5,525.3828 Q1660.1875,526.4531 1661.5313,526.4531 Q1662.1563,526.4531 1662.75,526.1797 Q1663.3438,525.9063 1663.9688,525.3281 L1663.9688,528.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54"
+              x="1675" y="526.5605">TimeLine
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1647" x2="1731" y1="538.4063" y2="538.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1647" x2="1731" y1="546.4063" y2="546.4063"/><!--MD5=[9251eed55ebbbd8b0b3a23318ed1a9ff]
+class javax.swing.JLabel-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="javax.swing.JLabel"
+              style="stroke: #A80036; stroke-width: 1.5;" width="68" x="1892" y="104.4063"/>
+        <ellipse cx="1907" cy="120.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1909.9688,126.0469 Q1909.3906,126.3438 1908.75,126.4922 Q1908.1094,126.6406 1907.4063,126.6406 Q1904.9063,126.6406 1903.5859,124.9922 Q1902.2656,123.3438 1902.2656,120.2188 Q1902.2656,117.0938 1903.5859,115.4375 Q1904.9063,113.7813 1907.4063,113.7813 Q1908.1094,113.7813 1908.7578,113.9375 Q1909.4063,114.0938 1909.9688,114.3906 L1909.9688,117.1094 Q1909.3438,116.5313 1908.75,116.2578 Q1908.1563,115.9844 1907.5313,115.9844 Q1906.1875,115.9844 1905.5,117.0547 Q1904.8125,118.125 1904.8125,120.2188 Q1904.8125,122.3125 1905.5,123.3828 Q1906.1875,124.4531 1907.5313,124.4531 Q1908.1563,124.4531 1908.75,124.1797 Q1909.3438,123.9063 1909.9688,123.3281 L1909.9688,126.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36"
+              x="1921" y="124.5605">JLabel
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1893" x2="1959" y1="136.4063" y2="136.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1893" x2="1959" y1="144.4063" y2="144.4063"/><!--MD5=[56a185cb33bdc7c23303e5865f20a19b]
+class javax.swing.JPanel-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="javax.swing.JPanel"
+              style="stroke: #A80036; stroke-width: 1.5;" width="70" x="2104" y="104.4063"/>
+        <ellipse cx="2119" cy="120.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2121.9688,126.0469 Q2121.3906,126.3438 2120.75,126.4922 Q2120.1094,126.6406 2119.4063,126.6406 Q2116.9063,126.6406 2115.5859,124.9922 Q2114.2656,123.3438 2114.2656,120.2188 Q2114.2656,117.0938 2115.5859,115.4375 Q2116.9063,113.7813 2119.4063,113.7813 Q2120.1094,113.7813 2120.7578,113.9375 Q2121.4063,114.0938 2121.9688,114.3906 L2121.9688,117.1094 Q2121.3438,116.5313 2120.75,116.2578 Q2120.1563,115.9844 2119.5313,115.9844 Q2118.1875,115.9844 2117.5,117.0547 Q2116.8125,118.125 2116.8125,120.2188 Q2116.8125,122.3125 2117.5,123.3828 Q2118.1875,124.4531 2119.5313,124.4531 Q2120.1563,124.4531 2120.75,124.1797 Q2121.3438,123.9063 2121.9688,123.3281 L2121.9688,126.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38"
+              x="2133" y="124.5605">JPanel
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2105" x2="2173" y1="136.4063" y2="136.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2105" x2="2173" y1="144.4063" y2="144.4063"/><!--MD5=[7d319166b5dc6b8762d043b6fe35067f]
+class javax.swing.JButton-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="javax.swing.JButton"
+              style="stroke: #A80036; stroke-width: 1.5;" width="77" x="2209.5" y="104.4063"/>
+        <ellipse cx="2224.5" cy="120.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2227.4688,126.0469 Q2226.8906,126.3438 2226.25,126.4922 Q2225.6094,126.6406 2224.9063,126.6406 Q2222.4063,126.6406 2221.0859,124.9922 Q2219.7656,123.3438 2219.7656,120.2188 Q2219.7656,117.0938 2221.0859,115.4375 Q2222.4063,113.7813 2224.9063,113.7813 Q2225.6094,113.7813 2226.2578,113.9375 Q2226.9063,114.0938 2227.4688,114.3906 L2227.4688,117.1094 Q2226.8438,116.5313 2226.25,116.2578 Q2225.6563,115.9844 2225.0313,115.9844 Q2223.6875,115.9844 2223,117.0547 Q2222.3125,118.125 2222.3125,120.2188 Q2222.3125,122.3125 2223,123.3828 Q2223.6875,124.4531 2225.0313,124.4531 Q2225.6563,124.4531 2226.25,124.1797 Q2226.8438,123.9063 2227.4688,123.3281 L2227.4688,126.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45"
+              x="2238.5" y="124.5605">JButton
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2210.5" x2="2285.5" y1="136.4063" y2="136.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2210.5" x2="2285.5" y1="144.4063" y2="144.4063"/><!--MD5=[18a7562403221f513ca44e0f82c4c17a]
+class javax.swing.JFrame-->
+        <rect fill="#FEFECE" filter="url(#f1a58u4bahdjam)" height="48" id="javax.swing.JFrame"
+              style="stroke: #A80036; stroke-width: 1.5;" width="74" x="1995" y="104.4063"/>
+        <ellipse cx="2010" cy="120.4063" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2012.9688,126.0469 Q2012.3906,126.3438 2011.75,126.4922 Q2011.1094,126.6406 2010.4063,126.6406 Q2007.9063,126.6406 2006.5859,124.9922 Q2005.2656,123.3438 2005.2656,120.2188 Q2005.2656,117.0938 2006.5859,115.4375 Q2007.9063,113.7813 2010.4063,113.7813 Q2011.1094,113.7813 2011.7578,113.9375 Q2012.4063,114.0938 2012.9688,114.3906 L2012.9688,117.1094 Q2012.3438,116.5313 2011.75,116.2578 Q2011.1563,115.9844 2010.5313,115.9844 Q2009.1875,115.9844 2008.5,117.0547 Q2007.8125,118.125 2007.8125,120.2188 Q2007.8125,122.3125 2008.5,123.3828 Q2009.1875,124.4531 2010.5313,124.4531 Q2011.1563,124.4531 2011.75,124.1797 Q2012.3438,123.9063 2012.9688,123.3281 L2012.9688,126.0469 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42"
+              x="2024" y="124.5605">JFrame
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1996" x2="2068" y1="136.4063" y2="136.4063"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1996" x2="2068" y1="144.4063" y2="144.4063"/><!--MD5=[75110e27f311da8a3b82ca5189f4a6ea]
+reverse link pp.data.CurrentData to pp.main.Data-->
+        <path d="M751.7483,820.8142 C744.8294,795.3012 733.119,761.5309 715,735.9063 C705.9369,723.089 693.0947,711.5524 681.2157,702.4652 "
+              fill="none" id="pp.data.CurrentData&lt;-pp.main.Data" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="755.0238,833.6748,757.4191,826.8731,752.0619,822.046,749.6666,828.8477,755.0238,833.6748"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="726" y="748.9731">data
+        </text><!--MD5=[cb579509c72e9fc1d6abdca9dc6ef73a]
+reverse link pp.main.Data to pp.data.CurrentData-->
+        <path d="M646.62,719.3951 C647.4886,731.4279 650.7402,743.9451 659,752.9063 C670.6973,765.5968 682.7666,751.1448 697,760.9063 C722.9995,778.737 740.8041,811.1803 750.6867,833.6065 "
+              fill="none" id="pp.main.Data&lt;-pp.data.CurrentData" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="646.512,706.2309,642.5614,712.2635,646.6105,718.2304,650.5611,712.1978,646.512,706.2309"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46"
+              x="660" y="748.9731">current
+        </text><!--MD5=[61ba27a47e216aa22ed6c9721c309eda]
+reverse link pp.data.CurrentData to pp.lines.TramLine-->
+        <path d="M754.7305,895.1365 C747.7167,930.8757 731.8596,983.8757 697,1014.9063 C652.7061,1054.3349 481.2317,1087.1116 399.2031,1100.901 "
+              fill="none" id="pp.data.CurrentData&lt;-pp.lines.TramLine" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="757.0799,881.9082,752.0923,887.1162,754.9814,893.7232,759.969,888.5152,757.0799,881.9082"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="22"
+              x="737" y="987.4731">line
+        </text><!--MD5=[aab721dde6ea03e8f35649763058e885]
+reverse link pp.lines.TramLine to pp.lines.Line1-->
+        <path d="M335.5675,1150.269 C314.8942,1195.337 282.9078,1265.0674 266.1335,1301.6353 " fill="none"
+              id="pp.lines.TramLine&lt;-pp.lines.Line1" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="329.2147,1147.3291,343.9162,1132.069,341.9398,1153.1663,329.2147,1147.3291"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a47bf8f1827f0d81824ee917da71b69d]
+reverse link pp.lines.TramLine to pp.lines.Line3-->
+        <path d="M355,1152.1013 C355,1197.2072 355,1265.5593 355,1301.6353 " fill="none"
+              id="pp.lines.TramLine&lt;-pp.lines.Line3" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="348.0001,1152.0691,355,1132.069,362.0001,1152.069,348.0001,1152.0691"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0abd408361bca76953ce79bd740f0dee]
+reverse link pp.lines.TramLine to pp.lines.Line4-->
+        <path d="M374.4325,1150.269 C395.1058,1195.337 427.0922,1265.0674 443.8665,1301.6353 " fill="none"
+              id="pp.lines.TramLine&lt;-pp.lines.Line4" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="368.0602,1153.1663,366.0838,1132.069,380.7853,1147.3291,368.0602,1153.1663"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[088db6bf54a81310babe685dba32ac06]
+reverse link pp.lines.TramLine to pp.lines.Line7-->
+        <path d="M296.82,1142.4829 C272.6395,1157.3782 244.546,1175.3763 220,1192.9063 C169.9976,1228.6165 115.0166,1274.3345 82.8311,1301.8067 "
+              fill="none" id="pp.lines.TramLine&lt;-pp.lines.Line7" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="293.3042,1136.428,314.0254,1131.9969,300.5901,1148.3827,293.3042,1136.428"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f1bfcefc83147de8e2f1a0ffafafaa11]
+reverse link pp.lines.TramLine to pp.lines.Line9-->
+        <path d="M319.1522,1146.9804 C277.9624,1191.8772 211.6429,1264.1655 177.2669,1301.6353 " fill="none"
+              id="pp.lines.TramLine&lt;-pp.lines.Line9" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="314.1536,1142.0743,332.8323,1132.069,324.4698,1151.5388,314.1536,1142.0743"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[42b9925536315e9ac35b7515b0a0f84c]
+reverse link pp.lines.Line to pp.lines.TramLine-->
+        <path d="M355,902.4337 C355,955.4065 355,1041.9187 355,1083.749 " fill="none"
+              id="pp.lines.Line&lt;-pp.lines.TramLine"
+              style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="348.0001,902.3326,355,882.3325,362.0001,902.3325,348.0001,902.3326"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bcdbccea217c8f2fbec49341e3fad81a]
+reverse link pp.main.Data to pp.visual.buttons.scripts.functions.BuseScript-->
+        <path d="M694.167,672.9201 C775.703,656.8347 955.5592,623.7015 1109,611.9063 C1775.7011,560.6561 1944.8327,607.9301 2613.5,608.9063 C2727.667,609.073 3536.0735,566.9112 3641,611.9063 C3662.7997,621.2546 3680.9108,641.5403 3692.7833,657.8794 "
+              fill="none" id="pp.main.Data&lt;-pp.visual.buttons.scripts.functions.BuseScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="681.2562,675.4873,687.9211,678.2402,693.0258,673.1468,686.3608,670.3939,681.2562,675.4873"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75"
+              x="2537.5" y="599.9731">activeScript
+        </text><!--MD5=[cd6dedbad794910639738c45e448a0a2]
+reverse link pp.main.Data to pp.main.Data.INPUT_MODE-->
+        <path d="M633.7502,718.3248 C628.5256,731.4949 623.2529,746.6382 620,760.9063 C603.9211,831.4331 601.1944,917.3804 600.8926,958.5878 "
+              fill="none" id="pp.main.Data&lt;-pp.main.Data.INPUT_MODE" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="638.8822,705.9178,632.8925,709.9332,634.2953,717.0065,640.285,712.9911,638.8822,705.9178"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67"
+              x="621" y="862.4731">inputMode
+        </text><!--MD5=[818ea66aaf6d57efcc528474d0314e3e]
+reverse link pp.main.Data to pp.visual.screen.BuseScreen-->
+        <path d="M693.9845,692.8314 C759.5505,708.6773 887.0049,737.7906 997,752.9063 C1046.44,759.7004 1060.2032,750.4496 1109,760.9063 C1185.1683,777.2285 1268.947,810.694 1321.5001,833.7111 "
+              fill="none" id="pp.main.Data&lt;-pp.visual.screen.BuseScreen"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="681.3404,689.7541,686.2243,695.0594,693.0001,692.5917,688.1161,687.2863,681.3404,689.7541"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43"
+              x="998" y="748.9731">screen
+        </text><!--MD5=[3384d2c10f59fbe53643fa341ddd0082]
+reverse link pp.visual.screen.BuseScreen to pp.main.Data-->
+        <path d="M1308.4837,828.6353 C1243.2305,800.662 1139.5612,759.3794 1046,735.9063 C912.745,702.4746 748.7294,688.4545 681.2499,683.8177 "
+              fill="none" id="pp.visual.screen.BuseScreen&lt;-pp.main.Data"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="1320.6085,833.8697,1316.6853,827.8191,1309.5913,829.1134,1313.5145,835.1639,1320.6085,833.8697"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="1103" y="748.9731">data
+        </text><!--MD5=[b8b7f2889ed741622d07307a6fdb19c9]
+reverse link pp.main.Main to pp.main.Data-->
+        <path d="M570.4328,165.8365 C568.6997,209.2556 566.0178,282.998 565,346.4063 C564.6576,367.7369 561.9443,373.2929 565,394.4063 C579.5379,494.8552 621.2465,609.0884 640.2979,657.8244 "
+              fill="none" id="pp.main.Main&lt;-pp.main.Data" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="570.9696,152.5947,566.7298,158.4277,570.4835,164.5848,574.7233,158.7517,570.9696,152.5947"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="566" y="374.9731">data
+        </text><!--MD5=[4e00ea94d8e4ce7469352f6e6c1afc51]
+reverse link pp.main.Main to pp.main.Panel-->
+        <path d="M583.3169,164.922 C598.8175,214.9372 626.2324,303.3962 639.4534,346.0558 " fill="none"
+              id="pp.main.Main&lt;-pp.main.Panel" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="579.4655,152.4949,577.421,159.41,583.0179,163.957,585.0624,157.0418,579.4655,152.4949"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="79"
+              x="624" y="265.9731">mainWindow
+        </text><!--MD5=[3a694b8c0b58ba89991d270f2ede1fa7]
+reverse link pp.main.Panel to pp.main.Data-->
+        <path d="M647.359,407.6776 C647.981,472.2637 649.2426,603.266 649.7652,657.5233 " fill="none"
+              id="pp.main.Panel&lt;-pp.main.Data" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="647.2329,394.59,643.2909,400.6282,647.3485,406.5894,651.2905,400.5511,647.2329,394.59"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="650" y="534.9731">data
+        </text><!--MD5=[dd9a1d936e699e7b2903c030260c414b]
+reverse link javax.swing.JLabel to pp.visual.auxiliary.BuseKey-->
+        <path d="M1926,172.7642 C1926,194.2033 1926,219.1082 1926,237.0506 " fill="none"
+              id="javax.swing.JLabel&lt;-pp.visual.auxiliary.BuseKey" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1919.0001,172.4915,1926,152.4915,1933.0001,172.4915,1919.0001,172.4915"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bcc81f2f645ccc3bc2b2a904038089ca]
+reverse link javax.swing.JLabel to pp.visual.auxiliary.BuseLogo-->
+        <path d="M1888.8429,167.1729 C1881.2555,175.1586 1873.347,183.533 1866,191.4063 C1851.8448,206.5755 1836.1198,223.7698 1823.7992,237.3212 "
+              fill="none" id="javax.swing.JLabel&lt;-pp.visual.auxiliary.BuseLogo"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1883.9379,162.1735,1902.8057,152.5295,1894.07,171.8347,1883.9379,162.1735"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[35378bccb84423f012fb83d3b3163311]
+reverse link pp.visual.auxiliary.BuseLogo to pp.visual.auxiliary.BuseLogo.TYPE-->
+        <path d="M1806.0444,298.9211 C1812.0952,355.0476 1823.3339,459.2965 1828.4021,506.3086 " fill="none"
+              id="pp.visual.auxiliary.BuseLogo&lt;-pp.visual.auxiliary.BuseLogo.TYPE"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="1804.6247,285.7526,1801.2909,292.1468,1805.9109,297.6835,1809.2448,291.2893,1804.6247,285.7526"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28"
+              x="1818" y="374.9731">type
+        </text><!--MD5=[6765dec81fa6dca21d2db701b06df3ad]
+reverse link javax.swing.JPanel to pp.visual.auxiliary.RoundedRectangle-->
+        <path d="M2119.8956,170.7544 C2110.0261,192.6317 2098.3361,218.5446 2089.9875,237.0506 " fill="none"
+              id="javax.swing.JPanel&lt;-pp.visual.auxiliary.RoundedRectangle"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2113.5292,167.8438,2128.1345,152.4915,2126.2908,173.6009,2113.5292,167.8438"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[04f5566760ae39db162dc45d1017caec]
+reverse link pp.visual.buttons.BuseButton to pp.visual.buttons.ArrowButton-->
+        <path d="M2575.1218,562.9867 C2551.5372,574.134 2530.745,584.439 2529,586.9063 C2475.0163,663.2338 2486.4721,783.0863 2494.5268,833.8769 "
+              fill="none" id="pp.visual.buttons.BuseButton&lt;-pp.visual.buttons.ArrowButton"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2572.3508,556.5549,2593.432,554.414,2578.2872,569.234,2572.3508,556.5549"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[639c5115fc4d150b416d48096e59cd15]
+reverse link pp.visual.buttons.ArrowButton to pp.visual.buttons.ArrowButton.ARROW-->
+        <path d="M2499,895.5614 C2499,947.6108 2499,1040.0554 2499,1083.749 " fill="none"
+              id="pp.visual.buttons.ArrowButton&lt;-pp.visual.buttons.ArrowButton.ARROW"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF" points="2499,882.3325,2495,888.3325,2499,894.3325,2503,888.3325,2499,882.3325"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28"
+              x="2500" y="987.4731">type
+        </text><!--MD5=[5f9e48caebd6726271fb9d064c9009b8]
+reverse link pp.visual.buttons.BuseButton to pp.visual.buttons.BasicButton-->
+        <path d="M2666.0917,572.586 C2699.202,642.0964 2764.1821,778.5129 2790.5121,833.7891 " fill="none"
+              id="pp.visual.buttons.BuseButton&lt;-pp.visual.buttons.BasicButton"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2659.7523,575.5547,2657.4711,554.4882,2672.3916,569.5341,2659.7523,575.5547"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[16856a5a9b9d2835d49c5db1cb05ff68]
+reverse link javax.swing.JButton to pp.visual.buttons.BuseButton-->
+        <path d="M2293.4624,165.4398 C2359.4727,220.3295 2484.0039,328.1615 2576,433.4063 C2596.5014,456.8602 2617.0103,486.1313 2630.4793,506.3504 "
+              fill="none" id="javax.swing.JButton&lt;-pp.visual.buttons.BuseButton"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2288.9545,170.7956,2277.9964,152.6593,2297.8726,160.0035,2288.9545,170.7956"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d16d2551d20eec091482b758599aa8df]
+reverse link pp.visual.buttons.BuseButton to pp.visual.buttons.scripts.functions.BuseScript-->
+        <path d="M2706.0495,559.1432 C2709.7111,560.3711 2713.3786,561.4748 2717,562.4063 C2940.2494,619.8322 3003.7698,592.4137 3234,603.9063 C3256.5874,605.0338 3620.2903,602.8196 3641,611.9063 C3662.5667,621.369 3680.5826,641.417 3692.4815,657.6425 "
+              fill="none" id="pp.visual.buttons.BuseButton&lt;-pp.visual.buttons.scripts.functions.BuseScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="2693.6998,554.5602,2697.9332,560.3978,2704.9501,558.7353,2700.7166,552.8976,2693.6998,554.5602"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="35"
+              x="3235" y="599.9731">script
+        </text><!--MD5=[fbbfecbdf9c1c5356c3f6f1e524e2939]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.BuseButton-->
+        <path d="M3683.7347,647.1087 C3672.4012,633.696 3657.711,619.7275 3641,611.9063 C3454.761,524.7408 2917.04,610.0171 2717,562.4063 C2708.9766,560.4967 2700.7456,557.6802 2692.8616,554.4975 "
+              fill="none" id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.BuseButton"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="3692.0787,657.6181,3691.4806,650.4318,3684.6171,648.22,3685.2152,655.4062,3692.0787,657.6181"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="42"
+              x="3618" y="599.9731">button
+        </text><!--MD5=[1d2af9b2af6f6758e49344a6a1ec8506]
+reverse link pp.visual.buttons.BuseButton to pp.main.Data-->
+        <path d="M2587.586,559.0279 C2583.7182,560.3236 2579.8355,561.47 2576,562.4063 C2218.0489,649.7861 2116.2815,592.3757 1748,603.9063 C1606.0584,608.3504 1250.5348,600.2845 1109,611.9063 C946.9171,625.2154 755.2293,661.0226 681.2653,675.6011 "
+              fill="none" id="pp.visual.buttons.BuseButton&lt;-pp.main.Data"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="2599.8127,554.4568,2592.7919,552.8112,2588.5726,558.6591,2595.5934,560.3046,2599.8127,554.4568"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="2458" y="599.9731">data
+        </text><!--MD5=[67b68ced21feffed91852c23c8f0304b]
+reverse link pp.visual.buttons.BuseButton to pp.visual.buttons.NumericButton-->
+        <path d="M2646.6784,574.8415 C2647.7496,645.0083 2649.7969,779.1047 2650.6318,833.7891 " fill="none"
+              id="pp.visual.buttons.BuseButton&lt;-pp.visual.buttons.NumericButton"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2639.6739,574.5927,2646.3677,554.4882,2653.6723,574.3789,2639.6739,574.5927"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a6350c5dbafaa2c005784b1feed4113]
+reverse link pp.visual.buttons.NumericButton to pp.visual.buttons.scripts.functions.NumberScript-->
+        <path d="M2704.9635,887.6144 C2713.4999,891.5116 2722.3634,895.1142 2731,897.9063 C2893.4163,950.414 3095.2763,971.5105 3193.2173,979.1085 "
+              fill="none" id="pp.visual.buttons.NumericButton&lt;-pp.visual.buttons.scripts.functions.NumberScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="2693.1707,881.9622,2696.8524,888.1625,2703.9919,887.1488,2700.3102,880.9484,2693.1707,881.9622"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87"
+              x="2843" y="924.9731">numberScript
+        </text><!--MD5=[6ea57185e8b4f43662ece50c9e416828]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.AcceptScript-->
+        <path d="M3776.8246,702.5671 C3819.0547,716.476 3873.5605,736.6776 3919,760.9063 C4030.5666,820.3945 4148.2182,914.6927 4200.7707,958.7434 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.AcceptScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3774.667,709.2264,3757.7689,696.4414,3778.9516,695.8982,3774.667,709.2264"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[380f0dafdbe775208bce0af6fd67fbb6]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.ArrowScript-->
+        <path d="M3777.6346,692.1259 C3844.1537,703.4741 3946.2457,725.0828 4029,760.9063 C4154.0516,815.0398 4284.4156,913.2878 4341.3942,958.6973 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.ArrowScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3776.3759,699.013,3757.7754,688.863,3778.6458,685.1983,3776.3759,699.013"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[61e83b60e59f474363eb8577538f4b3f]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.helper.FUNCTION_TYPE-->
+        <path d="M3645.5508,704.836 C3644.0246,705.2152 3642.5061,705.573 3641,705.9063 C3510.4859,734.7858 3160.5481,699.1463 3042,760.9063 C3010.9051,777.1058 2986.8038,810.601 2973.0038,833.6582 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.helper.FUNCTION_TYPE"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="3658.2833,701.2677,3651.4265,699.0352,3646.7285,704.5059,3653.5853,706.7384,3658.2833,701.2677"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28"
+              x="3126" y="748.9731">type
+        </text><!--MD5=[9e1aa889b92c26a114a7b832552fdae4]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.CancelScript-->
+        <path d="M3777.6455,686.2235 C3866.9281,693.5564 4025.3236,712.6869 4152,760.9063 C4285.0561,811.5542 4423.2166,912.4705 4482.7469,958.7271 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.CancelScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3776.9613,693.1916,3757.557,684.6784,3778.0349,679.2328,3776.9613,693.1916"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9418df718c04be906756aa2db196586e]
+reverse link pp.visual.buttons.scripts.functions.StagedScript to pp.visual.buttons.scripts.functions.DestinationSetScript-->
+        <path d="M3608.0186,719.9669 C3621.1434,732.6524 3635.5028,747.0808 3648,760.9063 C3700.177,818.6288 3699.3909,845.6042 3757,897.9063 C3783.1949,921.6881 3816.7251,943.3118 3843.305,958.7977 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.StagedScript&lt;-pp.visual.buttons.scripts.functions.DestinationSetScript"
+              style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="3603.0233,724.8762,3593.3639,706.0163,3612.6762,714.7361,3603.0233,724.8762"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ac2dea419b7f5866c41ddfb6f3e57c30]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.DestinationSetScript-->
+        <path d="M3736.2451,722.8075 C3744.4133,734.9537 3753.2197,748.3652 3761,760.9063 C3804.7731,831.4641 3852.3617,917.3972 3874.8349,958.5946 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.DestinationSetScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3730.3865,726.6406,3724.9283,706.166,3741.9633,718.7679,3730.3865,726.6406"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[91f2a5ef3a1440c50fb942278a9f696d]
+reverse link pp.visual.buttons.scripts.functions.StagedScript to pp.visual.buttons.scripts.functions.DirectionSetScript-->
+        <path d="M3545.9859,724.3577 C3514.2909,788.3858 3455.2779,907.5998 3429.9983,958.6681 " fill="none"
+              id="pp.visual.buttons.scripts.functions.StagedScript&lt;-pp.visual.buttons.scripts.functions.DirectionSetScript"
+              style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="3539.9123,720.8482,3555.0586,706.0296,3552.4592,727.0592,3539.9123,720.8482"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f2890ac6d554a0e637bcff19eb4f1346]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.DirectionSetScript-->
+        <path d="M3660.1796,719.4369 C3646.4466,731.6942 3632.1787,746.0112 3621,760.9063 C3571.1274,827.3595 3598.7503,871.1723 3539,928.9063 C3525.352,942.0937 3507.9341,952.3896 3490.5936,960.2881 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.DirectionSetScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3656.0782,713.7347,3675.8379,706.0827,3665.1629,724.3869,3656.0782,713.7347"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9e907f3ffc929b3b73ccbbf2cb460f78]
+reverse link pp.visual.buttons.scripts.functions.DirectionSetScript to pp.lines.TramLine-->
+        <path d="M3345.4709,1010.834 C3339.6183,1012.4296 3333.7468,1013.8222 3328,1014.9063 C3028.0501,1071.4871 746.1671,1102.8832 399.1738,1107.3513 "
+              fill="none" id="pp.visual.buttons.scripts.functions.DirectionSetScript&lt;-pp.lines.TramLine"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="3358.1977,1007.0576,3351.3077,1004.9296,3346.6935,1010.4712,3353.5835,1012.5991,3358.1977,1007.0576"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="54"
+              x="3069" y="1049.9731">prevLine
+        </text><!--MD5=[37094fa9587d0ddc443f78228ef57379]
+reverse link pp.visual.buttons.scripts.functions.DirectionSetScript to pp.visual.buttons.scripts.functions.StagedScript.STAGE-->
+        <path d="M3446.8015,1017.3951 C3474.3905,1049.894 3517.6714,1099.4963 3558,1139.9063 C3576.4035,1158.347 3598.2931,1177.9151 3615.3824,1192.7103 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.DirectionSetScript&lt;-pp.visual.buttons.scripts.functions.StagedScript.STAGE"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="3438.0737,1007.0673,3438.8913,1014.2319,3445.8192,1016.2328,3445.0016,1009.0682,3438.0737,1007.0673"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36"
+              x="3559" y="1112.4731">stage
+        </text><!--MD5=[e14f1e9c3d5a66d4789844be2f3d8d4a]
+reverse link pp.visual.buttons.scripts.functions.StagedScript to pp.visual.buttons.scripts.functions.LineSetScript-->
+        <path d="M3587.8731,724.3577 C3619.3554,788.3858 3677.9722,907.5998 3703.0822,958.6681 " fill="none"
+              id="pp.visual.buttons.scripts.functions.StagedScript&lt;-pp.visual.buttons.scripts.functions.LineSetScript"
+              style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="3581.4044,727.0661,3578.8613,706.0296,3593.9679,720.8887,3581.4044,727.0661"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f7ed74658cf792aef50a1e3becdfad39]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.LineSetScript-->
+        <path d="M3709.0261,726.0294 C3710.5241,790.4405 3713.2589,908.041 3714.4363,958.6681 " fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.LineSetScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3702.028,726.187,3708.561,706.0296,3716.0242,725.8614,3702.028,726.187"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8410d073f3e04b7b7e98d6c44a6a743e]
+reverse link pp.visual.buttons.scripts.functions.LineSetScript to pp.visual.buttons.scripts.functions.StagedScript.STAGE-->
+        <path d="M3703.829,1019.7234 C3689.1368,1068.1454 3663.7318,1151.8748 3651.2909,1192.877 " fill="none"
+              id="pp.visual.buttons.scripts.functions.LineSetScript&lt;-pp.visual.buttons.scripts.functions.StagedScript.STAGE"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="3707.6692,1007.0671,3702.0994,1011.6472,3704.185,1018.5501,3709.7548,1013.97,3707.6692,1007.0671"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36"
+              x="3685" y="1112.4731">stage
+        </text><!--MD5=[65017d0006514dd405ff6098436bc54a]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.NumberScript-->
+        <path d="M3640.1383,714.4076 C3613.4144,727.9171 3582.7736,744.3054 3556,760.9063 C3451.0255,825.9956 3335.3544,915.9796 3281.9982,958.6221 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.NumberScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3637.3314,707.9855,3658.3544,705.3333,3643.5738,720.5167,3637.3314,707.9855"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c1c3006a61e8e67e4ccae1e6d1d3c613]
+reverse link pp.visual.buttons.scripts.functions.StagedScript to pp.visual.buttons.scripts.functions.ServiceSetScript-->
+        <path d="M3638.9385,715.0369 C3662.994,727.7254 3689.2081,743.4057 3711,760.9063 C3774.1117,811.5897 3764.0081,852.4752 3831,897.9063 C3859.7182,917.3818 3943.4791,944.939 4003.968,963.3403 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.StagedScript&lt;-pp.visual.buttons.scripts.functions.ServiceSetScript"
+              style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="3635.7168,721.2517,3621.0729,705.9365,3642.0713,708.7769,3635.7168,721.2517"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[440c933f5cdd8c610695dc91fd03c0c8]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.ServiceSetScript-->
+        <path d="M3768.8234,716.3718 C3790.3502,729.4364 3814.3374,745.0133 3835,760.9063 C3919.4929,825.8956 4008.2122,916.3145 4048.6032,958.9046 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.ServiceSetScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3765.0576,722.2766,3751.4465,706.0366,3772.2143,710.244,3765.0576,722.2766"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1336c64201ac42977e467f0e4243adde]
+reverse link pp.visual.buttons.scripts.functions.ServiceSetScript to pp.visual.buttons.scripts.functions.StagedScript.STAGE-->
+        <path d="M4015.3092,1013.4254 C3929.3255,1060.5452 3766.0258,1150.035 3687.8484,1192.877 " fill="none"
+              id="pp.visual.buttons.scripts.functions.ServiceSetScript&lt;-pp.visual.buttons.scripts.functions.StagedScript.STAGE"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="4026.9118,1007.0671,4019.7278,1006.4427,4016.3884,1012.834,4023.5724,1013.4583,4026.9118,1007.0671"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36"
+              x="3886" y="1112.4731">stage
+        </text><!--MD5=[d5a4bb56f2b164a2787887802fdd7693]
+reverse link pp.visual.buttons.scripts.functions.StagedScript to pp.visual.buttons.scripts.functions.StopScript-->
+        <path d="M3568.0261,726.0294 C3569.5241,790.4405 3572.2589,908.041 3573.4363,958.6681 " fill="none"
+              id="pp.visual.buttons.scripts.functions.StagedScript&lt;-pp.visual.buttons.scripts.functions.StopScript"
+              style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="3561.028,726.187,3567.561,706.0296,3575.0242,725.8614,3561.028,726.187"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[312d616fd88755fdce3a2bae5b4e9947]
+reverse link pp.visual.buttons.scripts.functions.BuseScript to pp.visual.buttons.scripts.functions.StopScript-->
+        <path d="M3695.0706,725.3397 C3679.183,775.8697 3649.7563,861.0333 3613,928.9063 C3607.438,939.177 3600.1942,949.7488 3593.4614,958.7855 "
+              fill="none"
+              id="pp.visual.buttons.scripts.functions.BuseScript&lt;-pp.visual.buttons.scripts.functions.StopScript"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3688.4622,723.0142,3701.0326,705.9559,3701.8436,727.13,3688.4622,723.0142"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0dc01a3b6c11bc0a4326a5e3533d1ec8]
+reverse link pp.visual.buttons.scripts.functions.StopScript to pp.visual.buttons.scripts.functions.StagedScript.STAGE-->
+        <path d="M3585.0137,1019.7234 C3599.4989,1068.1454 3624.5461,1151.8748 3636.8117,1192.877 " fill="none"
+              id="pp.visual.buttons.scripts.functions.StopScript&lt;-pp.visual.buttons.scripts.functions.StagedScript.STAGE"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="3581.2276,1007.0671,3579.115,1013.9618,3584.6669,1018.5636,3586.7794,1011.6689,3581.2276,1007.0671"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36"
+              x="3621" y="1112.4731">stage
+        </text><!--MD5=[0f83e5ec83a2c439faf3c6e484902859]
+reverse link javax.swing.JFrame to pp.visual.frame.BuseFrame-->
+        <path d="M2087.4944,159.9607 C2126.3287,176.1217 2141.3311,172.4915 2171,191.4063 C2190.4193,203.7867 2208.6881,222.3854 2221.6902,237.3005 "
+              fill="none" id="javax.swing.JFrame&lt;-pp.visual.frame.BuseFrame"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2084.6026,166.3355,2069.2798,151.6994,2090.3854,153.5856,2084.6026,166.3355"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5b95d7d5acb258b8b832356a05b710c3]
+reverse link javax.swing.JPanel to pp.visual.screen.BuseScreen-->
+        <path d="M2191.7067,160.3137 C2191.8045,160.3447 2191.9022,160.3756 2192,160.4063 C2448.0457,240.681 4602,47.5717 4602,315.9063 C4602,315.9063 4602,315.9063 4602,681.9063 C4602,696.3764 4593.1467,699.861 4580,705.9063 C4436.8756,771.7199 3320.4977,749.6648 3163,752.9063 C2940.8177,757.4791 2384.7577,746.4354 2163,760.9063 C1885.1548,779.0373 1555.2097,828.8354 1427.8471,849.1271 "
+              fill="none" id="javax.swing.JPanel&lt;-pp.visual.screen.BuseScreen"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2189.0683,166.7995,2173.5164,152.4072,2194.6491,153.9599,2189.0683,166.7995"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[42179efb4460e48479b69019852c15f4]
+reverse link pp.visual.screen.TextLine to pp.visual.screen.Carriage-->
+        <path d="M1507.7132,305.168 C1523.0539,362.4828 1549.4201,460.9897 1561.5501,506.3086 " fill="none"
+              id="pp.visual.screen.TextLine&lt;-pp.visual.screen.Carriage" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1500.9257,306.8825,1502.5165,285.7526,1514.4497,303.2626,1500.9257,306.8825"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[30e4d1db1a7267db9bd5baa8d07a30a3]
+reverse link pp.visual.screen.Carriage to pp.visual.screen.BuseScreen-->
+        <path d="M1547.1032,565.683 C1507.4321,632.6536 1422.1518,776.6191 1388.2862,833.7891 " fill="none"
+              id="pp.visual.screen.Carriage&lt;-pp.visual.screen.BuseScreen"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="1553.7347,554.4882,1547.2352,557.6118,1547.6188,564.8127,1554.1182,561.689,1553.7347,554.4882"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43"
+              x="1519" y="686.4731">screen
+        </text><!--MD5=[aedf1d8f37a210d00a94f8367d9013a3]
+reverse link pp.visual.screen.TextLine to pp.visual.screen.DestinationLine-->
+        <path d="M1484.6122,305.168 C1469.6976,362.4828 1444.0638,460.9897 1432.2707,506.3086 " fill="none"
+              id="pp.visual.screen.TextLine&lt;-pp.visual.screen.DestinationLine"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1477.8533,303.3452,1489.6645,285.7526,1491.4021,306.871,1477.8533,303.3452"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[918e497584378f740ad543141c1c9234]
+reverse link pp.visual.screen.DestinationLine to pp.main.Data-->
+        <path d="M1355.4522,558.6765 C1351.2659,560.0194 1347.0938,561.2761 1343,562.4063 C1214.1344,597.9835 798.5938,660.1436 681.1685,677.3686 "
+              fill="none" id="pp.visual.screen.DestinationLine&lt;-pp.main.Data"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="1367.9895,554.4293,1361.0233,552.5659,1356.624,558.2795,1363.5902,560.1429,1367.9895,554.4293"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="1231" y="599.9731">data
+        </text><!--MD5=[5f9f677ca61ee41bd94dd605b5f9e473]
+reverse link pp.visual.screen.TextLine to pp.visual.screen.InfoLine-->
+        <path d="M1435.9026,288.54 C1376.1756,317.7622 1284.6713,368.8718 1222,433.4063 C1201.1799,454.8452 1184.8864,485.3057 1175.1455,506.3463 "
+              fill="none" id="pp.visual.screen.TextLine&lt;-pp.visual.screen.InfoLine"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1433.0385,282.1503,1454.101,279.8321,1439.0814,294.7791,1433.0385,282.1503"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ddab9964ea8f377eafa69f01d4dd1427]
+reverse link pp.visual.screen.InfoLine to pp.main.Data-->
+        <path d="M1111.9487,540.9381 C1062.2301,551.2205 986.03,568.0406 921,586.9063 C832.898,612.4654 731.4436,650.3605 681.3445,669.6546 "
+              fill="none" id="pp.visual.screen.InfoLine&lt;-pp.main.Data" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="1124.9271,538.2782,1118.2462,535.5643,1113.1715,540.6875,1119.8524,543.4014,1124.9271,538.2782"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="922" y="599.9731">data
+        </text><!--MD5=[7c95fa138a8f126b0316f1e25ffad123]
+reverse link pp.visual.screen.TextLine to pp.visual.screen.StopLine-->
+        <path d="M1458.235,300.4046 C1426.2434,334.29 1379.9739,385.347 1344,433.4063 C1326.2376,457.136 1308.4873,486.1025 1296.7523,506.1713 "
+              fill="none" id="pp.visual.screen.TextLine&lt;-pp.visual.screen.StopLine"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1453.3999,295.3314,1472.2627,285.6774,1463.5372,304.9874,1453.3999,295.3314"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a54a6164623f32bcd88c927b671d3408]
+reverse link pp.visual.screen.StopLine to pp.main.Data-->
+        <path d="M1229.7897,559.6685 C1227.1886,560.6708 1224.5841,561.5918 1222,562.4063 C1140.3746,588.1353 1115.1087,571.0819 1031,586.9063 C996.1204,593.4686 765.8638,652.22 681.1807,673.9088 "
+              fill="none" id="pp.visual.screen.StopLine&lt;-pp.main.Data" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF"
+                 points="1241.8467,554.4807,1234.7543,553.1778,1230.8238,559.2235,1237.9162,560.5264,1241.8467,554.4807"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="29"
+              x="1032" y="599.9731">data
+        </text><!--MD5=[eb3b0c64d1afd05092c6ddc49524b631]
+reverse link javax.swing.JLabel to pp.visual.screen.TextLine-->
+        <path d="M1872.7332,144.8819 C1785.9986,171.7089 1616.0634,224.2704 1537.5666,248.5495 " fill="none"
+              id="javax.swing.JLabel&lt;-pp.visual.screen.TextLine" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1870.7238,138.1762,1891.8992,138.9537,1874.8607,151.5511,1870.7238,138.1762"
+                 style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[60cc2b12e82df82f046e039e01e23766]
+reverse link pp.visual.screen.TextLine to pp.visual.screen.TimeLine-->
+        <path d="M1528.4899,301.5232 C1555.9019,335.884 1595.7198,387.0204 1628,433.4063 C1644.8176,457.5728 1662.5778,486.2169 1674.5698,506.0843 "
+              fill="none" id="pp.visual.screen.TextLine&lt;-pp.visual.screen.TimeLine"
+              style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1522.8092,305.6287,1515.7547,285.6479,1533.7297,296.8683,1522.8092,305.6287"
+                 style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="0"
+              x="4620" y="1385.1885"/>
+        <text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="0"
+              x="4620" y="1396.8291"/>
+        <text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="413"
+              x="4207" y="1408.4697">PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+        </text>
+        <text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="402"
+              x="4218" y="1420.1104">For more information about this tool, please contact philippe.mesmeur@gmail.com
+        </text><!--MD5=[ac43b131e8025a0f0b0695cdae56fca0]
+@startuml
+title __PALUBAK's Class Diagram__\n
+
+  namespace pp.data {
+    class pp.data.CurrentData {
+    }
+  }
+  
+
+  namespace pp.data {
+    namespace destinations {
+      abstract class pp.data.destinations.DestinationList {
+      }
+    }
+  }
+  
+
+  namespace pp.data {
+    namespace stops {
+      class pp.data.stops.Stop {
+      }
+    }
+  }
+  
+
+  namespace pp.data {
+    namespace stops {
+      abstract class pp.data.stops.StopList {
+      }
+    }
+  }
+  
+
+  namespace pp.lines {
+    interface pp.lines.Line {
+    }
+  }
+  
+
+  namespace pp.lines {
+    class pp.lines.Line1 {
+    }
+  }
+  
+
+  namespace pp.lines {
+    class pp.lines.Line3 {
+    }
+  }
+  
+
+  namespace pp.lines {
+    class pp.lines.Line4 {
+    }
+  }
+  
+
+  namespace pp.lines {
+    class pp.lines.Line7 {
+    }
+  }
+  
+
+  namespace pp.lines {
+    class pp.lines.Line9 {
+    }
+  }
+  
+
+  namespace pp.lines {
+    class pp.lines.TramLine {
+    }
+  }
+  
+
+  namespace pp.main {
+    class pp.main.Data {
+    }
+  }
+  
+
+  namespace pp.main {
+    class pp.main.Main {
+    }
+  }
+  
+
+  namespace pp.main {
+    class pp.main.Panel {
+    }
+  }
+  
+
+  namespace pp.visual.auxiliary {
+    class pp.visual.auxiliary.BuseKey {
+    }
+  }
+  
+
+  namespace pp.visual.auxiliary {
+    class pp.visual.auxiliary.BuseLogo {
+    }
+  }
+  
+
+  namespace pp.visual.auxiliary {
+    class pp.visual.auxiliary.RoundedRectangle {
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    class pp.visual.buttons.ArrowButton {
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    class pp.visual.buttons.BasicButton {
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    abstract class pp.visual.buttons.BuseButton {
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    class pp.visual.buttons.NoAudioLoadedException {
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    class pp.visual.buttons.NumericButton {
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.AcceptScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.ArrowScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      abstract class pp.visual.buttons.scripts.functions.BuseScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.CancelScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.DestinationSetScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.DirectionSetScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.LineSetScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.NumberScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.ServiceSetScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      interface pp.visual.buttons.scripts.functions.StagedScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.functions {
+      class pp.visual.buttons.scripts.functions.StopScript {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.helper {
+      enum FUNCTION_TYPE {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.buttons {
+    namespace scripts.helper {
+      class pp.visual.buttons.scripts.helper.ScriptAssign {
+      }
+    }
+  }
+  
+
+  namespace pp.visual.frame {
+    class pp.visual.frame.BuseFrame {
+    }
+  }
+  
+
+  namespace pp.visual.screen {
+    class pp.visual.screen.BuseScreen {
+    }
+  }
+  
+
+  namespace pp.visual.screen {
+    class pp.visual.screen.Carriage {
+    }
+  }
+  
+
+  namespace pp.visual.screen {
+    class pp.visual.screen.DestinationLine {
+    }
+  }
+  
+
+  namespace pp.visual.screen {
+    class pp.visual.screen.InfoLine {
+    }
+  }
+  
+
+  namespace pp.visual.screen {
+    class pp.visual.screen.StopLine {
+    }
+  }
+  
+
+  namespace pp.visual.screen {
+    class pp.visual.screen.TextLine {
+    }
+  }
+  
+
+  namespace pp.visual.screen {
+    class pp.visual.screen.TimeLine {
+    }
+  }
+  
+
+  pp.data.CurrentData o- - pp.main.Data : data
+  pp.data.CurrentData o- - pp.lines.TramLine : line
+  pp.data.CurrentData o- - pp.data.stops.Stop : stop
+  pp.lines.Line1 -up-|> pp.lines.TramLine
+  pp.lines.Line3 -up-|> pp.lines.TramLine
+  pp.lines.Line4 -up-|> pp.lines.TramLine
+  pp.lines.Line7 -up-|> pp.lines.TramLine
+  pp.lines.Line9 -up-|> pp.lines.TramLine
+  pp.lines.TramLine .up.|> pp.lines.Line
+  pp.main.Data o- - pp.visual.buttons.scripts.functions.BuseScript : activeScript
+  pp.main.Data o- - pp.data.CurrentData : current
+  pp.main.Data o- - pp.main.Data.INPUT_MODE : inputMode
+  pp.main.Data o- - pp.visual.screen.BuseScreen : screen
+  pp.main.Main o- - pp.main.Data : data
+  pp.main.Main o- - pp.main.Panel : mainWindow
+  pp.main.Panel o- - pp.main.Data : data
+  pp.visual.auxiliary.BuseKey -up-|> javax.swing.JLabel
+  pp.visual.auxiliary.BuseLogo -up-|> javax.swing.JLabel
+  pp.visual.auxiliary.BuseLogo o- - pp.visual.auxiliary.BuseLogo.TYPE : type
+  pp.visual.auxiliary.RoundedRectangle -up-|> javax.swing.JPanel
+  pp.visual.buttons.ArrowButton -up-|> pp.visual.buttons.BuseButton
+  pp.visual.buttons.ArrowButton o- - pp.visual.buttons.ArrowButton.ARROW : type
+  pp.visual.buttons.BasicButton -up-|> pp.visual.buttons.BuseButton
+  pp.visual.buttons.BuseButton -up-|> javax.swing.JButton
+  pp.visual.buttons.BuseButton o- - pp.visual.buttons.scripts.functions.BuseScript : script
+  pp.visual.buttons.BuseButton o- - pp.main.Data : data
+  pp.visual.buttons.NumericButton -up-|> pp.visual.buttons.BuseButton
+  pp.visual.buttons.NumericButton o- - pp.visual.buttons.scripts.functions.NumberScript : numberScript
+  pp.visual.buttons.scripts.functions.AcceptScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.ArrowScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.BuseScript o- - pp.visual.buttons.BuseButton : button
+  pp.visual.buttons.scripts.functions.BuseScript o- - pp.visual.buttons.scripts.helper.FUNCTION_TYPE : type
+  pp.visual.buttons.scripts.functions.CancelScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.DestinationSetScript .up.|> pp.visual.buttons.scripts.functions.StagedScript
+  pp.visual.buttons.scripts.functions.DestinationSetScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.DirectionSetScript .up.|> pp.visual.buttons.scripts.functions.StagedScript
+  pp.visual.buttons.scripts.functions.DirectionSetScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.DirectionSetScript o- - pp.lines.TramLine : prevLine
+  pp.visual.buttons.scripts.functions.DirectionSetScript o- - pp.data.stops.Stop : prevStop
+  pp.visual.buttons.scripts.functions.DirectionSetScript o- - pp.visual.buttons.scripts.functions.StagedScript.STAGE : stage
+  pp.visual.buttons.scripts.functions.LineSetScript .up.|> pp.visual.buttons.scripts.functions.StagedScript
+  pp.visual.buttons.scripts.functions.LineSetScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.LineSetScript o- - pp.visual.buttons.scripts.functions.StagedScript.STAGE : stage
+  pp.visual.buttons.scripts.functions.NumberScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.ServiceSetScript .up.|> pp.visual.buttons.scripts.functions.StagedScript
+  pp.visual.buttons.scripts.functions.ServiceSetScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.ServiceSetScript o- - pp.visual.buttons.scripts.functions.StagedScript.STAGE : stage
+  pp.visual.buttons.scripts.functions.StopScript .up.|> pp.visual.buttons.scripts.functions.StagedScript
+  pp.visual.buttons.scripts.functions.StopScript -up-|> pp.visual.buttons.scripts.functions.BuseScript
+  pp.visual.buttons.scripts.functions.StopScript o- - pp.visual.buttons.scripts.functions.StagedScript.STAGE : stage
+  pp.visual.frame.BuseFrame -up-|> javax.swing.JFrame
+  pp.visual.screen.BuseScreen -up-|> javax.swing.JPanel
+  pp.visual.screen.BuseScreen o- - pp.main.Data : data
+  pp.visual.screen.Carriage -up-|> pp.visual.screen.TextLine
+  pp.visual.screen.Carriage o- - pp.visual.screen.BuseScreen : screen
+  pp.visual.screen.DestinationLine -up-|> pp.visual.screen.TextLine
+  pp.visual.screen.DestinationLine o- - pp.main.Data : data
+  pp.visual.screen.InfoLine -up-|> pp.visual.screen.TextLine
+  pp.visual.screen.InfoLine o- - pp.main.Data : data
+  pp.visual.screen.StopLine -up-|> pp.visual.screen.TextLine
+  pp.visual.screen.StopLine o- - pp.main.Data : data
+  pp.visual.screen.TextLine -up-|> javax.swing.JLabel
+  pp.visual.screen.TimeLine -up-|> pp.visual.screen.TextLine
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_232-heroku-b09
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>
