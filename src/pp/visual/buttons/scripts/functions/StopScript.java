@@ -1,7 +1,7 @@
 package pp.visual.buttons.scripts.functions;
 
 import pp.data.stops.Stop;
-import pp.lines.Line;
+import pp.lines.TramLine;
 import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
@@ -81,7 +81,7 @@ public class StopScript extends BuseScript implements StagedScript {
                 secondStage();
                 break;
             case SECOND:
-                Line line = button.getData().getCurrent().getLine();
+                TramLine line = button.getData().getCurrent().getLine();
                 if (line == null) {
                     getTextLine(1).setText("");
                     button.getData().getCurrent().setStop(null);

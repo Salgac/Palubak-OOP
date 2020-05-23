@@ -2,12 +2,11 @@ package pp.data;
 
 import pp.data.destinations.DestinationList;
 import pp.data.stops.Stop;
-import pp.lines.Line;
+import pp.lines.TramLine;
 import pp.main.Data;
 import pp.visual.screen.DestinationLine;
 import pp.visual.screen.InfoLine;
 import pp.visual.screen.StopLine;
-import pp.visual.screen.TextLine;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -22,7 +21,7 @@ public class CurrentData {
 
     private String driver;
     private String destination;
-    private Line line;
+    private TramLine line;
     private String course;
     private String direction;
     private String graph;
@@ -120,7 +119,7 @@ public class CurrentData {
      *
      * @return id code of current line
      */
-    public Line getLine() {
+    public TramLine getLine() {
         return this.line;
     }
 

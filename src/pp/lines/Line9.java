@@ -5,7 +5,7 @@ import pp.data.stops.Stop;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Line9 extends Line {
+public class Line9 extends TramLine {
     public Line9() {
         super();
         this.code = "009";

@@ -20,7 +20,7 @@ public class Data {
 
     private CurrentData current;
     private BuseScreen screen;
-    private ArrayList<Line> lines;
+    private ArrayList<TramLine> lines;
 
     private BuseScript activeScript;
 
@@ -108,7 +108,7 @@ public class Data {
      *
      * @return text lines of screen
      */
-    public ArrayList<Line> getLines() {
+    public ArrayList<TramLine> getLines() {
         return lines;
     }
 

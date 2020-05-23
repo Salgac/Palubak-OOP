@@ -1,7 +1,7 @@
 package pp.visual.buttons.scripts.functions;
 
 import pp.data.stops.Stop;
-import pp.lines.Line;
+import pp.lines.TramLine;
 import pp.main.Data;
 import pp.visual.buttons.BuseButton;
 import pp.visual.buttons.scripts.helper.FUNCTION_TYPE;
@@ -16,7 +16,7 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
     private STAGE stage;
     private String textDirection;
 
-    private Line prevLine;
+    private TramLine prevLine;
     private String prevDirection;
     private Stop prevStop;
 

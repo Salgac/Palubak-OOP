@@ -7,7 +7,7 @@ import pp.data.stops.Stop;
  *
  * @author Dominik Šalgovič
  */
-public class Line1 extends Line {
+public class Line1 extends TramLine {
     /**
      * Default constructor initialising stops and destinations for tram line 1
      */
