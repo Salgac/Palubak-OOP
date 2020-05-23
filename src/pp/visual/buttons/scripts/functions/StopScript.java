@@ -22,11 +22,12 @@ public class StopScript extends BuseScript implements StagedScript {
      * @param button button that the script operates with
      */
     public StopScript(BuseButton button) {
-        super(button, FUNCTION_TYPE.LINE_SET);
+        super(button, FUNCTION_TYPE.STOP);
     }
 
     @Override
     public void execute() {
+        super.execute();
         button.getData().setActiveScript(this);
         firstStage();
     }

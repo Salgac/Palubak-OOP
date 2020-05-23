@@ -30,7 +30,11 @@ public abstract class BuseScript {
     /**
      * execution method
      */
-    public abstract void execute();
+    public void execute() {
+        if (button.getData().isDebugMode()) {
+            debug();
+        }
+    }
 
     /**
      * method for text refreshing
@@ -93,5 +97,9 @@ public abstract class BuseScript {
                 break;
         }
         return String.valueOf(string);
+    }
+
+    private void debug() {
+        System.out.println(type.toString() + " script was set to active.");
     }
 }

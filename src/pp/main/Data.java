@@ -16,6 +16,8 @@ public class Data {
 
     private INPUT_MODE inputMode = INPUT_MODE.OFF;
 
+    private boolean debugMode = false;
+
     private CurrentData current;
     private BuseScreen screen;
     private ArrayList<Line> lines;
@@ -117,5 +119,23 @@ public class Data {
         OFF,
         SHOW,
         ON
+    }
+
+    /**
+     * Getter for debug mode info
+     *
+     * @return true if debug mode is on
+     */
+    public boolean isDebugMode() {
+        return debugMode;
+    }
+
+    /**
+     * Setter for debug mode
+     *
+     * @param debugMode boolean whether debug mode is to be set to on or off
+     */
+    public void setDebugMode(boolean debugMode) {
+        this.debugMode = debugMode;
     }
 }

@@ -17,7 +17,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
      * @param button button that the script operates with
      */
     public ServiceSetScript(BuseButton button) {
-        super(button, FUNCTION_TYPE.LINE_SET);
+        super(button, FUNCTION_TYPE.SERVICE_SET);
     }
 
     private STAGE stage;
@@ -28,6 +28,7 @@ public class ServiceSetScript extends BuseScript implements StagedScript {
 
     @Override
     public void execute() {
+        super.execute();
         button.getData().setActiveScript(this);
         firstStage();
     }

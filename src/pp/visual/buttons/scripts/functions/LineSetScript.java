@@ -29,6 +29,7 @@ public class LineSetScript extends BuseScript implements StagedScript {
 
     @Override
     public void execute() {
+        super.execute();
         button.getData().setActiveScript(this);
         firstStage();
     }

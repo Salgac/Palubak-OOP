@@ -26,11 +26,12 @@ public class DirectionSetScript extends BuseScript implements StagedScript {
      * @param button button that the script operates with
      */
     public DirectionSetScript(BuseButton button) {
-        super(button, FUNCTION_TYPE.DESTINATION_SET);
+        super(button, FUNCTION_TYPE.DIRECTION_SET);
     }
 
     @Override
     public void execute() {
+        super.execute();
         button.getData().setActiveScript(this);
         firstStage();
     }
