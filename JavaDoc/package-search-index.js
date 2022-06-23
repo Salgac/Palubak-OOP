@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"pp.data"},{"l":"pp.data.destinations"},{"l":"pp.data.stops"},{"l":"pp.lines"},{"l":"pp.main"},{"l":"pp.visual.auxiliary"},{"l":"pp.visual.buttons"},{"l":"pp.visual.buttons.scripts.functions"},{"l":"pp.visual.buttons.scripts.helper"},{"l":"pp.visual.frame"},{"l":"pp.visual.screen"}]
